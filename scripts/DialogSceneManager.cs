@@ -13,6 +13,8 @@ public partial class DialogSceneManager : Control
     AudioStreamPlayer2D ASP;
     [Export]
     AudioStream graphMusic;
+    [Export]
+    MapManager MM;
 
     public bool InDialogue;
 
@@ -75,11 +77,12 @@ public partial class DialogSceneManager : Control
 
             case "setOutcome":
                 StationNode.currentOutcome = arg;
+                StationNode.UpdateDisplay();
                 break;
             case "togglePortraits":
                 EmitSignal(SignalName.TogglePortraits);
                 break;
-            case "PrepTutorial":
+            case "prepTutorial":
                 int.TryParse(arg, out currentTutorial);
                 break;
 
@@ -132,6 +135,7 @@ public partial class DialogSceneManager : Control
             ASP.Stream = graphMusic;
             ASP.Play();
         }
+        MM.UpdateVisibleGraph();
         if(currentTutorial > -1 && currentTutorial < tutorialDialogues.Count)
             SendTutorial(currentTutorial);
 

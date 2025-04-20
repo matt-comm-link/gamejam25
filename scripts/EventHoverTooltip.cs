@@ -18,15 +18,12 @@ public partial class EventHoverTooltip : PanelContainer
 	[Export]
 	Godot.Collections.Dictionary<string, string> blurbs = new Godot.Collections.Dictionary<string, string>();
 	[Export]
-	public string currentOutcome;
+	public string currentOutcome = "";
 
 	[Export]
 	public Godot.Collections.Array<Texture2D> backgrounds = new Godot.Collections.Array<Texture2D>();
 	[Export]
 	public Godot.Collections.Array<AudioStream> songs = new Godot.Collections.Array<AudioStream>();
-
-	[Export]
-	Texture2D LineMat;
 
 	public List<string> outcomesDiscovered = new List<string>();
 
@@ -72,9 +69,9 @@ public partial class EventHoverTooltip : PanelContainer
 			Node lFirst = linePrefab.Instantiate();
 			Line = (Line2D)lFirst;
 
-			Vector2 midpoint = new Vector2((Position.X + RootNode.Position.X)/2, Position.Y);
+			Vector2 midpoint = new Vector2((GetScreenPosition().X + RootNode.GetScreenPosition().X)/2, GetScreenPosition().Y);
 			
-			Line.Points = new Vector2[]{Position, midpoint, RootNode.Position};
+			Line.Points = new Vector2[]{GetScreenPosition(), midpoint, RootNode.GetScreenPosition()};
 
 			if(Marl && Sean && Larissa)
 				Line.Texture = MSL;
@@ -91,7 +88,11 @@ public partial class EventHoverTooltip : PanelContainer
 			else if (Larissa)
 				Line.Texture = L;
 
+			AddChild(Line);
+
 		}
+
+		UpdateDisplay();
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -135,6 +136,7 @@ public partial class EventHoverTooltip : PanelContainer
 			previous.Hide();
 			next.Hide();
 		}
+		EventName.Text = eventName;
 
 		if(blurbs.ContainsKey(currentOutcome))
 			EventBlurb.Text = blurbs[currentOutcome];

@@ -36,51 +36,66 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -57.0
-offset_top = 40.0
-offset_right = -57.0
-offset_bottom = 40.0
+offset_left = 11.0
+offset_top = -8.0
+offset_right = 11.0
+offset_bottom = -8.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_dr7rk")
 metadata/_edit_vertical_guides_ = [489.0]
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer"]
-custom_minimum_size = Vector2(5000, 5000)
-offset_right = 5000.0
-offset_bottom = 5000.0
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+custom_minimum_size = Vector2(1920, 1080)
+offset_left = -11.0
+offset_top = 8.0
+offset_right = 1909.0
+offset_bottom = 1088.0
 script = ExtResource("2_8ochj")
 sizeX = 1920
 sizeY = 1080
 
-[node name="Container" type="PanelContainer" parent="CanvasLayer/ScrollContainer"]
+[node name="Container" type="PanelContainer" parent="ScrollContainer"]
 z_index = -2
 z_as_relative = false
 clip_contents = true
-custom_minimum_size = Vector2(10000, 10000)
+custom_minimum_size = Vector2(5000, 5000)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxFlat_rjskk")
 
-[node name="Tooltips" type="Control" parent="CanvasLayer/ScrollContainer/Container"]
+[node name="Tooltips" type="Control" parent="ScrollContainer/Container"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="EventHoverTooltip" parent="CanvasLayer/ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_tkowa")]
+[node name="EventHoverTooltip" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_tkowa")]
 layout_mode = 2
 offset_left = 373.0
 offset_top = 138.0
 offset_right = 573.0
 offset_bottom = 418.0
 eventName = "Start"
-DSM = NodePath("../../../../../DialogScene")
-MM = NodePath("../../../../..")
+currentOutcome = "Part2"
+DSM = NodePath("../../../../DialogScene")
+MM = NodePath("../../../..")
+
+[node name="EventHoverTooltip2" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_tkowa")]
+layout_mode = 2
+offset_left = 970.0
+offset_top = 100.0
+offset_right = 1170.0
+offset_bottom = 380.0
+eventName = "Part2"
+RootNode = NodePath("../EventHoverTooltip")
+currentOutcome = "Part2"
+DSM = NodePath("../../../../DialogScene")
+MM = NodePath("../../../..")
 
 [node name="DialogScene" type="Control" parent="." node_paths=PackedStringArray("bgTexture", "DialogueBox", "ASP")]
+z_index = 2
+z_as_relative = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -96,11 +111,12 @@ ASP = NodePath("AudioStreamPlayer2D")
 
 [node name="TextureRect" type="TextureRect" parent="DialogScene"]
 visible = false
+z_index = 10
+z_as_relative = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_bottom = 785.57
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("7_bjbff")

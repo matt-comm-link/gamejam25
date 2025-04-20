@@ -344,4 +344,4 @@ func _on_dialog_scene_toggle_portraits():
 	
 func _on_pass_data(newData : Variant):
 	data = newData;
-	start()
+	start("start")

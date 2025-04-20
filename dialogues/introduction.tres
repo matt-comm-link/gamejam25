@@ -1,11 +1,86 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://bchk5csahi4ua"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_a50cx"]
 
 [resource]
 script = ExtResource("1_a50cx")
-starts = {}
-nodes = {}
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-660, -160),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "environmental",
+"offset": Vector2(-260, -200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_2": {
+"dialogue": "ad",
+"offset": Vector2(238, -83),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": "s"
+},
+1: {
+"condition": {},
+"link": &"1_4",
+"text": "a"
+}
+},
+"size": Vector2(300, 256),
+"speaker": "hat"
+},
+"1_3": {
+"dialogue": "e",
+"offset": Vector2(787.727, -24.3636),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_4": {
+"dialogue": "a",
+"offset": Vector2(801.364, 538.364),
+"options": {
+0: {
+"condition": {},
+"link": &"3_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"3_1": {
+"link": "END",
+"offset": Vector2(40, -240),
+"signalValue": ""
+},
+"3_2": {
+"link": "END",
+"offset": Vector2(1200, 680),
+"signalValue": ""
+}
+}
 variables = {}
-strays = Array[String]([])
+strays = Array[String](["3_1"])
 characters = ""
