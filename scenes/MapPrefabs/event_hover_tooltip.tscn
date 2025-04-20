@@ -3,6 +3,7 @@
 [ext_resource type="Script" path="res://scripts/EventHoverTooltip.cs" id="1_iqwkn"]
 
 [node name="EventHoverTooltip" type="PanelContainer" node_paths=PackedStringArray("EventName", "EventBlurb", "previous", "next", "play", "margin")]
+z_as_relative = false
 custom_minimum_size = Vector2(200, 200)
 offset_left = 458.0
 offset_top = 196.0

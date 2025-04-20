@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://cawnrg8j1iki"]
+
+[ext_resource type="PackedScene" uid="uid://da11sklsbcorq" path="res://artstuffs/LineTextures/LineRender.tscn" id="1_p015b"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="NinePatchRect" parent="." instance=ExtResource("1_p015b")]
+layout_mode = 1
+offset_left = -336.0
+offset_top = -246.0
+offset_right = -136.0
+offset_bottom = 34.0
+scale = Vector2(0.843708, 0.674612)

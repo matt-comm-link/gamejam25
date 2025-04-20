@@ -1,126 +1,171 @@
-[gd_resource type="Resource" script_class="CharacterList" load_steps=27 format=3 uid="uid://ba3d0htefyp11"]
+[gd_resource type="Resource" script_class="CharacterList" load_steps=48 format=3 uid="uid://ba3d0htefyp11"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/Character.gd" id="1_p0api"]
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/CharacterList.gd" id="2_817e1"]
+[ext_resource type="Texture2D" uid="uid://b3qxqt0oed4e0" path="res://artstuffs/Portraits/gamejam sprites/marl neutral.png" id="2_qo1m4"]
+[ext_resource type="Texture2D" uid="uid://c3o6p7s6sgkjo" path="res://artstuffs/Portraits/gamejam sprites/marl happy.png" id="3_0br0j"]
+[ext_resource type="Texture2D" uid="uid://bxqgulku5wv3p" path="res://artstuffs/Portraits/gamejam sprites/marl sad.png" id="4_axhne"]
+[ext_resource type="Texture2D" uid="uid://uybfkkft8bwa" path="res://artstuffs/Portraits/gamejam sprites/marl shock.png" id="5_r4jj1"]
+[ext_resource type="Texture2D" uid="uid://dhmbi2bdd73c5" path="res://artstuffs/Portraits/gamejam sprites/marl ponder.png" id="6_uu2g6"]
+[ext_resource type="Texture2D" uid="uid://dagmr3q40s7uu" path="res://artstuffs/Portraits/gamejam sprites/sean neutral.png" id="7_3uvj2"]
+[ext_resource type="Texture2D" uid="uid://crvj7iwxhhqq7" path="res://artstuffs/Portraits/gamejam sprites/sean happy.png" id="8_phmpv"]
+[ext_resource type="Texture2D" uid="uid://p68k4oadkw3k" path="res://artstuffs/Portraits/gamejam sprites/sean sad.png" id="9_8aqci"]
+[ext_resource type="Texture2D" uid="uid://q3pixb1unhv1" path="res://artstuffs/Portraits/gamejam sprites/sean shock.png" id="10_f3xqn"]
+[ext_resource type="Texture2D" uid="uid://bipcwdxdooxdw" path="res://artstuffs/Portraits/gamejam sprites/sean ponder.png" id="11_2sspa"]
+[ext_resource type="Texture2D" uid="uid://bj2f5jdqnkrss" path="res://artstuffs/Portraits/gamejam sprites/lari neutral.png" id="12_ndow3"]
+[ext_resource type="Texture2D" uid="uid://b8srs0w104tqc" path="res://artstuffs/Portraits/gamejam sprites/lari happy.png" id="13_nmpdv"]
+[ext_resource type="Texture2D" uid="uid://bkn2ogl8cok0h" path="res://artstuffs/Portraits/gamejam sprites/lari sad.png" id="14_s4j7k"]
+[ext_resource type="Texture2D" uid="uid://djmuscvwotvpa" path="res://artstuffs/Portraits/gamejam sprites/lari shock.png" id="15_jpqsl"]
+[ext_resource type="Texture2D" uid="uid://dg6buualblrp2" path="res://artstuffs/Portraits/gamejam sprites/lari ponder.png" id="16_k1y8t"]
+[ext_resource type="Texture2D" uid="uid://dyyt4ob03sr80" path="res://artstuffs/Portraits/gamejam sprites/cat neutral.png" id="17_vb05j"]
+[ext_resource type="Texture2D" uid="uid://du4tjgbi47oao" path="res://artstuffs/Portraits/gamejam sprites/cat meow.png" id="18_ugylq"]
+[ext_resource type="Texture2D" uid="uid://1kc7leah1bo7" path="res://artstuffs/Portraits/gamejam sprites/cat ponder.png" id="19_76ud3"]
+[ext_resource type="Texture2D" uid="uid://dpfdjao6a2qjl" path="res://artstuffs/Portraits/gamejam sprites/cat shock.png" id="20_e8chw"]
+[ext_resource type="Texture2D" uid="uid://yxnwrdimkd1y" path="res://artstuffs/OtherAssets/Other Assets/Compass.PNG" id="21_s34t6"]
+[ext_resource type="Texture2D" uid="uid://cpl1om88dbki7" path="res://artstuffs/OtherAssets/Other Assets/Sketch.PNG" id="22_napk8"]
 
 [sub_resource type="Resource" id="1"]
 script = ExtResource("1_p0api")
 name = "Marl"
+image = ExtResource("2_qo1m4")
 color = Color(1, 0, 0.816667, 1)
 
 [sub_resource type="Resource" id="2"]
 script = ExtResource("1_p0api")
 name = "Marl&Happy"
+image = ExtResource("3_0br0j")
 color = Color(1, 0, 0.815686, 1)
 
 [sub_resource type="Resource" id="Resource_uc76g"]
 script = ExtResource("1_p0api")
 name = "Marl&Sad"
+image = ExtResource("4_axhne")
 color = Color(1, 0, 0.815686, 1)
 
 [sub_resource type="Resource" id="Resource_gpqy7"]
 script = ExtResource("1_p0api")
 name = "Marl&Shocked"
+image = ExtResource("5_r4jj1")
 color = Color(1, 0, 0.815686, 1)
 
 [sub_resource type="Resource" id="Resource_xbq1e"]
 script = ExtResource("1_p0api")
 name = "Marl&Pondering"
+image = ExtResource("6_uu2g6")
 color = Color(1, 0, 0.815686, 1)
 
 [sub_resource type="Resource" id="Resource_1h7ec"]
 script = ExtResource("1_p0api")
 name = "Marl&Wildcard"
+image = ExtResource("2_qo1m4")
 color = Color(1, 0, 0.815686, 1)
 
 [sub_resource type="Resource" id="Resource_k55wi"]
 script = ExtResource("1_p0api")
 name = "Sean"
+image = ExtResource("7_3uvj2")
 color = Color(1, 1, 0, 1)
 
 [sub_resource type="Resource" id="Resource_gxyvc"]
 script = ExtResource("1_p0api")
 name = "Sean&Happy"
+image = ExtResource("8_phmpv")
 color = Color(1, 1, 0, 1)
 
 [sub_resource type="Resource" id="Resource_lk1vo"]
 script = ExtResource("1_p0api")
 name = "Sean&Sad"
+image = ExtResource("9_8aqci")
 color = Color(1, 1, 0, 1)
 
 [sub_resource type="Resource" id="Resource_n8di1"]
 script = ExtResource("1_p0api")
 name = "Sean&Shocked"
+image = ExtResource("10_f3xqn")
 color = Color(1, 1, 0, 1)
 
 [sub_resource type="Resource" id="Resource_t6760"]
 script = ExtResource("1_p0api")
 name = "Sean&Pondering"
+image = ExtResource("11_2sspa")
 color = Color(1, 1, 0, 1)
 
 [sub_resource type="Resource" id="Resource_e4cyg"]
 script = ExtResource("1_p0api")
 name = "Sean&Wildcard"
+image = ExtResource("7_3uvj2")
 color = Color(1, 1, 0, 1)
 
 [sub_resource type="Resource" id="Resource_6ey56"]
 script = ExtResource("1_p0api")
 name = "Larissa"
+image = ExtResource("12_ndow3")
 color = Color(0, 0.964706, 0.913725, 1)
 
 [sub_resource type="Resource" id="Resource_e18ir"]
 script = ExtResource("1_p0api")
 name = "Larissa&Happy"
+image = ExtResource("13_nmpdv")
 color = Color(0, 0.964706, 0.913725, 1)
 
 [sub_resource type="Resource" id="Resource_8mm7a"]
 script = ExtResource("1_p0api")
 name = "Larissa&Sad"
+image = ExtResource("14_s4j7k")
 color = Color(0, 0.964706, 0.913725, 1)
 
 [sub_resource type="Resource" id="Resource_138ja"]
 script = ExtResource("1_p0api")
 name = "Larissa&Shocked"
+image = ExtResource("15_jpqsl")
 color = Color(0, 0.964706, 0.913725, 1)
 
 [sub_resource type="Resource" id="Resource_p8pg7"]
 script = ExtResource("1_p0api")
 name = "Larissa&Pondering"
+image = ExtResource("16_k1y8t")
 color = Color(0, 0.964706, 0.913725, 1)
 
 [sub_resource type="Resource" id="Resource_34abt"]
 script = ExtResource("1_p0api")
 name = "Larissa&Wildcard"
+image = ExtResource("12_ndow3")
 color = Color(0, 0.964706, 0.913725, 1)
 
 [sub_resource type="Resource" id="Resource_e12ym"]
 script = ExtResource("1_p0api")
 name = "CAT"
+image = ExtResource("17_vb05j")
 color = Color(0.762404, 0.762404, 0.762404, 1)
 
 [sub_resource type="Resource" id="Resource_5c6pt"]
 script = ExtResource("1_p0api")
 name = "CAT&Meow"
+image = ExtResource("18_ugylq")
 color = Color(0.760784, 0.760784, 0.760784, 1)
 
 [sub_resource type="Resource" id="Resource_2pb62"]
 script = ExtResource("1_p0api")
-name = "CAT&Introspective"
+name = "CAT&Ponder"
+image = ExtResource("19_76ud3")
 color = Color(0.760784, 0.760784, 0.760784, 1)
 
 [sub_resource type="Resource" id="Resource_48gbx"]
 script = ExtResource("1_p0api")
-name = "CAT&Worried"
+name = "CAT&Shocked"
+image = ExtResource("20_e8chw")
 color = Color(0.760784, 0.760784, 0.760784, 1)
 
 [sub_resource type="Resource" id="Resource_geogp"]
 script = ExtResource("1_p0api")
 name = "Compass"
+image = ExtResource("21_s34t6")
 color = Color(1, 1, 1, 1)
 
 [sub_resource type="Resource" id="Resource_j3ynw"]
 script = ExtResource("1_p0api")
 name = "Sketchbook"
+image = ExtResource("22_napk8")
 color = Color(1, 1, 1, 1)
 
 [resource]

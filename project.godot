@@ -26,7 +26,7 @@ project/assembly_name="Gamejam25"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/TTCBuildTool/plugin.cfg", "res://addons/dialogue_nodes/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogue_nodes/plugin.cfg")
 
 [rendering]
 

@@ -10,6 +10,8 @@ public partial class MapManager : Control
 	[Export]
 	Godot.Collections.Array<TextureRect> stationIcons = new Godot.Collections.Array<TextureRect>();
 
+	[Export]
+	float mouseMoveScale;
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -27,6 +29,15 @@ public partial class MapManager : Control
 		foreach(EventHoverTooltip station in tooltips)
 		{
 			station.UpdateDisplay();
+		}
+	}
+
+
+	public void DragMap()
+	{
+		if(Input.IsMouseButtonPressed(MouseButton.Right))
+		{
+			Vector2 mousePos = Input.GetLastMouseVelocity();
 		}
 	}
 }
