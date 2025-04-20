@@ -1,0 +1,57 @@
+[gd_scene load_steps=2 format=3 uid="uid://khh8y77co4pq"]
+
+[ext_resource type="Script" path="res://scripts/EventHoverTooltip.cs" id="1_iqwkn"]
+
+[node name="EventHoverTooltip" type="PanelContainer" node_paths=PackedStringArray("EventName", "EventBlurb", "previous", "next", "play", "margin")]
+custom_minimum_size = Vector2(200, 200)
+offset_left = 458.0
+offset_top = 196.0
+offset_right = 658.0
+offset_bottom = 396.0
+script = ExtResource("1_iqwkn")
+EventName = NodePath("MarginContainer/VBoxContainer/Title")
+EventBlurb = NodePath("MarginContainer/VBoxContainer/Summary")
+previous = NodePath("MarginContainer/VBoxContainer/HBoxContainer/Left Option")
+next = NodePath("MarginContainer/VBoxContainer/HBoxContainer/Right Option")
+play = NodePath("MarginContainer/VBoxContainer/Button")
+margin = NodePath("MarginContainer")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Title" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "Event"
+fit_content = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Left Option" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "<"
+
+[node name="Right Option" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = ">"
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Play"
+
+[node name="Summary" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 26
+bbcode_enabled = true
+text = "A brief description of the event's outcome"
+fit_content = true

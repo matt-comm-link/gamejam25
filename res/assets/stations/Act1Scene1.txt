@@ -1,0 +1,10 @@
+name:Act1Scene2
+outcomenames:
+act1dodging1
+/outcomenames
+res:
+Act1Scene2
+/res
+outcomeblurbs
+cat go meet
+/outcomeblurbs

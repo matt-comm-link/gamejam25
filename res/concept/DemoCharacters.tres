@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="CharacterList" load_steps=7 format=3 uid="uid://ouijeyayj12e"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/Character.gd" id="1_i82xs"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/CharacterList.gd" id="3_py30k"]
+
+[sub_resource type="Resource" id="1"]
+script = ExtResource("1_i82xs")
+name = "Marl"
+color = Color(0, 0.964706, 0.647059, 1)
+
+[sub_resource type="Resource" id="2"]
+script = ExtResource("1_i82xs")
+name = "Sean"
+color = Color(1, 0.501961, 0.784314, 1)
+
+[sub_resource type="Resource" id="Resource_uc76g"]
+script = ExtResource("1_i82xs")
+name = "Larissa"
+color = Color(1, 1, 0.52549, 1)
+
+[sub_resource type="Resource" id="Resource_gpqy7"]
+script = ExtResource("1_i82xs")
+name = "CAT"
+color = Color(1, 1, 1, 1)
+
+[resource]
+script = ExtResource("3_py30k")
+characters = Array[ExtResource("1_i82xs")]([SubResource("1"), SubResource("2"), SubResource("Resource_uc76g"), SubResource("Resource_gpqy7")])

@@ -1,0 +1,97 @@
+[gd_scene load_steps=14 format=3 uid="uid://og8xq42v61jb"]
+
+[ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_dr7rk"]
+[ext_resource type="PackedScene" uid="uid://khh8y77co4pq" path="res://scenes/MapPrefabs/event_hover_tooltip.tscn" id="3_tkowa"]
+[ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="6_r5gds"]
+[ext_resource type="Texture2D" uid="uid://c56u2ukunhbue" path="res://res/concept/conceptchars.png" id="7_bjbff"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="8_to41r"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="9_eo47f"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeWait.gd" id="9_hfvhw"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeGhost.gd" id="10_j1qgl"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeMatrix.gd" id="11_khxed"]
+
+[sub_resource type="Resource" id="Resource_f0srs"]
+script = ExtResource("9_eo47f")
+starts = {}
+nodes = {}
+variables = {}
+strays = Array[String]([])
+characters = ""
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_bmw7s"]
+script = ExtResource("9_hfvhw")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_jpk20"]
+script = ExtResource("10_j1qgl")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0kjk4"]
+script = ExtResource("11_khxed")
+
+[node name="MapGooey" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -57.0
+offset_top = 40.0
+offset_right = -57.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dr7rk")
+metadata/_edit_vertical_guides_ = [489.0]
+
+[node name="Tooltips" type="Control" parent="."]
+anchors_preset = 0
+
+[node name="EventHoverTooltip" parent="Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_tkowa")]
+layout_mode = 0
+offset_left = 223.0
+offset_top = 631.0
+offset_right = 423.0
+offset_bottom = 911.0
+DSM = NodePath("../../DialogScene")
+MM = NodePath("../..")
+
+[node name="DialogScene" type="Control" parent="." node_paths=PackedStringArray("bgTexture", "DialogueBox", "ASP")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1920.0
+offset_bottom = -1080.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("6_r5gds")
+bgTexture = NodePath("TextureRect")
+DialogueBox = NodePath("TextureRect/DialogueBox")
+ASP = NodePath("AudioStreamPlayer2D")
+
+[node name="TextureRect" type="TextureRect" parent="DialogScene"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 785.57
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_bjbff")
+expand_mode = 5
+stretch_mode = 2
+
+[node name="DialogueBox" type="Panel" parent="DialogScene/TextureRect"]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("8_to41r")
+data = SubResource("Resource_f0srs")
+custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_bmw7s"), SubResource("RichTextEffect_jpk20"), SubResource("RichTextEffect_0kjk4")])
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="DialogScene"]
+
+[connection signal="StartDialogue" from="DialogScene" to="DialogScene/TextureRect/DialogueBox" method="_on_pass_data"]
+[connection signal="TogglePortraits" from="DialogScene" to="DialogScene/TextureRect/DialogueBox" method="_on_dialog_scene_toggle_portraits"]
+[connection signal="dialogue_ended" from="DialogScene/TextureRect/DialogueBox" to="DialogScene" method="ExitDialogue"]
+[connection signal="dialogue_signal" from="DialogScene/TextureRect/DialogueBox" to="DialogScene" method="_on_dialogue_box_dialogue_signal"]

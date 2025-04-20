@@ -1,0 +1,8 @@
+name:Act1Dodging1
+outcomenames:
+end
+/outcomenames
+res:
+/res
+outcomeblurbs
+/outcomeblurbs

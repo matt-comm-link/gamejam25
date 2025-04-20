@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dbw7amqsidb15"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_e8bec"]
+
+[resource]
+script = ExtResource("1_e8bec")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-706.303, -196.695),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "Nerd shit",
+"offset": Vector2(-140, -280),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/concept/DemoCharacters.tres"

@@ -1,0 +1,37 @@
+[gd_scene load_steps=8 format=3 uid="uid://d1yfa1me582va"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="1_jmfa6"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeWait.gd" id="2_ftwj1"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeGhost.gd" id="3_s7t8t"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeMatrix.gd" id="4_70klj"]
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_twnir"]
+script = ExtResource("2_ftwj1")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_36dvo"]
+script = ExtResource("3_s7t8t")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_thpwo"]
+script = ExtResource("4_70klj")
+
+[node name="ConvoScene" type="Node2D"]
+
+[node name="Gooey" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="DialogueBox" type="Panel" parent="Gooey"]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_jmfa6")
+custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_twnir"), SubResource("RichTextEffect_36dvo"), SubResource("RichTextEffect_thpwo")])

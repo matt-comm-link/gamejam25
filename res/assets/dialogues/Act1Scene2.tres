@@ -1,0 +1,459 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://2i0dajo21jxu"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_p2w66"]
+
+[resource]
+script = ExtResource("1_p2w66")
+starts = {
+"0": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-559, -248),
+"start_id": "0"
+},
+"1_1": {
+"dialogue": "Meow",
+"offset": Vector2(-240, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_10": {
+"dialogue": "What kind of negligent stooge would bring their pet all the way out here!?",
+"offset": Vector2(2940, 700),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_11": {
+"dialogue": "Is there an address?
+",
+"offset": Vector2(3280, 700),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_12": {
+"dialogue": "No. It says…
+",
+"offset": Vector2(3600, 700),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_13": {
+"dialogue": " ‘Not lost. Just free.’
+",
+"offset": Vector2(3920, 700),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_14": {
+"dialogue": "How strange…
+",
+"offset": Vector2(4267.4, 1081.65),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_15": {
+"dialogue": "What could that possibly mean?",
+"offset": Vector2(4580, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_16": {
+"dialogue": "It means somebody let the most ignorant kind of vegan adopt a cat. ",
+"offset": Vector2(4900, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(380, 440),
+"speaker": 8
+},
+"1_17": {
+"dialogue": "They must have decided letting it wander around the woods alone was ‘natural’ instead of the complete opposite.
+",
+"offset": Vector2(5360, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_18": {
+"dialogue": "
+She is her own creature, though. Shouldn’t she be free to do what she wants?
+",
+"offset": Vector2(5700, 1100),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_19": {
+"dialogue": "What it wants is to prey on anything smaller than it until it gets sick or hurt and the local food chain is all kinds of messed up. ",
+"offset": Vector2(6080, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(320, 260),
+"speaker": 8
+},
+"1_2": {
+"dialogue": "...",
+"offset": Vector2(120, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_20": {
+"dialogue": "A domesticated housecat isn’t native to the woods. Letting it loose like this is bad for the cat and the environment.
+",
+"offset": Vector2(6420, 1060),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_21": {
+"dialogue": "Well, she seems comfortable enough around us.",
+"offset": Vector2(6860, 1320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_22": {
+"dialogue": "Let’s give her some food for now and try to convince her to stick around. If we can keep her with us we can bring her to a shelter once we’re back in town.
+",
+"offset": Vector2(7180, 1320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 320),
+"speaker": 1
+},
+"1_23": {
+"dialogue": "All right. I don’t think there’s a better way to deal with it. C’mon, cat. Let’s see what I’ve got for you in my pack.
+",
+"offset": Vector2(7500, 1320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_24": {
+"dialogue": "Mrrow.
+",
+"offset": Vector2(7840, 1320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_25": {
+"dialogue": "...",
+"offset": Vector2(8180, 1320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_26": {
+"dialogue": "(...Infiltration successful.)
+",
+"offset": Vector2(8520, 1320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_27": {
+"dialogue": "(It seems like things are going well enough so far.)",
+"offset": Vector2(8860, 1320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(340, 240),
+"speaker": 20
+},
+"1_28": {
+"dialogue": "(They’re working together just fine. So what could have happened to them…?)
+",
+"offset": Vector2(9290.25, 1495.39),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_29": {
+"dialogue": "(Why did everything go wrong?)",
+"offset": Vector2(9620, 1500),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_3": {
+"dialogue": "Was that you, Larissa?",
+"offset": Vector2(460, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_30": {
+"dialogue": "(I’ll just have to find out for myself.)",
+"offset": Vector2(10240, 1600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 280),
+"speaker": 18
+},
+"1_31": {
+"dialogue": "Now, where’s the next junction in the timeline…?)",
+"offset": Vector2(10580, 1600),
+"options": {
+0: {
+"condition": {},
+"link": &"3_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_32": {
+"dialogue": "(Purrfect. Let’s join the moment and see what they do next.)",
+"offset": Vector2(11260, 1640),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_4": {
+"dialogue": "No.",
+"offset": Vector2(700, 100),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_5": {
+"dialogue": "Meow meow.",
+"offset": Vector2(1136, 299),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_6": {
+"dialogue": "I think it was the cat.",
+"offset": Vector2(1520, 300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_7": {
+"dialogue": "What is a cat doing out here?",
+"offset": Vector2(1947, 702),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_8": {
+"dialogue": "...",
+"offset": Vector2(2280, 700),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_9": {
+"dialogue": "She’s tagged.
+",
+"offset": Vector2(2620, 700),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"3_1": {
+"link": &"1_30",
+"offset": Vector2(9980, 1640),
+"signalValue": "AdvanceBackground"
+},
+"3_2": {
+"link": &"1_32",
+"offset": Vector2(10940, 1620),
+"signalValue": "AdvanceBackground"
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/assets/Characters.tres"

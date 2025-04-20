@@ -1,0 +1,10 @@
+name:Act1Scene1
+outcomenames:
+act1scene2
+/outcomenames
+res:
+Act1Scene1
+/res
+outcomeblurbs
+The Introduction
+/outcomeblurbs

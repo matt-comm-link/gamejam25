@@ -11,12 +11,22 @@ config_version=5
 [application]
 
 config/name="Gamejam25"
-config/features=PackedStringArray("4.3", "Mobile")
+run/main_scene="res://scenes/MapGooey.tscn"
+config/features=PackedStringArray("4.3", "C#", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 
 [dotnet]
 
 project/assembly_name="Gamejam25"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/TTCBuildTool/plugin.cfg", "res://addons/dialogue_nodes/plugin.cfg")
 
 [rendering]
 

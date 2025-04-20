@@ -1,0 +1,128 @@
+[gd_resource type="Resource" script_class="CharacterList" load_steps=27 format=3 uid="uid://ba3d0htefyp11"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/Character.gd" id="1_p0api"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/CharacterList.gd" id="2_817e1"]
+
+[sub_resource type="Resource" id="1"]
+script = ExtResource("1_p0api")
+name = "Marl"
+color = Color(1, 0, 0.816667, 1)
+
+[sub_resource type="Resource" id="2"]
+script = ExtResource("1_p0api")
+name = "Marl&Happy"
+color = Color(1, 0, 0.815686, 1)
+
+[sub_resource type="Resource" id="Resource_uc76g"]
+script = ExtResource("1_p0api")
+name = "Marl&Sad"
+color = Color(1, 0, 0.815686, 1)
+
+[sub_resource type="Resource" id="Resource_gpqy7"]
+script = ExtResource("1_p0api")
+name = "Marl&Shocked"
+color = Color(1, 0, 0.815686, 1)
+
+[sub_resource type="Resource" id="Resource_xbq1e"]
+script = ExtResource("1_p0api")
+name = "Marl&Pondering"
+color = Color(1, 0, 0.815686, 1)
+
+[sub_resource type="Resource" id="Resource_1h7ec"]
+script = ExtResource("1_p0api")
+name = "Marl&Wildcard"
+color = Color(1, 0, 0.815686, 1)
+
+[sub_resource type="Resource" id="Resource_k55wi"]
+script = ExtResource("1_p0api")
+name = "Sean"
+color = Color(1, 1, 0, 1)
+
+[sub_resource type="Resource" id="Resource_gxyvc"]
+script = ExtResource("1_p0api")
+name = "Sean&Happy"
+color = Color(1, 1, 0, 1)
+
+[sub_resource type="Resource" id="Resource_lk1vo"]
+script = ExtResource("1_p0api")
+name = "Sean&Sad"
+color = Color(1, 1, 0, 1)
+
+[sub_resource type="Resource" id="Resource_n8di1"]
+script = ExtResource("1_p0api")
+name = "Sean&Shocked"
+color = Color(1, 1, 0, 1)
+
+[sub_resource type="Resource" id="Resource_t6760"]
+script = ExtResource("1_p0api")
+name = "Sean&Pondering"
+color = Color(1, 1, 0, 1)
+
+[sub_resource type="Resource" id="Resource_e4cyg"]
+script = ExtResource("1_p0api")
+name = "Sean&Wildcard"
+color = Color(1, 1, 0, 1)
+
+[sub_resource type="Resource" id="Resource_6ey56"]
+script = ExtResource("1_p0api")
+name = "Larissa"
+color = Color(0, 0.964706, 0.913725, 1)
+
+[sub_resource type="Resource" id="Resource_e18ir"]
+script = ExtResource("1_p0api")
+name = "Larissa&Happy"
+color = Color(0, 0.964706, 0.913725, 1)
+
+[sub_resource type="Resource" id="Resource_8mm7a"]
+script = ExtResource("1_p0api")
+name = "Larissa&Sad"
+color = Color(0, 0.964706, 0.913725, 1)
+
+[sub_resource type="Resource" id="Resource_138ja"]
+script = ExtResource("1_p0api")
+name = "Larissa&Shocked"
+color = Color(0, 0.964706, 0.913725, 1)
+
+[sub_resource type="Resource" id="Resource_p8pg7"]
+script = ExtResource("1_p0api")
+name = "Larissa&Pondering"
+color = Color(0, 0.964706, 0.913725, 1)
+
+[sub_resource type="Resource" id="Resource_34abt"]
+script = ExtResource("1_p0api")
+name = "Larissa&Wildcard"
+color = Color(0, 0.964706, 0.913725, 1)
+
+[sub_resource type="Resource" id="Resource_e12ym"]
+script = ExtResource("1_p0api")
+name = "CAT"
+color = Color(0.762404, 0.762404, 0.762404, 1)
+
+[sub_resource type="Resource" id="Resource_5c6pt"]
+script = ExtResource("1_p0api")
+name = "CAT&Meow"
+color = Color(0.760784, 0.760784, 0.760784, 1)
+
+[sub_resource type="Resource" id="Resource_2pb62"]
+script = ExtResource("1_p0api")
+name = "CAT&Introspective"
+color = Color(0.760784, 0.760784, 0.760784, 1)
+
+[sub_resource type="Resource" id="Resource_48gbx"]
+script = ExtResource("1_p0api")
+name = "CAT&Worried"
+color = Color(0.760784, 0.760784, 0.760784, 1)
+
+[sub_resource type="Resource" id="Resource_geogp"]
+script = ExtResource("1_p0api")
+name = "Compass"
+color = Color(1, 1, 1, 1)
+
+[sub_resource type="Resource" id="Resource_j3ynw"]
+script = ExtResource("1_p0api")
+name = "Sketchbook"
+color = Color(1, 1, 1, 1)
+
+[resource]
+script = ExtResource("2_817e1")
+characters = Array[ExtResource("1_p0api")]([SubResource("1"), SubResource("2"), SubResource("Resource_uc76g"), SubResource("Resource_gpqy7"), SubResource("Resource_xbq1e"), SubResource("Resource_1h7ec"), SubResource("Resource_k55wi"), SubResource("Resource_gxyvc"), SubResource("Resource_lk1vo"), SubResource("Resource_n8di1"), SubResource("Resource_t6760"), SubResource("Resource_e4cyg"), SubResource("Resource_6ey56"), SubResource("Resource_e18ir"), SubResource("Resource_8mm7a"), SubResource("Resource_138ja"), SubResource("Resource_p8pg7"), SubResource("Resource_34abt"), SubResource("Resource_e12ym"), SubResource("Resource_5c6pt"), SubResource("Resource_2pb62"), SubResource("Resource_48gbx"), SubResource("Resource_geogp"), SubResource("Resource_j3ynw")])
