@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://buly8g2njpfj2"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://d34hrd3555dx2"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_owudd"]
 
@@ -392,7 +392,7 @@ nodes = {
 },
 "1_36": {
 "dialogue": "(And another…)",
-"offset": Vector2(12540, -240),
+"offset": Vector2(12540, -220),
 "options": {
 0: {
 "condition": {},
@@ -405,12 +405,12 @@ nodes = {
 "text": "HAVE SEEN SCENE 3"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_37": {
 "dialogue": "(I’m starting to think they aren’t coming back. I’m gonna need to go to the other timeline and check on them.)",
-"offset": Vector2(12960, -240),
+"offset": Vector2(12940, -240),
 "options": {
 0: {
 "condition": {},
@@ -436,7 +436,7 @@ nodes = {
 },
 "1_39": {
 "dialogue": "(Well, good to know they definitely got themselves killed. That’s gonna weigh on my conscience.)",
-"offset": Vector2(12940, 80),
+"offset": Vector2(12920, 100),
 "options": {
 0: {
 "condition": {},

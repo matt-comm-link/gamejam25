@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dy5fagfrq1yva"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://coieihpvm2wkn"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_s1xq6"]
 
@@ -990,7 +990,7 @@ nodes = {
 "text": "Do nothing."
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_73": {

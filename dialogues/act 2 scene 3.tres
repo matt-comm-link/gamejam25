@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://bd4i48foevijd"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://b3usyfrc3nbfa"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_yjdmw"]
 
@@ -366,7 +366,7 @@ nodes = {
 "text": "HAVE SEEN SCENE 2"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 4
 },
 "1_34": {
@@ -553,7 +553,7 @@ nodes = {
 "text": "HAVE SEEN SCENE 3"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 4
 },
 "1_47": {
@@ -792,7 +792,7 @@ nodes = {
 "text": "HAVE SEEN SCENE 2"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 19
 },
 "1_63": {
@@ -888,7 +888,7 @@ nodes = {
 "text": "Stay quiet."
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_7": {
@@ -971,7 +971,7 @@ nodes = {
 },
 "1_75": {
 "dialogue": "MEOW! MEOW!",
-"offset": Vector2(16500, 420),
+"offset": Vector2(16500, 480),
 "options": {
 0: {
 "condition": {},

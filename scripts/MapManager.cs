@@ -5,6 +5,8 @@ public partial class MapManager : Control
 {
 	[Export]
 	Godot.Collections.Array<EventHoverTooltip> tooltips = new Godot.Collections.Array<EventHoverTooltip>();
+	[Export]
+    public Godot.Collections.Dictionary<string, string> globals = new Godot.Collections.Dictionary<string, string>();
 
 	[Export]
 	float mouseMoveScale;

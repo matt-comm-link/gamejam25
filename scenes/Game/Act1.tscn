@@ -1,22 +1,22 @@
-[gd_scene load_steps=17 format=3 uid="uid://og8xq42v61jb"]
+[gd_scene load_steps=17 format=3 uid="uid://buy2b7l6iwy8n"]
 
-[ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_dr7rk"]
-[ext_resource type="Script" path="res://scenes/ScrollConstrain.cs" id="2_8ochj"]
-[ext_resource type="PackedScene" uid="uid://khh8y77co4pq" path="res://scenes/MapPrefabs/event_hover_tooltip.tscn" id="3_tkowa"]
-[ext_resource type="Script" path="res://scenes/ScalingBaqckground.cs" id="6_5ddsx"]
-[ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="6_r5gds"]
-[ext_resource type="Texture2D" uid="uid://c56u2ukunhbue" path="res://res/concept/conceptchars.png" id="7_bjbff"]
-[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="8_to41r"]
-[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="9_eo47f"]
-[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeWait.gd" id="9_hfvhw"]
-[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeGhost.gd" id="10_j1qgl"]
-[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeMatrix.gd" id="11_khxed"]
+[ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_yn5bd"]
+[ext_resource type="Script" path="res://scenes/ScrollConstrain.cs" id="2_k2e7c"]
+[ext_resource type="PackedScene" uid="uid://khh8y77co4pq" path="res://scenes/MapPrefabs/event_hover_tooltip.tscn" id="3_sw4x5"]
+[ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="4_mnu1l"]
+[ext_resource type="Texture2D" uid="uid://c56u2ukunhbue" path="res://res/concept/conceptchars.png" id="5_iqmco"]
+[ext_resource type="Script" path="res://scenes/ScalingBaqckground.cs" id="6_lu47a"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="7_3q5x4"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="8_0ux1h"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeWait.gd" id="9_eaq80"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeGhost.gd" id="10_m5ae8"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeMatrix.gd" id="11_fkflh"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rjskk"]
 bg_color = Color(0.168804, 0.124502, 0.463153, 1)
 
 [sub_resource type="Resource" id="Resource_f0srs"]
-script = ExtResource("9_eo47f")
+script = ExtResource("8_0ux1h")
 starts = {}
 nodes = {}
 variables = {}
@@ -24,13 +24,13 @@ strays = Array[String]([])
 characters = ""
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_bmw7s"]
-script = ExtResource("9_hfvhw")
+script = ExtResource("9_eaq80")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_jpk20"]
-script = ExtResource("10_j1qgl")
+script = ExtResource("10_m5ae8")
 
 [sub_resource type="RichTextEffect" id="RichTextEffect_0kjk4"]
-script = ExtResource("11_khxed")
+script = ExtResource("11_fkflh")
 
 [node name="MapGooey" type="Control"]
 layout_mode = 3
@@ -43,7 +43,7 @@ offset_right = 11.0
 offset_bottom = -8.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_dr7rk")
+script = ExtResource("1_yn5bd")
 metadata/_edit_vertical_guides_ = [489.0]
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
@@ -53,7 +53,7 @@ offset_left = -11.0
 offset_top = 8.0
 offset_right = 4989.0
 offset_bottom = 5008.0
-script = ExtResource("2_8ochj")
+script = ExtResource("2_k2e7c")
 sizeX = 1280
 sizeY = 720
 
@@ -72,7 +72,7 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="EventHoverTooltip" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_tkowa")]
+[node name="EventHoverTooltip" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_sw4x5")]
 layout_mode = 2
 offset_left = 373.0
 offset_top = 138.0
@@ -83,7 +83,7 @@ currentOutcome = "Part2"
 DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
 
-[node name="EventHoverTooltip2" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_tkowa")]
+[node name="EventHoverTooltip2" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_sw4x5")]
 layout_mode = 2
 offset_left = 970.0
 offset_top = 100.0
@@ -106,7 +106,7 @@ offset_right = -1920.0
 offset_bottom = -1080.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("6_r5gds")
+script = ExtResource("4_mnu1l")
 bgTexture = NodePath("TextureRect")
 DialogueBox = NodePath("TextureRect/DialogueBox")
 ASP = NodePath("AudioStreamPlayer2D")
@@ -121,16 +121,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("7_bjbff")
+texture = ExtResource("5_iqmco")
 expand_mode = 1
-script = ExtResource("6_5ddsx")
+script = ExtResource("6_lu47a")
 
 [node name="DialogueBox" type="Panel" parent="DialogScene/TextureRect"]
 visible = false
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("8_to41r")
+script = ExtResource("7_3q5x4")
 data = SubResource("Resource_f0srs")
 custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_bmw7s"), SubResource("RichTextEffect_jpk20"), SubResource("RichTextEffect_0kjk4")])
 

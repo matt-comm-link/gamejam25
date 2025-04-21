@@ -10,4 +10,7 @@ public partial class EventRes : Resource
     [Export]
     string outcomeBlurb;
 
+    [Export]
+    public Godot.Collections.Dictionary<string, string> globals = new Godot.Collections.Dictionary<string, string>();
+
 }

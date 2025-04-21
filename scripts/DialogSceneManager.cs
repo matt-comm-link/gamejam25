@@ -85,6 +85,20 @@ public partial class DialogSceneManager : Control
             case "prepTutorial":
                 int.TryParse(arg, out currentTutorial);
                 break;
+            case "setGlobal":
+                if(arg.Contains("=")){
+                    string argKey = arg.Split("=")[0];
+                    string argValue = arg.Split("=")[1];
+
+                    if(MM.globals.ContainsKey(argKey))
+                    {
+                        MM.globals[argKey] = argValue;
+                    }else
+                    {
+                        MM.globals.Add(argKey, argValue);
+                    }
+                }
+                break;
 
             default:
                 break;
@@ -115,13 +129,21 @@ public partial class DialogSceneManager : Control
             ASP.Play();
         }
 
+        
         if(StationNode.RunFirstTimeTree)
         {
-            StationNode.RunFirstTimeTree = false;
+            foreach(KeyValuePair<string, string> variable in MM.globals)
+            {
+                StationNode.FirstRunDialogTree.Set(variable.Key, variable.Value);
+            }
+            StationNode.FirstRunDialogTree.Set("variables", MM.globals);
             EmitSignal(SignalName.StartDialogue, StationNode.FirstRunDialogTree);
         }
         else
+        {
+            StationNode.DialogTree.Set("variables", MM.globals);
             EmitSignal(SignalName.StartDialogue, StationNode.DialogTree);
+        }
     }
 
     public void ExitDialogue()
@@ -150,7 +172,10 @@ public partial class DialogSceneManager : Control
         InDialogue = true;
 
         bgTexture.Hide();
-
+        foreach(KeyValuePair<string, string> variable in MM.globals)
+        {
+            tutorialDialogues[i].Set("variables", MM.globals);
+        }
         currentTutorial = -1;
         EmitSignal(SignalName.StartDialogue, tutorialDialogues[i]);
     }

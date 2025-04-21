@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://3s053fhempue"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://bcvnpjovvuaux"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_es6r2"]
 
@@ -97,7 +97,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_8",
+"link": "END",
 "text": ""
 }
 },

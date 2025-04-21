@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://khh8y77co4pq"]
+[gd_scene load_steps=3 format=3 uid="uid://khh8y77co4pq"]
 
 [ext_resource type="Script" path="res://scripts/EventHoverTooltip.cs" id="1_iqwkn"]
+[ext_resource type="Texture2D" uid="uid://cy276w7fprscm" path="res://artstuffs/LineTextures/station.png" id="2_8ty5j"]
 
 [node name="EventHoverTooltip" type="PanelContainer" node_paths=PackedStringArray("EventName", "EventBlurb", "previous", "next", "play", "margin")]
 z_as_relative = false
@@ -16,6 +17,21 @@ previous = NodePath("MarginContainer/VBoxContainer/HBoxContainer/Left Option")
 next = NodePath("MarginContainer/VBoxContainer/HBoxContainer/Right Option")
 play = NodePath("MarginContainer/VBoxContainer/Button")
 margin = NodePath("MarginContainer")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+z_index = -1
+z_as_relative = false
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+offset_left = -32.0
+offset_top = -32.0
+offset_right = 32.0
+offset_bottom = 32.0
+texture = ExtResource("2_8ty5j")
+expand_mode = 1
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 2
@@ -56,3 +72,7 @@ theme_override_font_sizes/normal_font_size = 26
 bbcode_enabled = true
 text = "A brief description of the event's outcome"
 fit_content = true
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/Left Option" to="." method="RegressOutcome"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/Right Option" to="." method="AdvanceOutcome"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Button" to="." method="PlayDialogue"]
