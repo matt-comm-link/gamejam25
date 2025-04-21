@@ -1,0 +1,1776 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dpjnn5avuopyu"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_hccgl"]
+
+[resource]
+script = ExtResource("1_hccgl")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-483, -162),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "I hope she's okay.",
+"offset": Vector2(-240, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_10": {
+"dialogue": "...Sure.",
+"offset": Vector2(2660, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_100": {
+"dialogue": "It looks like it shows the mural from the wall over there… but she’s rearranged it. It almost looks like a set of instructions.",
+"offset": Vector2(9800, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_101",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_101": {
+"dialogue": "Do you think it’s the solution to this puzzle?",
+"offset": Vector2(10140, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_102",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_102": {
+"dialogue": "It has to be. I just don’t know where the hell it came from.",
+"offset": Vector2(10480, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_103",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_103": {
+"dialogue": "I guess… Larissa must have seen another version of the mural down that other path, figured out what it meant, drew all this, and had the cat bring it to us.",
+"offset": Vector2(10820, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_104",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_104": {
+"dialogue": "I don’t see how that’s possible. I mean, maybe she figured out it was some kind of clue we would need. If anybody would do that, it’s her. But how did she get the random stray following us around to bring it here?",
+"offset": Vector2(11180, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_105",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_105": {
+"dialogue": "Is a cat following orders the weirdest thing we’ve seen today?",
+"offset": Vector2(11540, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_106",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_106": {
+"dialogue": "It might be.",
+"offset": Vector2(11880, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_107",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_107": {
+"dialogue": "I guess it might.",
+"offset": Vector2(12220, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_108",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_108": {
+"dialogue": "But we shouldn’t look a gift horse in the mouth. Let’s get this thing open.",
+"offset": Vector2(12560, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_109",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_109": {
+"dialogue": "Right. I didn’t understand at first, but the way Larissa’s drawn it out, I think she’s got to be right. The figures on that mural over there have the same shapes as these pieces… and when you put them down in this order…",
+"offset": Vector2(12900, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_110",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_11": {
+"dialogue": "Well, whatever this all is, it pretty clearly has some kind of purpose.",
+"offset": Vector2(3000, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_110": {
+"dialogue": "That should do it!",
+"offset": Vector2(13240, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_111",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_111": {
+"dialogue": "Look! The door is opening!",
+"offset": Vector2(13600, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_112",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_112": {
+"dialogue": "Though I have absolutely no idea how or why.",
+"offset": Vector2(13940, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_113",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_113": {
+"dialogue": "Don’t look a gift horse in the mouth, right?",
+"offset": Vector2(14280, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_114",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_114": {
+"dialogue": "Come on. Larissa must have thought this was important for a reason. She might be up ahead here. We should find her quick.",
+"offset": Vector2(14620, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_115",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_115": {
+"dialogue": "(They did that a lot faster… Larissa still has some time…)",
+"offset": Vector2(14980, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_116",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_116": {
+"dialogue": "(This is our best chance at fixing the future. I just hope they can do it.)",
+"offset": Vector2(15320, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_117",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_117": {
+"dialogue": "(...But I shouldn’t take any more risks than I have to.)",
+"offset": Vector2(15660, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_118",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_118": {
+"dialogue": "MEOW!",
+"offset": Vector2(16020, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_119",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_119": {
+"dialogue": "Ah! What the hell?",
+"offset": Vector2(16380, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_120",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_12": {
+"dialogue": "I mean, if you look at this pedestal thing here… it’s clearly got some slots where you can fit something in it. And when I look at this statue over here–",
+"offset": Vector2(3340, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_120": {
+"dialogue": "Are you okay? Did they hurt you?",
+"offset": Vector2(16700, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_121",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_121": {
+"dialogue": "No… it just grabbed Larissa’s drawing from my hands.",
+"offset": Vector2(17060, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_122",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_122": {
+"dialogue": "What the hell are you doing, you little–?",
+"offset": Vector2(17400, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_123",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_123": {
+"dialogue": "YOU’RE EATING IT!?",
+"offset": Vector2(17760, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_124",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_124": {
+"dialogue": "No! Stop it! Let that go!",
+"offset": Vector2(18100, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_125",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_125": {
+"dialogue": "(Urk…)",
+"offset": Vector2(18460, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_126",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_126": {
+"dialogue": "(The things I do for a stable timeline…)",
+"offset": Vector2(18800, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_127",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_127": {
+"dialogue": "(But we can’t waste time. They need to get moving. I’ll have to give them a reason.)",
+"offset": Vector2(19180, 460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_128",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_128": {
+"dialogue": "Hey! Come back here!",
+"offset": Vector2(19595.9, 559.782),
+"options": {
+0: {
+"condition": {},
+"link": &"1_129",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_129": {
+"dialogue": "Stupid cat!",
+"offset": Vector2(19980, 560),
+"options": {
+0: {
+"condition": {},
+"link": &"1_130",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_13": {
+"dialogue": "Hey, I did tell you not to touch stuff in here for a reason.",
+"offset": Vector2(3700, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_130": {
+"dialogue": "Ugh, god damn it!",
+"offset": Vector2(20360, 560),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_14": {
+"dialogue": "I know, I know. And this is definitely archaeological malpractice in the extreme. But look. I think this is important.",
+"offset": Vector2(4060, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_15": {
+"dialogue": "Why did you break it!?",
+"offset": Vector2(4400, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_16": {
+"dialogue": "I didn’t. The blocks slide off on purpose, see? They’re clearly meant to go on the other pedestal there. The only question is what we’re supposed to do with them there…",
+"offset": Vector2(4740, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_17": {
+"dialogue": "Maybe you take the statue apart and reassemble it?",
+"offset": Vector2(5080, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_18": {
+"dialogue": "Hmm… maybe. But into what shape?",
+"offset": Vector2(5420, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": "HAVEN'T SEEN SCENE 5"
+},
+1: {
+"condition": {},
+"link": &"1_88",
+"text": "HAVE SEEN SCENE 5"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 10
+},
+"1_19": {
+"dialogue": "Could be you just have to remake the shape it’s already in.",
+"offset": Vector2(5820, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_2": {
+"dialogue": "I’m sure she will be. She’s pretty resourceful in her own way. And she’s definitely the least reckless of us. If anything looks dangerous, I’m sure she’ll turn back.",
+"offset": Vector2(120, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_20": {
+"dialogue": "I dunno… but, I mean, I guess so. It’s worth trying. And if it doesn’t work, we can double back to meet up with Larissa again.",
+"offset": Vector2(6180, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_24",
+"text": "ELSE"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 10
+},
+"1_21": {
+"dialogue": "(Is that seriously what they were doing the whole time Larissa was observing the Wyrm!?)",
+"offset": Vector2(6560, -600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_22": {
+"dialogue": "(...I don’t think there’s even enough time for them to go back and save her now if I tried to make them.)",
+"offset": Vector2(6920, -600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_23": {
+"dialogue": "(I’m going to be sick.)",
+"offset": Vector2(7260, -600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_24": {
+"dialogue": "I think I can reassemble it pretty quick. Give me a few minutes.",
+"offset": Vector2(6620, -160),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_25": {
+"dialogue": "...",
+"offset": Vector2(6980, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_26": {
+"dialogue": "Huh. Well that didn’t work.",
+"offset": Vector2(7340, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_27": {
+"dialogue": "Maybe we didn’t put it back together right?",
+"offset": Vector2(7700, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_28": {
+"dialogue": "Maybe… it all seemed to fit together, though. And, uh, I don’t exactly have the original to compare anymore. So…",
+"offset": Vector2(8040, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_29": {
+"dialogue": "This might have been a bad idea.",
+"offset": Vector2(8400, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_3": {
+"dialogue": "Yeah. You’re right. I just have to trust her.",
+"offset": Vector2(480, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_5",
+"text": "ELSE"
+}
+},
+"size": Vector2(300, 290),
+"speaker": 0
+},
+"1_30": {
+"dialogue": "Ah, it was worth trying.",
+"offset": Vector2(8740, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_31": {
+"dialogue": "Let’s go see if we can meet up with Larissa. She’d probably catch something we’re missing.",
+"offset": Vector2(9080, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_32": {
+"dialogue": "Yeah, all right. It’ll be good to see her. Even if it means going back to that creepy statue.",
+"offset": Vector2(9440, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_33": {
+"dialogue": "…Statue?",
+"offset": Vector2(9800, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_34": {
+"dialogue": "You mean that snake thing by the passage Larissa went down?",
+"offset": Vector2(10140, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_35": {
+"dialogue": "Oh. Uh…",
+"offset": Vector2(10480, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_36": {
+"dialogue": "Yeah. That one.",
+"offset": Vector2(10800, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_37",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_37": {
+"dialogue": "Did that thing really bother you that much?",
+"offset": Vector2(11120, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_38": {
+"dialogue": "Well… kind of.",
+"offset": Vector2(11460, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_39",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_39": {
+"dialogue": "Okay, fine. I’m embarrassed to admit it, but… I have this thing about snakes.",
+"offset": Vector2(11800, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_40",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_4": {
+"dialogue": "(...Damn it.)",
+"offset": Vector2(800, -560),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_40": {
+"dialogue": "Snakes? Really?",
+"offset": Vector2(12140, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_41": {
+"dialogue": "I know, I know. But when I was little my brother had one of those… prank can things that pop out all the snakes out on you. And it really spooked me, and he kept teasing me about it, and he started pouring the snakes out on my head, and–",
+"offset": Vector2(12480, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_42",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_42": {
+"dialogue": "It’s a goofy thing to be afraid of. I know it’s a goofy thing to be afraid of. But I just am, okay?",
+"offset": Vector2(12820, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_43",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_43": {
+"dialogue": "Hey, hey, it’s fine. We all have stuff we’re afraid of. Yours is snakes. That’s cool. I just… I’m surprised I didn’t know.",
+"offset": Vector2(13160, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_44",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_44": {
+"dialogue": "…It doesn’t come up that much. And I really try to hide it when it does. I don’t want anybody to think I’m, you know… unreliable.",
+"offset": Vector2(13500, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_45",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_45": {
+"dialogue": "You’re the most reliable person I know, Marl. Like by a lot. The snakes thing does not change that.",
+"offset": Vector2(13840, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_46",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_46": {
+"dialogue": "I’m glad it doesn’t. But it’s about more than just that, you know?",
+"offset": Vector2(14180, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_47",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_47": {
+"dialogue": "I really don't.",
+"offset": Vector2(14540, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_48",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_48": {
+"dialogue": "…It’s fine. You don’t have to. Just, you know.",
+"offset": Vector2(14860, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_49",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_49": {
+"dialogue": "I don’t want to let you guys down.",
+"offset": Vector2(15200, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_50",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_5": {
+"dialogue": "…Hey, what’s this?",
+"offset": Vector2(860, -200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_50": {
+"dialogue": "Being afraid of snakes isn’t letting us down.",
+"offset": Vector2(15520, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_51",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_51": {
+"dialogue": "It is if it stops me from doing the right thing and taking care of you guys.",
+"offset": Vector2(15860, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_52",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_52": {
+"dialogue": "…Like when I let Larissa go off on her own.",
+"offset": Vector2(16180, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_53",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_53": {
+"dialogue": "That was her choice, Marl. You know I super appreciate how on top of things you are. But that doesn’t mean you have to be solely responsible for us. We’re all adults. We can make our own mistakes.",
+"offset": Vector2(16520, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_54",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_54": {
+"dialogue": "I feel responsible, though.",
+"offset": Vector2(16860, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_55",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_55": {
+"dialogue": "That’s a little condescending, isn’t it?",
+"offset": Vector2(17200, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_56",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_56": {
+"dialogue": "…Sorry. I don’t mean it like that.",
+"offset": Vector2(17540, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_57",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_57": {
+"dialogue": "I know you don’t.",
+"offset": Vector2(17880, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_58",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_58": {
+"dialogue": "It’s really okay. I promise. Let’s just go back.",
+"offset": Vector2(18220, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_59",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_59": {
+"dialogue": "You’re right. I need to stop worrying so much. I’m sure Larissa is–",
+"offset": Vector2(18560, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_60",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_6": {
+"dialogue": "Weird. That almost looks like some kind of door. But I don’t see a way to open it.",
+"offset": Vector2(1260, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_60": {
+"dialogue": "[b]WRRAAAOOORR!![/b]",
+"offset": Vector2(18920, -140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_61",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_62",
+"text": "ELSE"
+}
+},
+"size": Vector2(300, 256),
+"speaker": ""
+},
+"1_61": {
+"dialogue": "(Oh god...)",
+"offset": Vector2(19280, -200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_63",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_62": {
+"dialogue": "(Uh-oh. There’s only one thing that could be.)",
+"offset": Vector2(19280, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_63",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_63": {
+"dialogue": "What the hell was that?",
+"offset": Vector2(19740, -20),
+"options": {
+0: {
+"condition": {},
+"link": &"1_64",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_64": {
+"dialogue": "Some kind of animal… a big and angry one, by the sound of it.",
+"offset": Vector2(20160, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_65",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_65": {
+"dialogue": "Larissa's in danger.",
+"offset": Vector2(20500, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_66",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_66": {
+"dialogue": "We have to hurry back.",
+"offset": Vector2(20840, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_67",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_67": {
+"dialogue": "I know you said not to run, but–",
+"offset": Vector2(21180, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_68",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_68": {
+"dialogue": "!",
+"offset": Vector2(21520, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_69",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_69": {
+"dialogue": "!",
+"offset": Vector2(21840, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_70",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_7": {
+"dialogue": "I wonder…",
+"offset": Vector2(1620, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_70": {
+"dialogue": "(The whole cavern is shaking… this is bad. This is really, really bad.)",
+"offset": Vector2(22160, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_71",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_71": {
+"dialogue": "No time. We’re going back. Now!",
+"offset": Vector2(22500, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_72",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_72": {
+"dialogue": "(We’re sprinting back to the passage…)",
+"offset": Vector2(22840, 0),
+"options": {
+0: {
+"condition": {},
+"link": &"1_73",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_74",
+"text": "ELSE"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_73": {
+"dialogue": "(But I know it’s already too late.)",
+"offset": Vector2(23220, -80),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_74": {
+"dialogue": "(I just hope it isn’t too late.)",
+"offset": Vector2(23220, 260),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_75": {
+"dialogue": "Damn it. There’s a lot more debris here than–",
+"offset": Vector2(23900, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_76",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_76": {
+"dialogue": "No!",
+"offset": Vector2(24260, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_77",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_77": {
+"dialogue": "What!?",
+"offset": Vector2(24620, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_78",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_78": {
+"dialogue": "The passage is gone! It must have collapsed when the cave shook!",
+"offset": Vector2(24960, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_79",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_79": {
+"dialogue": "Oh, fuck. Larissa! Larissa!",
+"offset": Vector2(25300, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_80",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_8": {
+"dialogue": "There’s a lot of weird architecture in here, too. If we had any doubt this stuff was man-made left. It almost looks like some kinda Indiana Jones chamber or something, except less…",
+"offset": Vector2(1980, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_80": {
+"dialogue": "Sean, help me dig this out!",
+"offset": Vector2(25660, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_81",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_81": {
+"dialogue": "I don’t know if that–",
+"offset": Vector2(26020, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_82",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_82": {
+"dialogue": "Just do it!",
+"offset": Vector2(26380, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_83",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_83": {
+"dialogue": "(They’re trying to open the passage back up with their bare hands… for all the good it’s going to do.)",
+"offset": Vector2(26760, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_84",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_85",
+"text": "ELSE"
+}
+},
+"size": Vector2(320, 300),
+"speaker": 18
+},
+"1_84": {
+"dialogue": "(Larissa’s already...)",
+"offset": Vector2(27160, 120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_86",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_85": {
+"dialogue": "(Larissa’s trapped in there with the Wyrm. She’s as good as dead already.)",
+"offset": Vector2(27160, 440),
+"options": {
+0: {
+"condition": {},
+"link": &"1_86",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_86": {
+"dialogue": "(...I can’t do anything here. I have to go back.)",
+"offset": Vector2(27677.8, 416.01),
+"options": {
+0: {
+"condition": {},
+"link": &"1_87",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_87": {
+"dialogue": "(But maybe I can do something about that statue at the last junction…)",
+"offset": Vector2(28060, 420),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": -1
+},
+"1_88": {
+"dialogue": "(This violates every rule of time travel… but desperate times call for desperate measures. I might have to take the risk and hope the binds of prophecy are enough to keep the timestream stable.)",
+"offset": Vector2(5840, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_90",
+"text": "MEOW!"
+},
+1: {
+"condition": {},
+"link": &"1_89",
+"text": "Play it safe."
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_89": {
+"dialogue": "(...It's a risk. It's a real risk. Maybe the only kind of risk I can't walk back from. I shouldn't be so quick to break causality.)",
+"offset": Vector2(5780, 580),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_9": {
+"dialogue": "Dubiously orientalist?",
+"offset": Vector2(2320, -180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_90": {
+"dialogue": "[b]MEOW![/b]",
+"offset": Vector2(6260, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_91",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_91": {
+"dialogue": "You presented the sketchbook page.",
+"offset": Vector2(6620, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_92",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 23
+},
+"1_92": {
+"dialogue": "The cat again…",
+"offset": Vector2(6980, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_93",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_93": {
+"dialogue": "They seem to keep sneaking up on us.",
+"offset": Vector2(7340, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_94",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_94": {
+"dialogue": "Hey, wait. What’s that in its mouth?",
+"offset": Vector2(7720, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_95",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_95": {
+"dialogue": "It's a sheet of paper.",
+"offset": Vector2(8060, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_96",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_96": {
+"dialogue": "…",
+"offset": Vector2(8400, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_97",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_97": {
+"dialogue": "…This is from Larissa's sketchbook!",
+"offset": Vector2(8760, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_98",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_98": {
+"dialogue": "Really!?",
+"offset": Vector2(9120, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_99",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_99": {
+"dialogue": "I don’t know how. But it’s definitely her art style.",
+"offset": Vector2(9460, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_100",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"2_1": {
+"comment": "BACKGROUNDS
+BG 6 V3
+BG 6 SNAKE",
+"offset": Vector2(-580, 60),
+"size": Vector2(260, 140)
+},
+"2_2": {
+"comment": "Another flag that has to be set up here.",
+"offset": Vector2(5120, 100),
+"size": Vector2(300, 120)
+},
+"2_3": {
+"comment": "Another flag to be set.",
+"offset": Vector2(22920, 340),
+"size": Vector2(220, 100)
+},
+"2_4": {
+"comment": "Yet another flag.",
+"offset": Vector2(26800, 540),
+"size": Vector2(200, 100)
+},
+"2_5": {
+"comment": "If possible we could go directly into scene 6 from here.",
+"offset": Vector2(20720, 580),
+"size": Vector2(420, 100)
+},
+"3_1": {
+"link": &"1_75",
+"offset": Vector2(23600, 240),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5"])
+characters = "res://res/assets/Characters.tres"

@@ -1,0 +1,592 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://buly8g2njpfj2"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_owudd"]
+
+[resource]
+script = ExtResource("1_owudd")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-460, -280),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "I should really know better.",
+"offset": Vector2(-240, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_10": {
+"dialogue": "I don’t understand what I’m looking at or how it works. But I’m observing it with my own two eyes. I should be thinking about this like a scientist. Not assuming I already know. But testing and experimenting and learning whatever I can from what I observe.",
+"offset": Vector2(2800, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_11": {
+"dialogue": "…Wait. Are the lights moving?",
+"offset": Vector2(3140, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_12": {
+"dialogue": "(Hey, there you go, kid! You’re figuring it out!)",
+"offset": Vector2(3500, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_13": {
+"dialogue": "Okay. They’re DEFINITELY moving when I spin this disc. Is this thing some kind of controller?",
+"offset": Vector2(3840, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_14": {
+"dialogue": "Or, no. That’s not the question I need to be answering right now. I just need to see what I can do and what happens when I do it.",
+"offset": Vector2(4160, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_15": {
+"dialogue": "There’s an inner disc and an outer disc. So what does the inner one do…?",
+"offset": Vector2(4500, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_16": {
+"dialogue": "…",
+"offset": Vector2(4860, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_17": {
+"dialogue": "Also makes it move. But differently.",
+"offset": Vector2(5200, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_18": {
+"dialogue": "So how are they different…?",
+"offset": Vector2(5540, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_19": {
+"dialogue": "…",
+"offset": Vector2(5920, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_2": {
+"dialogue": "I should really DO better.",
+"offset": Vector2(100, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_20": {
+"dialogue": "That’s interesting. It’s almost like they’re two overlapping waves.",
+"offset": Vector2(6260, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_21": {
+"dialogue": "Well, I’ve played enough video games to recognize THIS puzzle. Let’s see if we can get the lines in sync!",
+"offset": Vector2(6620, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_22": {
+"dialogue": "Just spin this a little… and that a little… no, a little more on this one… and a little more on that… almost there…",
+"offset": Vector2(6960, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"3_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_23": {
+"dialogue": "I did it!",
+"offset": Vector2(7560, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_24": {
+"dialogue": "(He really did... man, that's bright.)",
+"offset": Vector2(7880, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_25": {
+"dialogue": "What the hell?",
+"offset": Vector2(8520, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_26": {
+"dialogue": "No, seriously, what the [i]hell[/i]?",
+"offset": Vector2(8860, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_27": {
+"dialogue": "Where did that come from? How is it even possible?",
+"offset": Vector2(9240, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_28": {
+"dialogue": "...",
+"offset": Vector2(9580, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_29": {
+"dialogue": "Right. Wrong question. I’m observing what I’m observing. I have to accept that first. And then figure out how it works.",
+"offset": Vector2(9920, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_3": {
+"dialogue": "But I never seem to.",
+"offset": Vector2(420, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_30": {
+"dialogue": "Unless I’ve gone completely crazy. Which is possible. So I should really get Marl and Larissa to just, confirm that I haven’t.",
+"offset": Vector2(10260, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_31": {
+"dialogue": "(...They have been gone a while, haven’t they?)",
+"offset": Vector2(10600, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_32": {
+"dialogue": "Any minute now.",
+"offset": Vector2(10960, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_33": {
+"dialogue": "Any minute...",
+"offset": Vector2(11300, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"3_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_34": {
+"dialogue": "(Half an hour passes.)",
+"offset": Vector2(11860, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_35": {
+"dialogue": "(And another hour.)",
+"offset": Vector2(12200, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_36": {
+"dialogue": "(And another…)",
+"offset": Vector2(12540, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_37",
+"text": "HAVEN'T SEEN SCENE 3"
+},
+1: {
+"condition": {},
+"link": &"1_39",
+"text": "HAVE SEEN SCENE 3"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_37": {
+"dialogue": "(I’m starting to think they aren’t coming back. I’m gonna need to go to the other timeline and check on them.)",
+"offset": Vector2(12960, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_38": {
+"dialogue": "(At least I know Sean’s okay finding the doorway on his own. There really isn’t anything I can do here… but something tells me it’ll be useful knowing I don’t have to worry about this branch.)",
+"offset": Vector2(13300, -240),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_39": {
+"dialogue": "(Well, good to know they definitely got themselves killed. That’s gonna weigh on my conscience.)",
+"offset": Vector2(12940, 80),
+"options": {
+0: {
+"condition": {},
+"link": &"1_40",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_4": {
+"dialogue": "(Oh, no. Am I just gonna sit here watching him beat himself up?)",
+"offset": Vector2(760, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_40": {
+"dialogue": "(If I sit around waiting here, the timeline’s gonna lock itself in and then this whole plan is screwed. It’s time to go back and see what I can do elsewhere.)",
+"offset": Vector2(13300, 80),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_41": {
+"dialogue": "(No matter what, I have to make sure Marl and Larissa don’t run off to that canyon on their own. I just have to figure out how to stop them. Maybe there’s something I can do now that I know Sean solved the puzzle on his own…)",
+"offset": Vector2(13660, 80),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_5": {
+"dialogue": "I mean, it’s Larissa. I know it bothers her when people don’t listen to her. And she’s worth listening to!",
+"offset": Vector2(1100, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_6": {
+"dialogue": "Whatever she noticed was probably, like… some kind of super important clue that would have solved this way faster than I have. I just didn’t want to give her the time to work through it.",
+"offset": Vector2(1420, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_7": {
+"dialogue": "Why didn’t I? What was I so scared of?",
+"offset": Vector2(1760, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_8": {
+"dialogue": "…",
+"offset": Vector2(2120, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_9": {
+"dialogue": "(He’s fiddling with the Wayfinder…)",
+"offset": Vector2(2460, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"2_1": {
+"comment": "BACKGROUNDS
+BG 4 Magic
+WHITE
+BG 4 Entry
+BLACK",
+"offset": Vector2(-540, -140),
+"size": Vector2(240, 240)
+},
+"2_2": {
+"comment": "Can we do a fade to white here?",
+"offset": Vector2(7280, -260),
+"size": Vector2(260, 100)
+},
+"2_3": {
+"comment": "It looks like you can filter option availabilty based on variables.
+For now I'll just assume we'll figure out how to get this working properly.",
+"offset": Vector2(12340, 140),
+"size": Vector2(520, 100)
+},
+"3_1": {
+"link": &"1_25",
+"offset": Vector2(8287, -94),
+"signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_23",
+"offset": Vector2(7300, -100),
+"signalValue": "advanceBackground"
+},
+"3_3": {
+"link": &"1_34",
+"offset": Vector2(11640, -140),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1", "2_2", "2_3"])
+characters = "res://res/assets/Characters.tres"

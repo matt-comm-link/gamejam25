@@ -1,0 +1,1210 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://ycjm8kiw7mgy"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_sjcy4"]
+
+[resource]
+script = ExtResource("1_sjcy4")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-514, -206),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "So Larissa saw the same symbol in the static on our phones… and it’s also carved on a rock formation in the area?",
+"offset": Vector2(-260, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_10": {
+"dialogue": "You’re abandoning that theory, huh?",
+"offset": Vector2(2680, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_11": {
+"dialogue": "It stopped holding up several hours ago.",
+"offset": Vector2(3000, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_12": {
+"dialogue": "...Look.",
+"offset": Vector2(3320, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_13": {
+"dialogue": "That’s odd. There’s another path, but it doesn’t look as constructed as this one.",
+"offset": Vector2(3900, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_14": {
+"dialogue": "O... oh.",
+"offset": Vector2(4220, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": "HAVEN'T SEEN SCENE 3"
+},
+1: {
+"condition": {},
+"link": &"1_59",
+"text": "HAVE SEEN SCENE 3"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 0
+},
+"1_15": {
+"dialogue": "(The trial is supposed to be a straight shot through… that second tunnel should NOT be here.)",
+"offset": Vector2(4560, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_16": {
+"dialogue": "By the look of it… it seems like whatever structure used to be here collapsed.",
+"offset": Vector2(4880, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_17": {
+"dialogue": "So it was supposed to be sealed off. But why? What could be down there?",
+"offset": Vector2(5200, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_18": {
+"dialogue": "W-well… we’ve gotta be really careful. If something collapsed there the whole tunnel could be unstable. We should stay away.",
+"offset": Vector2(5520, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_19": {
+"dialogue": "…I want to investigate it.",
+"offset": Vector2(5840, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_2": {
+"dialogue": "Yep!",
+"offset": Vector2(60, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_20": {
+"dialogue": "Really!?",
+"offset": Vector2(6160, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_21": {
+"dialogue": "…Are you sure?",
+"offset": Vector2(6480, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_22": {
+"dialogue": "This place was built with purpose. By people who did not intend for us to go that way.",
+"offset": Vector2(6800, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_23": {
+"dialogue": "The things you most need to know are often the things people don't want you to.",
+"offset": Vector2(7120, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_24": {
+"dialogue": "I don't think it's worth the risk.",
+"offset": Vector2(7440, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_25": {
+"dialogue": "…You can go ahead with Sean. See what’s down this corridor. I’ll check this way and meet back up with you.",
+"offset": Vector2(7760, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_26": {
+"dialogue": "Splitting up is an even worse idea!",
+"offset": Vector2(8080, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_27": {
+"dialogue": "I want to follow this path, Marl. I can tell it’s important.",
+"offset": Vector2(8400, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_28": {
+"dialogue": "Please. Trust me.",
+"offset": Vector2(8720, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_29": {
+"dialogue": "…",
+"offset": Vector2(9040, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_3": {
+"dialogue": "I know it's weird.",
+"offset": Vector2(380, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_30": {
+"dialogue": "I–I can’t make you do what I say. I just don’t want you to get hurt.",
+"offset": Vector2(9360, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_31": {
+"dialogue": "Please don’t get hurt.",
+"offset": Vector2(9680, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_32": {
+"dialogue": "I will be careful. I promise.",
+"offset": Vector2(9980, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_33": {
+"dialogue": "(Larissa’s going off alone… but the only place that path could lead is directly into the Wyrm’s lair.)",
+"offset": Vector2(10300, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_34": {
+"dialogue": "(That thing is going to kill her. If she’s determined to go, this timeline might already be doomed. I don’t know if I could have averted this…)",
+"offset": Vector2(10620, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_35": {
+"dialogue": "(Should I try to stop her now?)",
+"offset": Vector2(10940, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_45",
+"text": "MEOW!"
+},
+1: {
+"condition": {},
+"link": &"1_37",
+"text": "Stay quiet."
+}
+},
+"size": Vector2(300, 260),
+"speaker": 20
+},
+"1_36": {
+"dialogue": "…Good luck, Larissa.",
+"offset": Vector2(11640, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_37": {
+"dialogue": "(I don't think I can do anything to change this...)",
+"offset": Vector2(11280, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_38": {
+"dialogue": "I shouldn't have let her go.",
+"offset": Vector2(12000, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_39",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_39": {
+"dialogue": "Once she’s made a choice like that, she has to see it through to the bitter end. It’s usually worth the effort.",
+"offset": Vector2(12360, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_40",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_4": {
+"dialogue": "Weird isn’t the half of it. But there’s gotta be some kind of connection between all of this.",
+"offset": Vector2(720, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_40": {
+"dialogue": "Let’s try and meet up with her further ahead. I have a suspicion this cave or whatever might loop around to that other path. If you think this tunnel is more stable, maybe we can hustle and catch her before she gets in any trouble.",
+"offset": Vector2(12680, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_41": {
+"dialogue": "…Okay.",
+"offset": Vector2(13000, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_42",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_42": {
+"dialogue": "We can hustle. But still no running.",
+"offset": Vector2(13340, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_43",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_43": {
+"dialogue": "Dude, c’mon, I’ve got the stamina of an asthmatic fifth grader. You know I wasn’t even going to try.",
+"offset": Vector2(13660, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_44",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_44": {
+"dialogue": "(This is bad. Bad, bad.)",
+"offset": Vector2(14000, 200),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_45": {
+"dialogue": "[b]MEOW![/b]",
+"offset": Vector2(11280, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_46",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_46": {
+"dialogue": "Woah! What are you yelling about, cat?",
+"offset": Vector2(11620, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_47",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_47": {
+"dialogue": "We really shouldn’t have let you follow us in here.",
+"offset": Vector2(11960, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_48",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_48": {
+"dialogue": "I think they don’t want to see you go either, Larissa.",
+"offset": Vector2(12300, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_49",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_49": {
+"dialogue": "…She can follow me if she wants.",
+"offset": Vector2(12640, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_50",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_5": {
+"dialogue": "It's all old.",
+"offset": Vector2(1040, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_50": {
+"dialogue": "She’s as free to choose her path as any of us.",
+"offset": Vector2(12980, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_51",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_51": {
+"dialogue": "I’m all for personal autonomy, but I wouldn’t phrase it quite so… dramatically.",
+"offset": Vector2(13320, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_52",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_52": {
+"dialogue": "Good luck down the other path, Sean. You too, Marl. I’ll see you again soon.",
+"offset": Vector2(13660, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_53",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_54",
+"text": "ELSE"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 13
+},
+"1_53": {
+"dialogue": "(Shit...)",
+"offset": Vector2(14000, -560),
+"options": {
+0: {
+"condition": {},
+"link": &"1_54",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_54": {
+"dialogue": "Okay.",
+"offset": Vector2(14020, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_55",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_55": {
+"dialogue": "…Come on, Sean.",
+"offset": Vector2(14360, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_56",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_56": {
+"dialogue": "Uh...",
+"offset": Vector2(14700, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_57",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_57": {
+"dialogue": "Yeah. Okay.",
+"offset": Vector2(15040, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_58",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_58": {
+"dialogue": "(Damn it... that didn't work.)",
+"offset": Vector2(15380, -220),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_59": {
+"dialogue": "(I thought Marl seemed oddly hesitant... they really are freaked out by that statue!)",
+"offset": Vector2(4560, 120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_60",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_6": {
+"dialogue": "Very old.",
+"offset": Vector2(1360, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_60": {
+"dialogue": "(Well, Larissa's not gonna save herself. I'm just gonna have to give them back some confidence!)",
+"offset": Vector2(4900, 120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_62",
+"text": "MEOW!"
+},
+1: {
+"condition": {},
+"link": &"1_61",
+"text": "Wait."
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_61": {
+"dialogue": "(But maybe I want to try something else first...)",
+"offset": Vector2(5280, 120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_62": {
+"dialogue": "[b]MEOW![/b]",
+"offset": Vector2(5280, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_70",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_63": {
+"dialogue": "Woah! Hey, calm down, kitty.",
+"offset": Vector2(5620, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_64",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_64": {
+"dialogue": "Damn it. We forgot about the cat again.",
+"offset": Vector2(5960, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_65",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_65": {
+"dialogue": "She’s strangely easy to overlook…",
+"offset": Vector2(6300, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_66",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_66": {
+"dialogue": "But why is she attacking that statue?",
+"offset": Vector2(6640, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_67",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_67": {
+"dialogue": "Maybe it just gave her the heebie jeebies. It kinda wigged me out, too.",
+"offset": Vector2(6980, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_68",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_68": {
+"dialogue": "The “heebie jeebies”? How old are you?",
+"offset": Vector2(7320, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_69",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_69": {
+"dialogue": "Hurtful!",
+"offset": Vector2(7660, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_71",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_7": {
+"dialogue": "It’s very old, but somehow it’s transmitting a signal that fills your phone with static?",
+"offset": Vector2(1700, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_70": {
+"dialogue": "(It's just a crumbly old statue, Marl! Even a cat can knock it over!)",
+"offset": Vector2(5617.23, 927.832),
+"options": {
+0: {
+"condition": {},
+"link": &"1_63",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_71": {
+"dialogue": "But there’s gotta be something over that way the cat’s freaking out about. I’ll poke my head in there and see if I can find out what. Normally I wouldn’t want us to split up, but if there’s something dangerous that way, I don’t want to put you guys at risk.",
+"offset": Vector2(8000, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_72",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_72": {
+"dialogue": "Besides, we don’t want to spend too much time down here. It’s a good idea to be efficient. So you two can go and see what’s down the other path while I check out this one. Remember, don’t go far and don’t do anything that seems sketchy. If the path keeps splitting, I’m gonna come right back here, and you should too.",
+"offset": Vector2(8340, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_73",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_73": {
+"dialogue": "Quick ten minute spelunking and then we’ll turn around and meet back here. What do you think?",
+"offset": Vector2(8680, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_74",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_74": {
+"dialogue": "…Okay. If you want to check that path, you can.",
+"offset": Vector2(9000, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_75",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_75": {
+"dialogue": "Just keep your eyes open. I think whatever’s down there might help us finally understand all of this.",
+"offset": Vector2(9320, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_76",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_76": {
+"dialogue": "Will do!",
+"offset": Vector2(9660, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_77",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_77": {
+"dialogue": "Your mood turned around quickly, Marl. Spirit of adventure filling you?",
+"offset": Vector2(10000, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_78",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_78": {
+"dialogue": "I guess so. I can’t deny this is all pretty exciting. Mystery and adventure… it’s like something out of a novel, you know?",
+"offset": Vector2(10340, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_79",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_79": {
+"dialogue": "Don’t worry, though. I’m not gonna let the excitement overcome my sense of caution.",
+"offset": Vector2(10680, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_80",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_8": {
+"dialogue": "You’re right, though. This ‘cave’ is clearly constructed. Somebody built this place. And it definitely wasn’t recently.",
+"offset": Vector2(2020, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_80": {
+"dialogue": "(Are you sure about that?)",
+"offset": Vector2(11020, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_81",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_81": {
+"dialogue": "Just don’t do anything you’d be mad at us for doing.",
+"offset": Vector2(11360, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_82",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_82": {
+"dialogue": "(I'm so tired.)",
+"offset": Vector2(11700, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_83",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_83": {
+"dialogue": "(Now Marl’s gonna go get themselves killed instead. And if I try to yowl at them, they’re just gonna pick me up and carry me off with them.)",
+"offset": Vector2(12040, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_84",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_87",
+"text": "LARISSA HASN'T DIED"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_84": {
+"dialogue": "(...)",
+"offset": Vector2(12400, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_85",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_85": {
+"dialogue": "(I don’t want to keep getting these kids killed.)",
+"offset": Vector2(12740, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_86",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_86": {
+"dialogue": "(I have to fix this. Somehow.)",
+"offset": Vector2(13080, 480),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_87": {
+"dialogue": "(Marl’s probably got a better shot at escaping than Larissa did, at least. Maybe they’ll double back and the three of them can join back up. That’s the only way they’re going to win.)",
+"offset": Vector2(12400, 840),
+"options": {
+0: {
+"condition": {},
+"link": &"1_88",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_88": {
+"dialogue": "(...That’s wishful thinking, isn’t it?)",
+"offset": Vector2(12740, 840),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_9": {
+"dialogue": "…Certainly not as recent as the invention of the ARG.",
+"offset": Vector2(2340, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"2_1": {
+"comment": "BACKGROUNDS
+BG 6 V1
+BG 6 Snake",
+"offset": Vector2(-520, -80),
+"size": Vector2(200, 140)
+},
+"2_2": {
+"comment": "Yet another branch to configure.",
+"offset": Vector2(3920, 60),
+"size": Vector2(280, 100)
+},
+"2_3": {
+"comment": "Another flag situation to resolve.",
+"offset": Vector2(13640, -440),
+"size": Vector2(280, 100)
+},
+"3_1": {
+"link": &"1_13",
+"offset": Vector2(3670, -96),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1", "2_2", "2_3"])
+characters = "res://res/assets/Characters.tres"

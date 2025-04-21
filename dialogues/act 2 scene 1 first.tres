@@ -1,0 +1,947 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dv6gqr62w44kr"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_2bdwr"]
+
+[resource]
+script = ExtResource("1_2bdwr")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-562, -259),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "Well. This isn't great.",
+"offset": Vector2(-340, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_10": {
+"dialogue": "I certainly hope it isn't!",
+"offset": Vector2(2760, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_11": {
+"dialogue": "I think we would have noticed a nuclear cataclysm. It must be some kind of problem on the phone company’s side of things.",
+"offset": Vector2(3100, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_12": {
+"dialogue": " On the plus side, I’ve got everything we need to navigate without any phones. We’ll have to be extra careful not to get in any trouble we’d need emergency services for. But I’ve been on enough hiking trips where there wasn’t any reception at all, so I'm sure we can manage.",
+"offset": Vector2(3440, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_13": {
+"dialogue": "Are we sure that’s a good idea, Marl? If it was just our phones acting up, that’d be one thing. But things have been weird ever since we found that… glowing token thing yesterday.",
+"offset": Vector2(3780, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_14": {
+"dialogue": "…I think it’s leading us somewhere.",
+"offset": Vector2(4100, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_15": {
+"dialogue": "What.",
+"offset": Vector2(4440, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_16": {
+"dialogue": " I’ve been watching it. I noticed the light was getting stronger the further we got into the woods… but then it started growing weaker. Up until we made camp. It’s been at the same intensity ever since we stopped moving.",
+"offset": Vector2(4780, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_17": {
+"dialogue": "So, like… it’s a hot/cold thing? There’s some kind of transmitter making it glow brighter the closer we get to wherever it’s tethered?",
+"offset": Vector2(5100, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_18": {
+"dialogue": "Something like that.",
+"offset": Vector2(5420, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_19": {
+"dialogue": "God this is weird. Who would make something like this? And why?",
+"offset": Vector2(5740, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_2": {
+"dialogue": "What's up?",
+"offset": Vector2(20, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_20": {
+"dialogue": "I dunno. But I kinda want to find out.",
+"offset": Vector2(6080, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_21": {
+"dialogue": "You would.",
+"offset": Vector2(6440, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_22": {
+"dialogue": "But I guess I do too.",
+"offset": Vector2(6820, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_23": {
+"dialogue": "(They were pretty quick tearing down their camp. They should be closer than they realize, if I’m remembering the coordinates correctly…)",
+"offset": Vector2(7440, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_24": {
+"dialogue": "This way. It’s getting brighter.",
+"offset": Vector2(7800, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_25": {
+"dialogue": "This whole setup is really elaborate. Somebody put a lot of time and effort into this. But I guess the tech wouldn’t be too expensive if you were good at programming LEDs and transmitters and stuff.",
+"offset": Vector2(8140, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_26": {
+"dialogue": "We're probably gonna infuriate an entire subreddit when we find this thing.",
+"offset": Vector2(8460, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_27": {
+"dialogue": "In a way it’s reassuring that someone’s been mucking around setting all this stuff up out here. Makes it feel less remote.",
+"offset": Vector2(8780, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_28": {
+"dialogue": "…What is that?",
+"offset": Vector2(9140, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_29": {
+"dialogue": "Woah… what IS that?",
+"offset": Vector2(9480, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"3_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_3": {
+"dialogue": "Look at this.",
+"offset": Vector2(360, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_30": {
+"dialogue": "This is a hell of an effect. How did they do this…?",
+"offset": Vector2(10080, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_31": {
+"dialogue": "I have no idea.",
+"offset": Vector2(10440, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_32": {
+"dialogue": "I don’t think it’s a projection.",
+"offset": Vector2(10780, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_33": {
+"dialogue": "I mean, it has to be. Some kind of mirror trickery, right? Like those hologram concerts.",
+"offset": Vector2(11100, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_34": {
+"dialogue": "Precise calibrations. Controlled lighting. Elaborate arrays. Nobody’s set anything like that up out here.",
+"offset": Vector2(11420, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_35": {
+"dialogue": "Sure, it’d be difficult, but… clearly they did. We can see it right in front of us.",
+"offset": Vector2(11760, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_36": {
+"dialogue": "...",
+"offset": Vector2(12080, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_37",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_37": {
+"dialogue": "...",
+"offset": Vector2(12400, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_38": {
+"dialogue": "What else could it be?",
+"offset": Vector2(12720, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_39",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_39": {
+"dialogue": "I don’t know. But there’s something that’s been bothering me.",
+"offset": Vector2(13060, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_40",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_4": {
+"dialogue": "(Sean’s holding up… his phone? Looks like the screen is glitching out. I guess it makes sense. Old-school tech like that wouldn’t be shielded.)",
+"offset": Vector2(700, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_40": {
+"dialogue": "Ever since we found this thing…",
+"offset": Vector2(13380, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_41": {
+"dialogue": "Okay. So what is it?",
+"offset": Vector2(13720, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_42",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_42": {
+"dialogue": "I’m not sure. It’s on… not the tip of my tongue, but…",
+"offset": Vector2(14040, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_43",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_43": {
+"dialogue": "The tip of my fingers.",
+"offset": Vector2(14380, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_44",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_44": {
+"dialogue": "Like I can almost… feel the shape of it.",
+"offset": Vector2(14720, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_45",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_45": {
+"dialogue": "But I don’t know what it is. I don’t have all the pieces yet.",
+"offset": Vector2(15040, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_46",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_46": {
+"dialogue": "Okay. Larissa. Listen. As your friend. You know I love you. And I respect you deeply.",
+"offset": Vector2(15360, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_47",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_47": {
+"dialogue": "You’re one of the smartest people I know. I mean that.",
+"offset": Vector2(15680, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_48",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_48": {
+"dialogue": "But right now what you’re saying to me is just… vibes. I dunno, man, vibes! And I don’t need vibes!",
+"offset": Vector2(16020, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_49",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_49": {
+"dialogue": "You’re circling around something you don’t want to say and I don’t know why you won’t spit it out but I’m gonna need you to get it together and give me something I can work with, okay?",
+"offset": Vector2(16340, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_50",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_5": {
+"dialogue": "Oh. Huh.",
+"offset": Vector2(1060, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_50": {
+"dialogue": "...",
+"offset": Vector2(16680, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_51",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_51": {
+"dialogue": "Or just clam up, that works too. It’s all fine with me. Just go… sit somewhere and draw while I figure this out. It’ll be fine.",
+"offset": Vector2(17020, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_52",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_52": {
+"dialogue": "Fine.",
+"offset": Vector2(17360, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_53",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_53": {
+"dialogue": "(Larissa walked up to Sean and gave him the [b]Wayfinder[/b]. I’d expect her to be mad, but she mostly seems…)",
+"offset": Vector2(17720, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_54",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_54": {
+"dialogue": "(Resigned?)",
+"offset": Vector2(18040, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_55",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_55": {
+"dialogue": "Hey, guys...",
+"offset": Vector2(18380, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_56",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_56": {
+"dialogue": "...",
+"offset": Vector2(18720, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_57",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_57": {
+"dialogue": "...",
+"offset": Vector2(19060, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_58",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_58": {
+"dialogue": "(Where is she going? Don’t split up! I need you together!)",
+"offset": Vector2(19380, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_59",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_59": {
+"dialogue": "Larissa? Hey, don’t go too far on your own–",
+"offset": Vector2(19720, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_60",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_6": {
+"dialogue": "…It’s happening to mine, too.",
+"offset": Vector2(1400, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_60": {
+"dialogue": "You can go with her.",
+"offset": Vector2(20060, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_61",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_61": {
+"dialogue": "What?",
+"offset": Vector2(20400, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_62",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_62": {
+"dialogue": "I’m not going anywhere until I solve this. She just needs to…",
+"offset": Vector2(20760, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_63",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_63": {
+"dialogue": "Ugh.",
+"offset": Vector2(21100, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_64",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_64": {
+"dialogue": "(Hell of a sigh.)",
+"offset": Vector2(21460, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_65",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_65": {
+"dialogue": "I made her upset. She needs some space. And probably a better friend than me.",
+"offset": Vector2(21780, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_66",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_66": {
+"dialogue": "Sean...",
+"offset": Vector2(22100, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_67",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_67": {
+"dialogue": "It's fine.",
+"offset": Vector2(22420, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_68",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_68": {
+"dialogue": "...I wish we were better at talking to each other.",
+"offset": Vector2(22740, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_69",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_69": {
+"dialogue": "(And there they go. Maybe it’s a good thing I stuck around.)",
+"offset": Vector2(23060, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_70",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_7": {
+"dialogue": "And mine.",
+"offset": Vector2(1740, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_70": {
+"dialogue": "(I should figure out my next move.)",
+"offset": Vector2(23380, -220),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_8": {
+"dialogue": "It must be some kind of… I don’t know, interference? Some kind of problem with the cell towers? I don’t know of anything that could mess up all our phones at once like this… except maybe, like. Extremely deadly levels of radiation.",
+"offset": Vector2(2080, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_9": {
+"dialogue": "I don't think it's radiation.",
+"offset": Vector2(2400, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"2_1": {
+"comment": "BACKGROUNDS:
+BG 2 Tents
+BG 3 Overgrown
+BG 4 Magic",
+"offset": Vector2(-660, -100),
+"size": Vector2(220, 220)
+},
+"3_1": {
+"link": &"1_23",
+"offset": Vector2(7198.32, -120.582),
+"signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_30",
+"offset": Vector2(9862.74, -105.036),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1"])
+characters = "res://res/assets/Characters.tres"

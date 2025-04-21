@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://b628q2mxrgdkw"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_mjpms"]
+
+[resource]
+script = ExtResource("1_mjpms")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-445, -234),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "Okay, THAT timeline’s a dead end.",
+"offset": Vector2(-220, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "Fine. I’ll go help you three work out your personal problems.",
+"offset": Vector2(120, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_3": {
+"dialogue": "Carrying me around like a damn tote bag. You guys are the worst heroes. The worst!",
+"offset": Vector2(460, -240),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"2_1": {
+"comment": "This should only run if you take the alternate path through act 2 scene 1.
+I don't know how to wire that up yet or if that's even something I do here.",
+"offset": Vector2(-840, -100),
+"size": Vector2(540, 100)
+}
+}
+variables = {}
+strays = Array[String](["2_1"])
+characters = "res://res/assets/Characters.tres"

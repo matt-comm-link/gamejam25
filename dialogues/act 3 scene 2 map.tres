@@ -1,0 +1,464 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://djlcwt6517lw4"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_i61ip"]
+
+[resource]
+script = ExtResource("1_i61ip")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-595, -261),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "No!",
+"offset": Vector2(-120, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_10": {
+"dialogue": "I’m still freaking out from getting hurt like that. It’s making my body pump that adrenaline all over again, even after the reset. I need to approach this rationally.",
+"offset": Vector2(2940, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_11": {
+"dialogue": "That timeline’s a bust. Out of the question. I’m not going back there.",
+"offset": Vector2(3280, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_12": {
+"dialogue": "But that doesn’t mean another timeline can’t still work. I just have to find it.",
+"offset": Vector2(3620, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_13": {
+"dialogue": "…I have to keep moving. There’ll be time to process later. Right now I need to keep moving.",
+"offset": Vector2(3980, -460),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_14": {
+"dialogue": "No! No! No, no, no, no!",
+"offset": Vector2(-120, -120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_15": {
+"dialogue": "Why does this keep happening? Why do they insist on splitting up like this just to die?",
+"offset": Vector2(220, -120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_16": {
+"dialogue": "Is there even a way out of this? Was the future doomed from the start?",
+"offset": Vector2(560, -120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_17": {
+"dialogue": "Maybe all I’ve done here is gotten a couple of nice kids killed for some fucking prophecy that was never going to work anyway. Maybe the only future I can make is the shithole I came from, but now a bunch of decent people died young for no reason at all.",
+"offset": Vector2(900, -120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_18": {
+"dialogue": "I don’t even know if I can undo it! The path back closed behind me. I thought that was a good sign. Things locking in place because they were moving in the right direction. But maybe it’s just the thread of fate playing a joke on me. Maybe I’m being punished for trying to change things at all.",
+"offset": Vector2(1260, -120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_19": {
+"dialogue": "Maybe these kids are paying the price for my hubris.",
+"offset": Vector2(1600, -120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "No...",
+"offset": Vector2(220, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_20": {
+"dialogue": "…I can’t let that happen. For the future. Or for them.",
+"offset": Vector2(1940, -120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_21": {
+"dialogue": "I’m going to find a way out of this. I promise you, Larissa. I promise.",
+"offset": Vector2(2300, -120),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_22": {
+"dialogue": "...",
+"offset": Vector2(-120, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_23": {
+"dialogue": "......",
+"offset": Vector2(220, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_24": {
+"dialogue": ".........",
+"offset": Vector2(560, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_25": {
+"dialogue": "FUCK!",
+"offset": Vector2(900, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_26": {
+"dialogue": "Why, why, why, why, why?",
+"offset": Vector2(1260, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_27": {
+"dialogue": "I can’t do this. I can’t let this happen. I have to find a way back. I have to…",
+"offset": Vector2(1600, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_28": {
+"dialogue": "No! Why can’t I go to the past junctions? Can’t I just–get them to leave? Turn away before they ever found any of this? Please!",
+"offset": Vector2(1960, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_29": {
+"dialogue": "…Please.",
+"offset": Vector2(2320, 240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_3": {
+"dialogue": "Damn it. Damn it, damn it, damn it.",
+"offset": Vector2(560, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_30": {
+"dialogue": "…",
+"offset": Vector2(2680, 240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_31": {
+"dialogue": "Fine. Fuck you too, timestream. I’m not giving up, no matter how much you want me to. There has to be something I haven’t tried yet. There has to be.",
+"offset": Vector2(3040, 240),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_32": {
+"dialogue": "I'm not going back there. I'm not.",
+"offset": Vector2(-120, 560),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_4": {
+"dialogue": "Why did I do this? Why did I think I could fix anything? Why…",
+"offset": Vector2(900, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_5": {
+"dialogue": "No. No. I can’t think like that. I can’t…",
+"offset": Vector2(1240, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_6": {
+"dialogue": "Larissa. Damn it…",
+"offset": Vector2(1580, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_7": {
+"dialogue": "She didn’t ask for this. She never wanted to risk everything. I’m the one who brought her here. I…",
+"offset": Vector2(1920, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_8": {
+"dialogue": "Stop.",
+"offset": Vector2(2260, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_9": {
+"dialogue": "Stop. Deep breaths.",
+"offset": Vector2(2600, -460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"2_1": {
+"comment": "I wrote three separate dialogs based on when this is encountered.
+I have no idea how we're gonna implement these but I'm putting them here.
+We'll figure something out.
+
+",
+"offset": Vector2(-1040, -120),
+"size": Vector2(560, 120)
+},
+"2_2": {
+"comment": "First death.",
+"offset": Vector2(-400, -400),
+"size": Vector2(200, 100)
+},
+"2_3": {
+"comment": "Second death.",
+"offset": Vector2(-400, -100),
+"size": Vector2(200, 100)
+},
+"2_4": {
+"comment": "Third death.",
+"offset": Vector2(-400, 280),
+"size": Vector2(200, 100)
+},
+"2_5": {
+"comment": "Attempting to access the node again.",
+"offset": Vector2(-460, 580),
+"size": Vector2(300, 100)
+}
+}
+variables = {}
+strays = Array[String](["2_2", "2_1", "2_3", "1_14", "1_15", "1_16", "1_17", "1_18", "1_19", "1_20", "1_21", "1_22", "2_4", "1_23", "1_24", "1_25", "1_26", "1_27", "1_28", "1_29", "1_30", "1_31", "2_5", "1_32"])
+characters = "res://res/assets/Characters.tres"

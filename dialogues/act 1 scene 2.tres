@@ -1,0 +1,587 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://isv1f4y4jxem"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_sftmk"]
+
+[resource]
+script = ExtResource("1_sftmk")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-450, -257),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "No wonder this path isn’t on the newer trail maps. They must have stopped maintaining it ages ago.",
+"offset": Vector2(-194.571, -243),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_10": {
+"dialogue": "(The bird flew away! You’re not dooming MY future, you stupid warbler!)",
+"offset": Vector2(5399.9, 241.638),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_11": {
+"dialogue": "Woah! I almost forgot about you, little guy.",
+"offset": Vector2(5780, 240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_12": {
+"dialogue": "I didn’t! God, I swear, this is why you can’t let your DOMESTICATED HOUSE PET loose in the middle of the FU–",
+"offset": Vector2(6180, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_13": {
+"dialogue": "Hey, hey, calm down. It’s not their fault they’re out here.",
+"offset": Vector2(6540, 260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_14": {
+"dialogue": "...",
+"offset": Vector2(6900, 260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_15": {
+"dialogue": "Oh…",
+"offset": Vector2(2220, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 13
+},
+"1_16": {
+"dialogue": "No, you’re right. I’m just pissed off because the people I SHOULD be mad at aren’t here for me to be mad at.",
+"offset": Vector2(7280.89, 274.695),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_17": {
+"dialogue": "*Sigh.*",
+"offset": Vector2(7640, 280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_18": {
+"dialogue": "That’s...",
+"offset": Vector2(2620, 160),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_19": {
+"dialogue": "Well, I’m still glad I saw it. Even though we’ve probably scared it off for good. Maybe that’s for the best.",
+"offset": Vector2(8000, 280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_2": {
+"dialogue": "Just...",
+"offset": Vector2(740, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_20": {
+"dialogue": "[i]Shut up...[/i]",
+"offset": Vector2(2960, 180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_21": {
+"dialogue": "…I think there’s something here. The rock under all this greenery. I had to look for a while to see what I wasn’t seeing. But I don’t think it’s natural.",
+"offset": Vector2(8360, 280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_22": {
+"dialogue": "......",
+"offset": Vector2(3360, 180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_23": {
+"dialogue": "What?",
+"offset": Vector2(8720, 280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_24": {
+"dialogue": "Look. I'll show you.",
+"offset": Vector2(9060, 280),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_25": {
+"dialogue": "⠀",
+"offset": Vector2(9700, 360),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_26": {
+"dialogue": "(That glow... it's finally activated.)",
+"offset": Vector2(10040, 360),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_27": {
+"dialogue": "I can’t believe you spotted that…",
+"offset": Vector2(10420, 380),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_28": {
+"dialogue": "Wait–how is it glowing?",
+"offset": Vector2(10780, 400),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_29": {
+"dialogue": "(That slot at the top of it… that has to be…)",
+"offset": Vector2(11140, 420),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_3": {
+"dialogue": "Never!",
+"offset": Vector2(1100, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_30": {
+"dialogue": "⠀",
+"offset": Vector2(11500, 420),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 22
+},
+"1_31": {
+"dialogue": "That’s strange.",
+"offset": Vector2(11880, 440),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_32": {
+"dialogue": "More than strange. Did someone leave some kind of freaky geocache out here?",
+"offset": Vector2(12240, 440),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_33": {
+"dialogue": "I mean, it’s either that or we’re about to become the weirdest left field side characters in somebody’s ARG.",
+"offset": Vector2(12580, 440),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_34": {
+"dialogue": "The plants all grew around it… I don’t think anybody’s touched this in years. Maybe not in a very, very long time.",
+"offset": Vector2(12940, 460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_35": {
+"dialogue": "(Those who aren’t supposed to see it usually won’t…)",
+"offset": Vector2(13280, 460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_36": {
+"dialogue": "I mean, SOMEBODY had to put it there. And they clearly had some LEDs to put inside it. So it can’t be that old.",
+"offset": Vector2(13620, 460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_37",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_37": {
+"dialogue": "What did it spit out, anyway?",
+"offset": Vector2(13960, 460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_38": {
+"dialogue": " It’s some kind of disc carved from stone. But it’s smooth. And you can slide these parts on the top around.",
+"offset": Vector2(14354.5, 520.032),
+"options": {
+0: {
+"condition": {},
+"link": &"1_39",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_39": {
+"dialogue": "I don’t have any idea what it could be…",
+"offset": Vector2(14700, 520),
+"options": {
+0: {
+"condition": {},
+"link": &"1_40",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_4": {
+"dialogue": "Slow...",
+"offset": Vector2(1440, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_40": {
+"dialogue": "(It’s the compass that’ll finally point you three where you need to go.)",
+"offset": Vector2(15060, 520),
+"options": {
+0: {
+"condition": {},
+"link": &"1_42",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_41": {
+"dialogue": "(Come on, come on... let's speed this up.)",
+"offset": Vector2(359.141, 143.925),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_42": {
+"dialogue": "(And now that you’ve got it my job is done. I just have to return to the timeline, and we’ll get everything back on track.)",
+"offset": Vector2(15400, 520),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_5": {
+"dialogue": "(Okay. She’s noticed it. I just need to get the other two to notice HER. But Sean’s busy with the bird, and Marl’s trying to be helpful.)",
+"offset": Vector2(3760, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_6": {
+"dialogue": "Shh!",
+"offset": Vector2(1820, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_7": {
+"dialogue": "(There’s not a lot I can do in this form. But I don’t need to do a lot. All I need to do is…)",
+"offset": Vector2(4167.27, 213.045),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": "MEOW!"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_8": {
+"dialogue": "[b]MEOW![/b]",
+"offset": Vector2(4580, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_9": {
+"dialogue": "Sean: AGH! NO!",
+"offset": Vector2(4978.41, 239.985),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"2_1": {
+"comment": "BACKGROUNDS:
+BG 3 Overgrown
+BG 3 Stone",
+"offset": Vector2(-458.571, -4),
+"size": Vector2(200, 160)
+},
+"2_3": {
+"comment": "I'm trying to do something here.
+No idea if it makes sense. Unsure what our fast forward status is.
+This can just be a one-off thing to establish that fast forwarding exists.
+I'm planning to treat it that way.
+Hopefully you can just paste the nodes from the other scene if this is bad.
+",
+"offset": Vector2(-240, 180),
+"size": Vector2(540, 180)
+},
+"3_1": {
+"link": &"1_25",
+"offset": Vector2(9437.95, 385.566),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1", "2_3"])
+characters = "res://res/assets/Characters.tres"

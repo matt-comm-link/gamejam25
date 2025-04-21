@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://3p2oxv03c22m"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_bk4me"]
+
+[resource]
+script = ExtResource("1_bk4me")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-431.597, -256.765),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "Hm. Gotta admit. This old tunnel is a little spooky. Not saying I got buyer’s remorse or nothin’, but now that I’m on my own it’s feeling like a bad idea.",
+"offset": Vector2(-180, -320),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"2_1": {
+"comment": "BACKGROUNDS
+BG 7
+BG 7 DISTANT
+BLACK
+BG 7 ATTACK",
+"offset": Vector2(-480, -80),
+"size": Vector2(200, 180)
+},
+"2_2": {
+"comment": "dear autumn note to self have the very last line of this scene advance from the black screen to the attack bg
+that'll be a cool moment",
+"offset": Vector2(-620, 140),
+"size": Vector2(760, 120)
+}
+}
+variables = {}
+strays = Array[String](["2_1", "2_2"])
+characters = "res://res/assets/Characters.tres"

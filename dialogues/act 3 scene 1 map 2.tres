@@ -1,0 +1,76 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://bpgndtqur8aa7"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_1rc3q"]
+
+[resource]
+script = ExtResource("1_1rc3q")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-478, -237),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "I was hoping to keep them together… but maybe this is the best I can do for now.",
+"offset": Vector2(-240, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "There’s new potentials down this junction, at least. Maybe I can do something here.",
+"offset": Vector2(100, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_3": {
+"dialogue": "Follow Marl, or see how Sean and Larissa fare with the puzzle. If I had to pick, it definitely seems like the preferable split…",
+"offset": Vector2(460, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_4": {
+"dialogue": "I’ll just have to hope that means this can work out.",
+"offset": Vector2(820, -240),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"2_1": {
+"comment": "This is when you unlock the new nodes.",
+"offset": Vector2(-680, -100),
+"size": Vector2(300, 100)
+}
+}
+variables = {}
+strays = Array[String](["2_1"])
+characters = "res://res/assets/Characters.tres"
