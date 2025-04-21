@@ -1,0 +1,2362 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dlul71knyvfm8"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_fcnj8"]
+
+[resource]
+script = ExtResource("1_fcnj8")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"3_2",
+"offset": Vector2(-880, -260),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "(Come on! You've got to get there while Larissa's still safe! It's the only way you can win!)",
+"offset": Vector2(-420, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_10": {
+"dialogue": "Larissa?",
+"offset": Vector2(3469.18, -226.465),
+"options": {
+0: {
+"condition": {},
+"link": &"3_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_100": {
+"dialogue": "I see her timeline spread out before me. An instant’s motion in a single fractal smear, as she walks all the way around to the Wyrm’s tail, lifts herself onto its back, and carefully climbs up its body, towards the final core set in a small crevice precisely between its wings.",
+"offset": Vector2(41756.1, 716.469),
+"options": {
+0: {
+"condition": {},
+"link": &"1_101",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_101": {
+"dialogue": "In real time, the movement takes less than a second. But to me that second hangs in the air, spread out into a tableau. I’m not sure why. Maybe it’s a property of the Time Conductor, interacting with the lost power of the Larissa’s Heart.
+",
+"offset": Vector2(42195.4, 735.502),
+"options": {
+0: {
+"condition": {},
+"link": &"1_102",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_102": {
+"dialogue": "Or maybe it’s because I’m dying. And the time stream is unravelling before my eyes.
+",
+"offset": Vector2(42617, 788.21),
+"options": {
+0: {
+"condition": {},
+"link": &"1_103",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_103": {
+"dialogue": "The surreal, frozen moment shatters. And Larissa is on the dragon’s back, gently tapping a single finger against the Dragon’s final core.
+",
+"offset": Vector2(43060.6, 833.597),
+"options": {
+0: {
+"condition": {},
+"link": &"1_104",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_104": {
+"dialogue": "Force is equal to mass times acceleration. You know how this goes. At the speed she’s moving, that small touch is all it takes. The core breaks, and the Wyrm lets out its final howling roar of rage.
+",
+"offset": Vector2(43511.6, 840.917),
+"options": {
+0: {
+"condition": {},
+"link": &"3_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_105": {
+"dialogue": "Larissa!? What the hell was that!?",
+"offset": Vector2(44485.9, 818.548),
+"options": {
+0: {
+"condition": {},
+"link": &"1_106",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_106": {
+"dialogue": "Badass is what it was!",
+"offset": Vector2(44920, 820),
+"options": {
+0: {
+"condition": {},
+"link": &"1_107",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_107": {
+"dialogue": "Is that it? Is it dead?",
+"offset": Vector2(45363.9, 849.488),
+"options": {
+0: {
+"condition": {},
+"link": &"1_108",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_108": {
+"dialogue": "This is cool and everything but please god tell me it’s dead.",
+"offset": Vector2(45800, 860),
+"options": {
+0: {
+"condition": {},
+"link": &"1_109",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_109": {
+"dialogue": "...The cat.",
+"offset": Vector2(46240, 840),
+"options": {
+0: {
+"condition": {},
+"link": &"3_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_11": {
+"dialogue": "(She was hiding over in that ruin…)",
+"offset": Vector2(3860, -200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_13",
+"text": "ELSE"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_110": {
+"dialogue": "Ah. She’s noticed.
+",
+"offset": Vector2(47130.7, 852.358),
+"options": {
+0: {
+"condition": {},
+"link": &"1_111",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_111": {
+"dialogue": "My vision is starting to darken. But they’ve finally won. I did it. That means it was worth everything.",
+"offset": Vector2(47600, 840),
+"options": {
+0: {
+"condition": {},
+"link": &"1_112",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_112": {
+"dialogue": "It’s ironic, though. Normally a traveller doesn’t have to worry about injuries like this. A quick reset is all it would take to get me fixed right back up. But I can’t afford to reset this one.",
+"offset": Vector2(48026.1, 845.379),
+"options": {
+0: {
+"condition": {},
+"link": &"1_113",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_113": {
+"dialogue": "I have to go back. It’s not ideal. It’ll be conspicuous. And I’ll be leaving the three of them to figure out the rest on their own. But I think that’s okay. They’ve seen enough stuff they can’t explain today. The vanishing cat won’t seem any different. And I think I can trust them to take it from here",
+"offset": Vector2(48400, 840),
+"options": {
+0: {
+"condition": {},
+"link": &"1_114",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_114": {
+"dialogue": "Oh, no...",
+"offset": Vector2(48820, 840),
+"options": {
+0: {
+"condition": {},
+"link": &"1_115",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_115": {
+"dialogue": "Poor guy.",
+"offset": Vector2(49180, 820),
+"options": {
+0: {
+"condition": {},
+"link": &"1_116",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_116": {
+"dialogue": "…",
+"offset": Vector2(49600, 840),
+"options": {
+0: {
+"condition": {},
+"link": &"1_117",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_117": {
+"dialogue": "…Good luck, you three. I’m looking forward to seeing the future you build.",
+"offset": Vector2(50055.4, 909.104),
+"options": {
+0: {
+"condition": {},
+"link": &"1_118",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_118": {
+"dialogue": "Let’s just hope there’s someone there to patch me up, yeah?",
+"offset": Vector2(50518.5, 921.398),
+"options": {
+0: {
+"condition": {},
+"link": &"3_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_119": {
+"dialogue": "C.A.T.
+Carefully Altered Timelines",
+"offset": Vector2(51200, 940),
+"options": {
+0: {
+"condition": {},
+"link": &"1_120",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_12": {
+"dialogue": "(She knows how to defeat it! They can do this!)",
+"offset": Vector2(4240, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_120": {
+"dialogue": "CREDITS
+I assume we want to do credits.
+I am gonna let the project manager get the credtis sorted out!",
+"offset": Vector2(51620, 940),
+"options": {
+0: {
+"condition": {},
+"link": &"3_24",
+"text": ""
+}
+},
+"size": Vector2(400, 280),
+"speaker": ""
+},
+"1_121": {
+"dialogue": "Okay. All right. I know we just had some kind of completely wild, utterly unexplainable, scientifically world-upending experience. But are we sure that wasn’t some kind of… shared hallucination? Or maybe I’m having a really, really weird dream right now.",
+"offset": Vector2(52800, 920),
+"options": {
+0: {
+"condition": {},
+"link": &"1_122",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_122": {
+"dialogue": "…Do we seriously just have magic powers now?",
+"offset": Vector2(53200, 900),
+"options": {
+0: {
+"condition": {},
+"link": &"1_123",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_123": {
+"dialogue": "Big glowy sword says yes.",
+"offset": Vector2(53690, 932.995),
+"options": {
+0: {
+"condition": {},
+"link": &"1_124",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_124": {
+"dialogue": "God. Why is it so cool. I’m halfway between a panic attack and a complete geek-out and I hate it.",
+"offset": Vector2(54060, 940),
+"options": {
+0: {
+"condition": {},
+"link": &"1_125",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_125": {
+"dialogue": "I’m still kind of messed up over the disappearing cat, personally.",
+"offset": Vector2(54440, 960),
+"options": {
+0: {
+"condition": {},
+"link": &"1_126",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_126": {
+"dialogue": "Okay that's fair.",
+"offset": Vector2(54839.5, 982.258),
+"options": {
+0: {
+"condition": {},
+"link": &"1_127",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_127": {
+"dialogue": "What the hell was its deal, do you think?",
+"offset": Vector2(55245.9, 998.679),
+"options": {
+0: {
+"condition": {},
+"link": &"1_128",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_128": {
+"dialogue": "I keep thinking…",
+"offset": Vector2(55620, 1000),
+"options": {
+0: {
+"condition": {},
+"link": &"1_129",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_129": {
+"dialogue": "Don’t you feel like it was trying to guide us?",
+"offset": Vector2(56000, 1000),
+"options": {
+0: {
+"condition": {},
+"link": &"1_130",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_13": {
+"dialogue": "(Has she figured out how to defeat it?)",
+"offset": Vector2(4244.18, 118.535),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_130": {
+"dialogue": "Huh. Now that you mention it… I can sort of see that.",
+"offset": Vector2(56400, 1020),
+"options": {
+0: {
+"condition": {},
+"link": &"1_131",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_131": {
+"dialogue": "What, like some kind of… magical girl animal mascot showing us the way?",
+"offset": Vector2(56760, 1040),
+"options": {
+0: {
+"condition": {},
+"link": &"1_132",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_132": {
+"dialogue": "I can’t even say that’s implausible. It [i]would[/i] explain how you got it to bring us that drawing.",
+"offset": Vector2(57140, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_133",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_133": {
+"dialogue": "Drawing?",
+"offset": Vector2(57500, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_134",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_134": {
+"dialogue": "Yeah. The one of the mural, with the solution to the puzzle.",
+"offset": Vector2(57900, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_135",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_135": {
+"dialogue": "I… don’t know what you’re talking about.",
+"offset": Vector2(58260, 1080),
+"options": {
+0: {
+"condition": {},
+"link": &"1_136",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_136": {
+"dialogue": "Huh. Weird. It really looked like one of yours.",
+"offset": Vector2(58660.5, 1133.13),
+"options": {
+0: {
+"condition": {},
+"link": &"1_137",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_137": {
+"dialogue": "It couldn’t have been anyone else’s. I assumed you saw another mural somewhere, figured out what it meant, and had the cat bring us the page.",
+"offset": Vector2(59040, 1120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_138",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_138": {
+"dialogue": "No…",
+"offset": Vector2(59400, 1120),
+"options": {
+0: {
+"condition": {},
+"link": &"1_139",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_139": {
+"dialogue": "My sketchbook isn’t missing any pages.",
+"offset": Vector2(59760, 1140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_140",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_14": {
+"dialogue": "Marl, keep it busy! Don’t let it get you!",
+"offset": Vector2(4680, -40),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_140": {
+"dialogue": "Then where did it come from?",
+"offset": Vector2(60100, 1160),
+"options": {
+0: {
+"condition": {},
+"link": &"1_141",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_141": {
+"dialogue": "Damn. Now I really wish we still had it.",
+"offset": Vector2(60440, 1180),
+"options": {
+0: {
+"condition": {},
+"link": &"1_142",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_142": {
+"dialogue": "What happened to it?",
+"offset": Vector2(60843.8, 1217.1),
+"options": {
+0: {
+"condition": {},
+"link": &"1_143",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_143": {
+"dialogue": "Uh… the cat sort of ate it.",
+"offset": Vector2(61250.6, 1265.61),
+"options": {
+0: {
+"condition": {},
+"link": &"1_144",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_144": {
+"dialogue": "Ate it?",
+"offset": Vector2(61620, 1260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_145",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_145": {
+"dialogue": "God, this has been a weird day.",
+"offset": Vector2(61999.8, 1298.27),
+"options": {
+0: {
+"condition": {},
+"link": &"1_146",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_146": {
+"dialogue": "…",
+"offset": Vector2(62387, 1334.66),
+"options": {
+0: {
+"condition": {},
+"link": &"1_147",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_147": {
+"dialogue": "This doesn't make any sense.",
+"offset": Vector2(62799.4, 1399.04),
+"options": {
+0: {
+"condition": {},
+"link": &"1_148",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_148": {
+"dialogue": "But I suppose… it’s probably not going to be the last mystery we can’t solve.",
+"offset": Vector2(63220.2, 1449.42),
+"options": {
+0: {
+"condition": {},
+"link": &"1_149",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 11
+},
+"1_149": {
+"dialogue": "You’re telling me. I’m going to lose my mind, Larissa. I’m seriously going to lose it.",
+"offset": Vector2(63631.3, 1502.37),
+"options": {
+0: {
+"condition": {},
+"link": &"1_150",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_15": {
+"dialogue": "Sean, get to those glowing rocks in the back! They have something to do with this!",
+"offset": Vector2(5107.24, -2.80518),
+"options": {
+0: {
+"condition": {},
+"link": &"1_93",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_150": {
+"dialogue": "You’ll be fine. We’re just gonna have to go with the flow.",
+"offset": Vector2(64069.7, 1518.51),
+"options": {
+0: {
+"condition": {},
+"link": &"1_151",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_151": {
+"dialogue": "After all of this…",
+"offset": Vector2(64485.7, 1557.01),
+"options": {
+0: {
+"condition": {},
+"link": &"1_152",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_152": {
+"dialogue": "We have to abandon a lot of assumptions we’ve made about the world.",
+"offset": Vector2(64900, 1540),
+"options": {
+0: {
+"condition": {},
+"link": &"1_153",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_153": {
+"dialogue": "That’s scary, in a way. But I think I’m grateful for it.",
+"offset": Vector2(65314, 1560.73),
+"options": {
+0: {
+"condition": {},
+"link": &"1_154",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_154": {
+"dialogue": "I think… we’re equipped, now, to understand more than we ever could have before.",
+"offset": Vector2(65715.2, 1593.02),
+"options": {
+0: {
+"condition": {},
+"link": &"1_155",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_155": {
+"dialogue": "Every tiny step towards a truth is worth it. Especially when it’s challenging.",
+"offset": Vector2(66165.9, 1594.26),
+"options": {
+0: {
+"condition": {},
+"link": &"1_156",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 13
+},
+"1_156": {
+"dialogue": "…Yeah. You’re right.",
+"offset": Vector2(66593.1, 1641.45),
+"options": {
+0: {
+"condition": {},
+"link": &"1_157",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_157": {
+"dialogue": "But I still want to understand what the hell happened here today. What the hell [i]is[/i] happening.",
+"offset": Vector2(67009.2, 1663.81),
+"options": {
+0: {
+"condition": {},
+"link": &"1_158",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_158": {
+"dialogue": "Whatever this is, I doubt this’ll be the last of it.",
+"offset": Vector2(67390.4, 1693.61),
+"options": {
+0: {
+"condition": {},
+"link": &"1_159",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_159": {
+"dialogue": "Yeah. And we’re gonna have to figure it out.",
+"offset": Vector2(67786.5, 1727.14),
+"options": {
+0: {
+"condition": {},
+"link": &"1_160",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_16": {
+"dialogue": "Woah, I’ve never seen her this authoritative before.",
+"offset": Vector2(5538.24, 21.1948),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_160": {
+"dialogue": "But in order to do that… I’m gonna have to accept that I don’t know a damn thing.",
+"offset": Vector2(68181.5, 1745.77),
+"options": {
+0: {
+"condition": {},
+"link": &"1_161",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_161": {
+"dialogue": "It'll be an adventure.",
+"offset": Vector2(68561.5, 1766.88),
+"options": {
+0: {
+"condition": {},
+"link": &"1_162",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_162": {
+"dialogue": "Yeah. A grand old adventure straight out of an RPG adventure module. Just the three of us on an epic quest to save the world or something.",
+"offset": Vector2(68976.2, 1792.96),
+"options": {
+0: {
+"condition": {},
+"link": &"1_163",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_163": {
+"dialogue": "Does that sound so bad?",
+"offset": Vector2(69384.8, 1838.91),
+"options": {
+0: {
+"condition": {},
+"link": &"1_164",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 13
+},
+"1_164": {
+"dialogue": "Nah.",
+"offset": Vector2(69784.7, 1897.27),
+"options": {
+0: {
+"condition": {},
+"link": &"1_165",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_165": {
+"dialogue": "It really doesn't.",
+"offset": Vector2(70200, 1920),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_17": {
+"dialogue": "GROOAH!",
+"offset": Vector2(5949.01, 54.3037),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_18": {
+"dialogue": "(It’s lunging towards her!)",
+"offset": Vector2(6348.31, 74.8737),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_19": {
+"dialogue": "Ah!",
+"offset": Vector2(6746.4, 83.3437),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_2": {
+"dialogue": "(This has to work…!)",
+"offset": Vector2(-60, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_20": {
+"dialogue": "(Thank god. She jumped out of there just in time.)",
+"offset": Vector2(7140, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": "LARISSA HAS DIED"
+},
+1: {
+"condition": {},
+"link": &"1_22",
+"text": "ELSE"
+}
+},
+"size": Vector2(300, 257),
+"speaker": 18
+},
+"1_21": {
+"dialogue": "(I hope she didn’t hurt her ankle this time…)",
+"offset": Vector2(7520, -160),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_22": {
+"dialogue": "Guys! Please...!",
+"offset": Vector2(7620, 160),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_23": {
+"dialogue": "(She sounds so desperate…)",
+"offset": Vector2(8072.46, 199.683),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_24": {
+"dialogue": "Larissa!",
+"offset": Vector2(8480, 200),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_25": {
+"dialogue": "Hey! Get off of her, you overgrown lizard!",
+"offset": Vector2(8940.67, 215.788),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_26": {
+"dialogue": "(Marl just charged it with their pocket knife! That is… not going to work. But if they can just grab its attention…)",
+"offset": Vector2(9360, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"3_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_27": {
+"dialogue": "Grah!",
+"offset": Vector2(10047.3, 242.142),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_28": {
+"dialogue": "Hey! Woah!",
+"offset": Vector2(10420, 220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_29": {
+"dialogue": "Come on, big guy! Gotta be faster than that!",
+"offset": Vector2(10814.2, 237.749),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_3": {
+"dialogue": "We really shouldn’t be sprinting like–",
+"offset": Vector2(300, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_30": {
+"dialogue": "Oh, crap. Oh, crap.",
+"offset": Vector2(11180, 240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_31": {
+"dialogue": "The rocks. Larissa said I had to get to the rocks…",
+"offset": Vector2(11553.7, 249.557),
+"options": {
+0: {
+"condition": {},
+"link": &"3_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_32": {
+"dialogue": "Sean scrambles to the back of the room. The Wyrm hears him and begins to turn its head, but Marl doesn’t let it look away from them.",
+"offset": Vector2(12176.9, 275.72),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_33": {
+"dialogue": "They grab a sharp, fist-sized rock off the ground, and hurl it into the Wyrm’s eye.",
+"offset": Vector2(12603.3, 282.242),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_34": {
+"dialogue": "Eyes up, you big jerk! This is between us!",
+"offset": Vector2(12983.2, 310.072),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_35": {
+"dialogue": "Its attention is drawn away just long enough.",
+"offset": Vector2(13388.5, 317.332),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_36": {
+"dialogue": "Sean reaches the glowing yellow crystal set into a grand relief on the farthest wall. He doesn’t know what he’s doing or why. But he follows his first instinct and reaches out for it.",
+"offset": Vector2(13769.7, 346.372),
+"options": {
+0: {
+"condition": {},
+"link": &"3_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_37": {
+"dialogue": "And all at once, a bright light envelops him.",
+"offset": Vector2(14340, 340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_38": {
+"dialogue": "Okay, whatever is happening, it’s NOT natural.",
+"offset": Vector2(14720, 340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_39",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_39": {
+"dialogue": "Or maybe I have to completely reevaluate what ‘natural’ is.",
+"offset": Vector2(15100, 340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_40",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_4": {
+"dialogue": "What is that!?",
+"offset": Vector2(687.983, -289.465),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_40": {
+"dialogue": "If I look at that way, it’s pretty exciting. There’s so much about the world I have left to learn.",
+"offset": Vector2(15460, 340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_41": {
+"dialogue": "But somehow, right now… I feel like I know everything I need to.",
+"offset": Vector2(15844, 348.126),
+"options": {
+0: {
+"condition": {},
+"link": &"3_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_42": {
+"dialogue": "Raw energy leaps from Sean’s fingertips. Real, actual magic, channeled by human hands. A part of me never believed we would get here. My predecessors spent decades studying it after the collapse, trying to find a way it could be used for humanity instead of against us. All of our methods were untrustworthy, unstable compromises. There was only one path we ever uncovered to using it effectively. And none of us could take it.",
+"offset": Vector2(16450.1, 353.552),
+"options": {
+0: {
+"condition": {},
+"link": &"1_43",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_43": {
+"dialogue": "It never seemed fair to me, that the power to save our world could only be wielded by a pack of long-dead nobodies who missed their shot a century ago. What a cruel, stupid irony. I still have a grudge against prophecy. The inscrutable hand of fate shouldn’t get to choose that some people are special and the rest of us aren’t. But those are the cards we were dealt.",
+"offset": Vector2(16849.1, 360.552),
+"options": {
+0: {
+"condition": {},
+"link": &"1_44",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_44": {
+"dialogue": "Maybe it doesn’t have to be this way, if these kids can stop the collapse. Maybe when I get back we’ll have used all the resources that weren’t destroyed or spent trying to keep those who were still left alive to finally crack it. Maybe we’ll at least have enough time to keep trying.",
+"offset": Vector2(17218.1, 357.552),
+"options": {
+0: {
+"condition": {},
+"link": &"1_45",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_45": {
+"dialogue": "Hell, maybe they’ll even solve all the capitalism while they’re at it. A traveler can dream.",
+"offset": Vector2(17587.1, 379.552),
+"options": {
+0: {
+"condition": {},
+"link": &"1_46",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_46": {
+"dialogue": "First, though, they’ve got to defeat the Wyrm. The great heroic trial. I don’t make the rules. I’m just happy that, for the first time in my life, I really think we might have a chance.",
+"offset": Vector2(17968.1, 394.552),
+"options": {
+0: {
+"condition": {},
+"link": &"3_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_47": {
+"dialogue": "The Wyrm has turned to face Sean. It knows it’s in real danger, for maybe the first time in history. Marl’s not going to be able to distract it anymore. But Sean doesn’t falter. He raises his hand, and a barrage of crackling orbs shoots out towards the Wyrm. They swirl through the air in a winding, mesmerizing pattern. And then they converge together to strike the yellow core embedded into the Wyrm’s shoulder.",
+"offset": Vector2(18620, 340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_48",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_48": {
+"dialogue": "It cracks and bursts apart with a resonating crunch like shattered glass. And for just a moment, the Wyrm stumbles.",
+"offset": Vector2(19041.4, 355.513),
+"options": {
+0: {
+"condition": {},
+"link": &"3_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_49": {
+"dialogue": "WRAAAOOO!!!",
+"offset": Vector2(19704.4, 370.513),
+"options": {
+0: {
+"condition": {},
+"link": &"1_50",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_5": {
+"dialogue": "!!!",
+"offset": Vector2(1338.77, -271.465),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_50": {
+"dialogue": "Sean, that was incredible! How the hell did you do that?",
+"offset": Vector2(20088.4, 396.513),
+"options": {
+0: {
+"condition": {},
+"link": &"1_51",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_51": {
+"dialogue": "Do NOT make me answer that right now!",
+"offset": Vector2(20500.4, 423.513),
+"options": {
+0: {
+"condition": {},
+"link": &"1_52",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_52": {
+"dialogue": "But just one core isn’t enough. It only takes a moment for the Wyrm to regain its footing. And then it opens its maw wide, and draws in its breath for a devastating attack.",
+"offset": Vector2(20900, 440),
+"options": {
+0: {
+"condition": {},
+"link": &"1_53",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": -1
+},
+"1_53": {
+"dialogue": "Uh oh.",
+"offset": Vector2(21284.4, 430.513),
+"options": {
+0: {
+"condition": {},
+"link": &"1_54",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_54": {
+"dialogue": "Responding to an instinct he didn’t know he had, Sean turns. He throws out his hands, and produces a burst of concussive force right in front of his own body.",
+"offset": Vector2(21667.4, 444.513),
+"options": {
+0: {
+"condition": {},
+"link": &"1_55",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_55": {
+"dialogue": "He sends himself flying back away from the Wyrm’s blast. The belching green ball of acidic flame from the Wyrm’s mouth detonates harmlessly on the ground, leaving dark black scorch marks over the cave floor. But Sean manages to slam himself into a wall, and I can tell it hurts.",
+"offset": Vector2(22040, 460),
+"options": {
+0: {
+"condition": {},
+"link": &"1_56",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_56": {
+"dialogue": "Oof!",
+"offset": Vector2(22436.6, 405.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_57",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_57": {
+"dialogue": "Sean! Hold on!",
+"offset": Vector2(22826.6, 417.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_58",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_58": {
+"dialogue": "Marl!",
+"offset": Vector2(23256.6, 425.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_59",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_59": {
+"dialogue": "Three weak points! Three stones on the wall!",
+"offset": Vector2(23678.6, 432.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_60",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_6": {
+"dialogue": "Is that a goddamn dragon?",
+"offset": Vector2(1720, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"3_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_60": {
+"dialogue": "So that means...!",
+"offset": Vector2(24077.6, 451.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_61",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_61": {
+"dialogue": "Okay! I got it!",
+"offset": Vector2(24478.6, 466.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_62",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_62": {
+"dialogue": "Watch out, you big scaly bastard! You aren't touching my friends!",
+"offset": Vector2(24863.6, 473.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_63",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_63": {
+"dialogue": "Without any hesitation, Marl sprints for the back wall. Sean’s experimenting rapidly with his magic as the Wyrm bears down on him, learning how to shield himself with barriers and slow the Wyrm with energy bursts and pillars of stone on the fly. Bringing it down will take all three together. But they’re buying Marl enough time for their moment.",
+"offset": Vector2(25261.6, 490.327),
+"options": {
+0: {
+"condition": {},
+"link": &"3_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_64": {
+"dialogue": "Another burst of light fills the room.",
+"offset": Vector2(25902.2, 483.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_65",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_65": {
+"dialogue": "Woah! Is this what it felt like for Sean?",
+"offset": Vector2(26280, 480),
+"options": {
+0: {
+"condition": {},
+"link": &"1_66",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_66": {
+"dialogue": "Ha. It’s funny. I’ve always worried that I wasn’t enough. That I had to be stronger, friendlier, more prepared. Ready to give as much of myself as I could to anyone who asked.",
+"offset": Vector2(26715.2, 504.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_67",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_67": {
+"dialogue": "It’s a hard standard to live up to. Always trying to prove yourself, even though deep down, you know you never will. Not the way you want to.",
+"offset": Vector2(27100, 500),
+"options": {
+0: {
+"condition": {},
+"link": &"1_68",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 2
+},
+"1_68": {
+"dialogue": "But I feel like I’m finally seeing things clearly. I don’t have anything to prove to anybody. Especially not to myself. For what I need…",
+"offset": Vector2(27502.2, 513.327),
+"options": {
+0: {
+"condition": {},
+"link": &"1_69",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_69": {
+"dialogue": "Yeah. I think this is gonna be more than enough.",
+"offset": Vector2(27891.2, 530.327),
+"options": {
+0: {
+"condition": {},
+"link": &"3_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_7": {
+"dialogue": "WROOOAAAR!",
+"offset": Vector2(2340, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_70": {
+"dialogue": "Marl turns to face the dragon. They reach out their hand. And a glowing red sword made of pulsing magical energy forms within it.",
+"offset": Vector2(28531.4, 553.857),
+"options": {
+0: {
+"condition": {},
+"link": &"1_71",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_71": {
+"dialogue": "All right, you kaiju wannabe creep. I’m getting fired up. This one’s not just for my friends. It’s for me.",
+"offset": Vector2(28964.6, 582.897),
+"options": {
+0: {
+"condition": {},
+"link": &"1_72",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_72": {
+"dialogue": "The Wyrm focuses its eyes on Marl. It charges at them. And they run in to meet it.
+",
+"offset": Vector2(29340, 600),
+"options": {
+0: {
+"condition": {},
+"link": &"3_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_73": {
+"dialogue": "But just as the Wyrm rears back to bring its claws down on Marl, they skid to a stop and raise their sword. At first they hold it sideways in front of them as if to guard, one hand on the hilt and the other holding the blade. But then they throw their arms to the side, ripping the sword in two. In a flash, the two sword halves reform themselves into a pair of large, sturdy shields made from the same magical force. They deflect the wyrm’s claws easily, and the sudden redirection makes it stumble. That’s all the opening Marl needs.",
+"offset": Vector2(29953, 590.933),
+"options": {
+0: {
+"condition": {},
+"link": &"1_74",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_74": {
+"dialogue": "With a quick shift of their stance, the shields shrink down into a pair of sharp-pointed daggers. Marl leaps up and sinks one of them straight into the Wyrm’s jaw. It screams and rages in pain, and starts to suck in air for another one of its burning acid blasts. But before it has the chance, Marl uses the dagger as a handhold to pull themselves up. They leap up with all their might and launch themselves towards the dragon’s forehead–and the faintly glowing red core positioned just above its eyes.",
+"offset": Vector2(30346.5, 588.392),
+"options": {
+0: {
+"condition": {},
+"link": &"1_75",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_75": {
+"dialogue": "Bullseye!",
+"offset": Vector2(30732.5, 591.054),
+"options": {
+0: {
+"condition": {},
+"link": &"1_76",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_76": {
+"dialogue": "They sink their dagger into the core, and it shatters with ease. The wyrm winces, and makes the mistake of closing its jaw just as it was about to launch its attack. The sickly green projectile detonates in its mouth, sending it stumbling back and knocking Marl off of its head.",
+"offset": Vector2(31178.4, 592.385),
+"options": {
+0: {
+"condition": {},
+"link": &"3_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_77": {
+"dialogue": "Agh!",
+"offset": Vector2(31800, 580),
+"options": {
+0: {
+"condition": {},
+"link": &"1_78",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_78": {
+"dialogue": "They smack into the ground, their weapons still stuck in the Wyrm’s head. But that’s not enough to slow them down anymore. They leap back up onto their feet, and the daggers vanish as their sword reappears in their hand.",
+"offset": Vector2(32200.8, 576.413),
+"options": {
+0: {
+"condition": {},
+"link": &"1_79",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_79": {
+"dialogue": "Come on! I can go all day!",
+"offset": Vector2(32601.4, 585.73),
+"options": {
+0: {
+"condition": {},
+"link": &"1_80",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_8": {
+"dialogue": "Sean, run! It’s coming this way!",
+"offset": Vector2(2720, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_80": {
+"dialogue": "The Wyrm recovers as quickly as they do. But it doesn’t fall for their taunt. It has other ideas.",
+"offset": Vector2(33030, 584.399),
+"options": {
+0: {
+"condition": {},
+"link": &"1_81",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_81": {
+"dialogue": "There’s only one core left. The Wyrm is getting desperate. It’s a vicious, malicious force, but it isn’t stupid. It knows Larissa is the only one who can strike the final blow. But she’s had more than enough time to reach her Heart…",
+"offset": Vector2(33482.6, 597.709),
+"options": {
+0: {
+"condition": {},
+"link": &"1_82",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_82": {
+"dialogue": "Except for the limp.",
+"offset": Vector2(33880, 600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_83",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_83": {
+"dialogue": "She hurt her ankle when she fell out of her hiding place. She’s been doing her best to get there, wincing with every step, but she isn’t fast enough.",
+"offset": Vector2(34260, 600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_84",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_84": {
+"dialogue": "I can see the flow of time sprawling out before me. It’s going to push past Marl and Sean and snatch her. They won’t be strong enough to stop it with just the two of them. And Larissa will be snatched up, just a few mere steps away from the Heart.",
+"offset": Vector2(34680, 600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_85",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": -1
+},
+"1_85": {
+"dialogue": "I don’t have a choice. I have to slow it down.",
+"offset": Vector2(35080, 580),
+"options": {
+0: {
+"condition": {},
+"link": &"1_86",
+"text": "MEOW!"
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_86": {
+"dialogue": "[b]MEOW!!![/b]",
+"offset": Vector2(35500, 620),
+"options": {
+0: {
+"condition": {},
+"link": &"3_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_87": {
+"dialogue": "With all the might this body can bear, I throw myself at the Wyrm. My claws sink into its scales, and I bite at its hide with my teeth. I know I can’t hurt it, not really. But I just have to distract it. Annoy it. Make it do anything but–",
+"offset": Vector2(36116.5, 629.273),
+"options": {
+0: {
+"condition": {},
+"link": &"1_88",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_88": {
+"dialogue": "The leg I’m clamped onto lifts up. I cling even tighter. But then it swings down hard, and despite my best efforts, it throws me off.",
+"offset": Vector2(36510.5, 631.273),
+"options": {
+0: {
+"condition": {},
+"link": &"1_89",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_89": {
+"dialogue": "Pain shoots through my body as I slam into the stone ground. My stomach lurches as I bounce and land still in a heap. I think I’m bleeding.",
+"offset": Vector2(36900, 620),
+"options": {
+0: {
+"condition": {},
+"link": &"1_90",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_9": {
+"dialogue": "We can’t run! We have to fight!",
+"offset": Vector2(3091.18, -237.465),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_90": {
+"dialogue": "I hope I did enough.",
+"offset": Vector2(37300, 620),
+"options": {
+0: {
+"condition": {},
+"link": &"1_91",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_91": {
+"dialogue": "The Wyrm turns towards Larissa.",
+"offset": Vector2(37703.5, 633.273),
+"options": {
+0: {
+"condition": {},
+"link": &"3_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_92": {
+"dialogue": "Just as her hand touches the Heart.",
+"offset": Vector2(38358.5, 645.273),
+"options": {
+0: {
+"condition": {},
+"link": &"1_94",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_93": {
+"dialogue": "(The [b]Heroes' Hearts[/b]...!)",
+"offset": Vector2(5328.08, 395.373),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_94": {
+"dialogue": "…",
+"offset": Vector2(38803.4, 653.347),
+"options": {
+0: {
+"condition": {},
+"link": &"1_95",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_95": {
+"dialogue": "What a strange sensation…",
+"offset": Vector2(39220, 640),
+"options": {
+0: {
+"condition": {},
+"link": &"1_96",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_96": {
+"dialogue": "Everything’s moving so quickly. It’s taken everything I have to keep up. To keep pushing forward.",
+"offset": Vector2(39660, 640),
+"options": {
+0: {
+"condition": {},
+"link": &"1_97",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_97": {
+"dialogue": " But suddenly, it’s as though the world has finally gone still. I can calm myself. Take my time to think.",
+"offset": Vector2(40060, 600),
+"options": {
+0: {
+"condition": {},
+"link": &"1_98",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 13
+},
+"1_98": {
+"dialogue": "Because no matter how fast things are moving. I know that I’m faster.",
+"offset": Vector2(40500, 660),
+"options": {
+0: {
+"condition": {},
+"link": &"3_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_99": {
+"dialogue": "I watch her as she turns and stares up at the Wyrm. It doesn’t look like the ankle’s bothering her anymore. The world around her seems frozen, and she treads through it with the same careful, ponderous curiosity she always has.",
+"offset": Vector2(41258.3, 693.043),
+"options": {
+0: {
+"condition": {},
+"link": &"1_100",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"2_1": {
+"comment": "BACKGROUNDS
+BG 7
+BG 7 DISTANT
+BG 7 ATTACK
+BG 7 DISTANT
+BG 7 ATTACK
+BG 7 DISTANT
+WHITE
+BG 7 DISTANT
+BG 7 ATTACK
+BG 7 DISTANT
+WHITE
+BG 7 DISTANT
+BG 7 ATTACK
+BG 7 DISTANT
+BG 7 ATTACK
+WHITE
+BG 7 DISTANT
+BG 7 DEAD
+BLACK
+BG 4 ENTRY",
+"offset": Vector2(-748.017, -145.465),
+"size": Vector2(220, 560)
+},
+"2_2": {
+"comment": "MUSIC
+tension
+title
+chill",
+"offset": Vector2(-960, -140),
+"size": Vector2(200, 140)
+},
+"2_3": {
+"comment": "The first of only two variations in this dialog tree.",
+"offset": Vector2(3420, 80),
+"size": Vector2(380, 180)
+},
+"2_4": {
+"comment": "The very last bit of branching dialog.",
+"offset": Vector2(6840, 420),
+"size": Vector2(280, 140)
+},
+"2_5": {
+"comment": "I've put a dialog box here to be our list of credits.
+I'm not sure how you want to handle this but I figured I'd put a spot for it.",
+"offset": Vector2(51540, 780),
+"size": Vector2(540, 120)
+},
+"3_1": {
+"link": &"1_5",
+"offset": Vector2(1055.98, -146.465),
+"signalValue": "advanceBackground"
+},
+"3_10": {
+"link": &"1_49",
+"offset": Vector2(19429.4, 479.513),
+"signalValue": "backgroundAdvance"
+},
+"3_11": {
+"link": &"1_64",
+"offset": Vector2(25620, 580),
+"signalValue": "advanceBackground"
+},
+"3_12": {
+"link": &"1_70",
+"offset": Vector2(28253.1, 689.377),
+"signalValue": "advanceBackground"
+},
+"3_13": {
+"link": &"1_73",
+"offset": Vector2(29680, 700),
+"signalValue": "advanceBackground"
+},
+"3_14": {
+"link": &"1_77",
+"offset": Vector2(31540, 720),
+"signalValue": "advanceBackground"
+},
+"3_15": {
+"link": &"1_87",
+"offset": Vector2(35840, 720),
+"signalValue": "advanceBackground"
+},
+"3_16": {
+"link": &"1_92",
+"offset": Vector2(38074.5, 794.273),
+"signalValue": "advanceBackground"
+},
+"3_17": {
+"link": &"1_99",
+"offset": Vector2(40959.7, 813.1),
+"signalValue": "advanceBackground"
+},
+"3_18": {
+"link": &"3_19",
+"offset": Vector2(43933.3, 984.399),
+"signalValue": "mute"
+},
+"3_19": {
+"link": &"1_105",
+"offset": Vector2(44208.5, 905.338),
+"signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_1",
+"offset": Vector2(-656.017, -234.465),
+"signalValue": "play"
+},
+"3_20": {
+"link": &"3_21",
+"offset": Vector2(46600, 960),
+"signalValue": "advanceSong"
+},
+"3_21": {
+"link": &"1_110",
+"offset": Vector2(46863.2, 894.129),
+"signalValue": "play"
+},
+"3_22": {
+"link": &"3_23",
+"offset": Vector2(50900, 1000),
+"signalValue": "advanceBackground"
+},
+"3_23": {
+"link": &"1_119",
+"offset": Vector2(50960, 1200),
+"signalValue": "mute"
+},
+"3_24": {
+"link": &"3_25",
+"offset": Vector2(52060, 1100),
+"signalValue": "advanceSong"
+},
+"3_25": {
+"link": &"3_26",
+"offset": Vector2(52300, 1060),
+"signalValue": "play"
+},
+"3_26": {
+"link": &"1_121",
+"offset": Vector2(52540.2, 986.847),
+"signalValue": "advanceBackground"
+},
+"3_3": {
+"link": &"1_7",
+"offset": Vector2(2060, -140),
+"signalValue": "advanceBackground"
+},
+"3_4": {
+"link": &"1_11",
+"offset": Vector2(3828.39, -418.692),
+"signalValue": "advanceBackground"
+},
+"3_5": {
+"link": &"1_27",
+"offset": Vector2(9755.92, 327.059),
+"signalValue": "advanceBackground"
+},
+"3_6": {
+"link": &"1_32",
+"offset": Vector2(11914.9, 365.03),
+"signalValue": "advanceBackground"
+},
+"3_7": {
+"link": &"1_37",
+"offset": Vector2(14100, 460),
+"signalValue": "advanceBackground"
+},
+"3_8": {
+"link": &"1_42",
+"offset": Vector2(16200, 489.126),
+"signalValue": "advanceBackground"
+},
+"3_9": {
+"link": &"1_47",
+"offset": Vector2(18320, 500),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5"])
+characters = "res://res/assets/Characters.tres"

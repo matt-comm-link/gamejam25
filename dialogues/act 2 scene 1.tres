@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-562, -259),
+"link": &"3_3",
+"offset": Vector2(-840, -260),
 "start_id": "start"
 },
 "1_1": {
@@ -266,7 +266,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_1",
+"link": &"3_8",
 "text": ""
 }
 },
@@ -357,7 +357,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_2",
+"link": &"3_9",
 "text": ""
 }
 },
@@ -981,7 +981,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_74",
+"link": &"3_5",
 "text": "MEOW!"
 },
 1: {
@@ -990,7 +990,7 @@ nodes = {
 "text": "Do nothing."
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_73": {
@@ -1155,7 +1155,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_85",
+"link": &"3_6",
 "text": ""
 }
 },
@@ -1385,6 +1385,14 @@ I will let you wire that up, or ask how to do it tomorrow.",
 "offset": Vector2(23140, 700),
 "size": Vector2(500, 140)
 },
+"2_3": {
+"comment": "MUSIC
+title
+mysterious
+chill",
+"offset": Vector2(-980, -100),
+"size": Vector2(240, 140)
+},
 "3_1": {
 "link": &"1_23",
 "offset": Vector2(7198.32, -120.582),
@@ -1394,8 +1402,43 @@ I will let you wire that up, or ask how to do it tomorrow.",
 "link": &"1_30",
 "offset": Vector2(9862.74, -105.036),
 "signalValue": "advanceBackground"
+},
+"3_3": {
+"link": &"1_1",
+"offset": Vector2(-620, -200),
+"signalValue": "play"
+},
+"3_4": {
+"link": &"3_2",
+"offset": Vector2(9860, 20),
+"signalValue": "play"
+},
+"3_5": {
+"link": &"1_74",
+"offset": Vector2(12371.2, 663.594),
+"signalValue": "mute"
+},
+"3_6": {
+"link": &"3_7",
+"offset": Vector2(16180.6, 1024.29),
+"signalValue": "advanceSong"
+},
+"3_7": {
+"link": &"1_85",
+"offset": Vector2(16402.8, 968.393),
+"signalValue": "play"
+},
+"3_8": {
+"link": &"3_1",
+"offset": Vector2(7158.54, 117.884),
+"signalValue": "mute"
+},
+"3_9": {
+"link": &"3_4",
+"offset": Vector2(9796.15, 164.469),
+"signalValue": "advanceSong"
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2"])
+strays = Array[String](["2_1", "2_2", "2_3"])
 characters = "res://res/assets/Characters.tres"

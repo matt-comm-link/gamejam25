@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-483, -162),
+"link": &"3_3",
+"offset": Vector2(-800, -160),
 "start_id": "start"
 },
 "1_1": {
@@ -548,7 +548,7 @@ nodes = {
 "text": "HAVE SEEN SCENE 5"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 10
 },
 "1_19": {
@@ -592,7 +592,7 @@ nodes = {
 "text": "ELSE"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 10
 },
 "1_21": {
@@ -1139,7 +1139,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_60",
+"link": &"3_2",
 "text": ""
 }
 },
@@ -1174,7 +1174,7 @@ nodes = {
 "text": "ELSE"
 }
 },
-"size": Vector2(300, 256),
+"size": Vector2(300, 289),
 "speaker": ""
 },
 "1_61": {
@@ -1348,7 +1348,7 @@ nodes = {
 "text": "ELSE"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_73": {
@@ -1487,7 +1487,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_83",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -1579,7 +1579,7 @@ nodes = {
 "text": "Play it safe."
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_89": {
@@ -1765,12 +1765,33 @@ BG 6 SNAKE",
 "offset": Vector2(20720, 580),
 "size": Vector2(420, 100)
 },
+"2_6": {
+"comment": "MUSIC
+mysterious",
+"offset": Vector2(-840, 40),
+"size": Vector2(200, 160)
+},
 "3_1": {
 "link": &"1_75",
 "offset": Vector2(23600, 240),
 "signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_60",
+"offset": Vector2(18861.2, -225.522),
+"signalValue": "play"
+},
+"3_3": {
+"link": &"1_1",
+"offset": Vector2(-520, -140),
+"signalValue": "mute"
+},
+"3_4": {
+"link": &"1_83",
+"offset": Vector2(26485.9, 571.502),
+"signalValue": "mute"
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5"])
+strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5", "2_6"])
 characters = "res://res/assets/Characters.tres"

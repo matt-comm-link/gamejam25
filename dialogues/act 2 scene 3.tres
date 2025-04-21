@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-540, -260),
+"link": &"3_1",
+"offset": Vector2(-820, -280),
 "start_id": "start"
 },
 "1_1": {
@@ -366,7 +366,7 @@ nodes = {
 "text": "HAVE SEEN SCENE 2"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 4
 },
 "1_34": {
@@ -549,11 +549,11 @@ nodes = {
 },
 1: {
 "condition": {},
-"link": &"1_67",
+"link": &"3_3",
 "text": "HAVE SEEN SCENE 3"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 4
 },
 "1_47": {
@@ -562,7 +562,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_48",
+"link": &"3_2",
 "text": ""
 }
 },
@@ -792,7 +792,7 @@ nodes = {
 "text": "HAVE SEEN SCENE 2"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 19
 },
 "1_63": {
@@ -888,7 +888,7 @@ nodes = {
 "text": "Stay quiet."
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_7": {
@@ -1215,10 +1215,31 @@ This one's maybe optional.",
 "2_5": {
 "comment": "We may not need to give the player the option to arbitrarily do the wrong thing here.
 I wrote a contingency for it just in case.",
-"offset": Vector2(14760, 780),
+"offset": Vector2(14760, 800),
 "size": Vector2(600, 100)
+},
+"2_6": {
+"comment": "MUSIC
+chill",
+"offset": Vector2(-840, -80),
+"size": Vector2(200, 100)
+},
+"3_1": {
+"link": &"1_1",
+"offset": Vector2(-580, -200),
+"signalValue": "play"
+},
+"3_2": {
+"link": &"1_48",
+"offset": Vector2(15118.7, -48),
+"signalValue": "mute"
+},
+"3_3": {
+"link": &"1_67",
+"offset": Vector2(14540, 600),
+"signalValue": "mute"
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5"])
+strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_6", "2_5"])
 characters = "res://res/assets/Characters.tres"
