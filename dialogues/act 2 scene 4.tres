@@ -1,0 +1,480 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://cla35eu6si47f"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_p1rwf"]
+
+[resource]
+script = ExtResource("1_p1rwf")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-961, -187),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "Sean! What happened!? Did you figure it out?",
+"offset": Vector2(-740, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_10": {
+"dialogue": "That symbol...",
+"offset": Vector2(2160, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_11": {
+"dialogue": "(She’s looking at the Wyrm’s symbol on the doorway. The same one she drew in her notebook…)",
+"offset": Vector2(2480, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_12": {
+"dialogue": "Oh, yeah. I don’t know what’s up with that. It kinda looks like a dragon, doesn’t it?",
+"offset": Vector2(2800, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_13": {
+"dialogue": "Huh. Yeah. I guess it kind of does.",
+"offset": Vector2(3120, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_14": {
+"dialogue": "…",
+"offset": Vector2(3440, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_15": {
+"dialogue": "Larissa? Did you… notice something?",
+"offset": Vector2(3760, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_16": {
+"dialogue": "Oh. No. I don’t think so. Not yet, at least.",
+"offset": Vector2(4080, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_17": {
+"dialogue": "Okay. Well, uh… if you do. I’ll be sure to listen this time.",
+"offset": Vector2(4400, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_18": {
+"dialogue": "I’m sorry I got impatient. This whole situation… I mean, I got flustered. I still kinda am.",
+"offset": Vector2(4720, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 14
+},
+"1_19": {
+"dialogue": "I mean if I actually think about and try to explain where this… cave entrance or whatever just suddenly appeared from I’m probably gonna lose my mind.",
+"offset": Vector2(5040, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_2": {
+"dialogue": "I did! Well, sort of. I solved the puzzle.",
+"offset": Vector2(-400, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 7
+},
+"1_20": {
+"dialogue": "So I’m making myself roll with it. And, well, you know I’m not good at rolling with things.",
+"offset": Vector2(5360, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_21": {
+"dialogue": "It’s all right. There are things that are hard for all of us.",
+"offset": Vector2(5680, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_22": {
+"dialogue": "Yeah, but I still shouldn’t have gotten frustrated with you. You’re my friend. I know you just need a little time to think things through. I owe it to you to be more patient.",
+"offset": Vector2(6000, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_23": {
+"dialogue": " I appreciate that.",
+"offset": Vector2(6320, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 13
+},
+"1_24": {
+"dialogue": "I’m glad you two are making up.",
+"offset": Vector2(6640, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_25": {
+"dialogue": "But, uh. What are we gonna do about the cave?",
+"offset": Vector2(6960, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_26": {
+"dialogue": "We probably have to go in. I’m not exactly happy about it. But something is happening here that defies explanation and I’m just gonna be too damn curious if we walk away without even making sure it’s real.",
+"offset": Vector2(7280, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_27": {
+"dialogue": "I’m glad I don’t have to convince you. But we’re doing this safe, all right? No running or jumping, no touching anything, no squeezing, and absolutely stay away from any water you find.",
+"offset": Vector2(7600, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_28": {
+"dialogue": "We’ll do a careful exploration of what we can access easily, and we won’t go anywhere we can’t easily get back here from. Agreed?",
+"offset": Vector2(7920, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_29": {
+"dialogue": "Works for me.",
+"offset": Vector2(8240, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_3": {
+"dialogue": "I noticed the weird lights moved as I turned the dial on the stone disc thing. I had to, like, get these two overlapping phases to line up? But once I did this appeared!",
+"offset": Vector2(-80, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_30": {
+"dialogue": "…Understood.",
+"offset": Vector2(8560, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_31": {
+"dialogue": "Okay then. Everybody grab a light and we’ll head in. Nothing ventured, nothing gained. But, uh…",
+"offset": Vector2(8880, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_32": {
+"dialogue": "I dunno, something about being prepared. I thought I’d have a better way to tie up that thought.",
+"offset": Vector2(9200, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_33": {
+"dialogue": "Whatever happens, I’m not letting any of us get hurt. That’s what’s important.",
+"offset": Vector2(9520, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_34": {
+"dialogue": "(Funny. I thought that was my job.)",
+"offset": Vector2(9840, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_35": {
+"dialogue": "(They’re getting close now. It’s not gonna be easy making sure these nerds can defeat the Wyrm. But I can’t fail here!)",
+"offset": Vector2(10160, -240),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_4": {
+"dialogue": "That must have been the light…",
+"offset": Vector2(240, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_5": {
+"dialogue": "Oh, yeah. There was a bright flash when I saw it. Did you see it?",
+"offset": Vector2(560, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_6": {
+"dialogue": "We did. We were worried something might have happened to you, so we ran back here.",
+"offset": Vector2(880, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_7": {
+"dialogue": "Aww. At least, I think that’s an aww.",
+"offset": Vector2(1200, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_8": {
+"dialogue": "It was a you care about my safety thing, not a you think I can’t handle myself thing, right?",
+"offset": Vector2(1520, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_9": {
+"dialogue": "Of course it was, you goof.",
+"offset": Vector2(1840, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"2_1": {
+"comment": "BACKGROUNDS
+BG 4 ENTRY",
+"offset": Vector2(-1040, -40),
+"size": Vector2(200, 120)
+}
+}
+variables = {}
+strays = Array[String](["2_1"])
+characters = "res://res/assets/Characters.tres"

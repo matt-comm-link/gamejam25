@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://b41827146cuct"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_f2gey"]
+
+[resource]
+script = ExtResource("1_f2gey")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-460, -240),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "These three really just want to do EVERYTHING wrong, don’t they?",
+"offset": Vector2(-220, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "...Doesn’t help that the turning took so much longer than anybody thought.",
+"offset": Vector2(100, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_3": {
+"dialogue": "Well, whatever. They should be back on the right course now. Let’s make sure they don’t mess it up any further.",
+"offset": Vector2(420, -280),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/assets/Characters.tres"

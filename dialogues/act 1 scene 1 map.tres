@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://ciyqu0l40w6v3"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_rbcsd"]
+
+[resource]
+script = ExtResource("1_rbcsd")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-512, -283),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "I’ll just have to find out for myself.",
+"offset": Vector2(-250, -237),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "Now, where’s the next junction in the timeline…?",
+"offset": Vector2(118, -189),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_3": {
+"dialogue": "Perfect. Let’s join the moment and see what they do next.",
+"offset": Vector2(510, -171),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/assets/Characters.tres"

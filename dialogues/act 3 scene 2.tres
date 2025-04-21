@@ -1,0 +1,409 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://cspcevp68coxt"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_2nvra"]
+
+[resource]
+script = ExtResource("1_2nvra")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-455, -164),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "...",
+"offset": Vector2(-220, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_10": {
+"dialogue": "(She’s climbing up into that crevice… she’s got the right idea. I should follow her, and quick!)",
+"offset": Vector2(3120, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_11": {
+"dialogue": "…",
+"offset": Vector2(3460, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_12": {
+"dialogue": "……",
+"offset": Vector2(3800, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_13": {
+"dialogue": "…",
+"offset": Vector2(4120, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_14": {
+"dialogue": "(She’s been drawing this whole time… quickly, too. It’s a good thing the [b]Heroes’ Hearts[/b] are giving this place some light.)",
+"offset": Vector2(4440, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_15": {
+"dialogue": "(What has she figured out so far?)",
+"offset": Vector2(4780, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_16": {
+"dialogue": "…",
+"offset": Vector2(5120, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_17": {
+"dialogue": "(Huh. Even from here, she’s putting it together. She’s identified its cores… and she can tell the Hearts are the key to destroying them.)",
+"offset": Vector2(5480, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_18": {
+"dialogue": "…",
+"offset": Vector2(5840, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_19": {
+"dialogue": "(But it’s not gonna mean anything if we can’t get her out of here. Or get Marl and Sean to join her. I don’t know how we’re going to do that. We’re safe for the moment, but the second we try to sneak back out we’re done for.)",
+"offset": Vector2(6180, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_2": {
+"dialogue": "(She’s being careful. There’s that at least. But this is still dangerous. The Wyrm has to be close. Anything I do to get her attention at this point is going to draw it, too…)",
+"offset": Vector2(140, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_20": {
+"dialogue": "…",
+"offset": Vector2(6520, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_21": {
+"dialogue": "…!",
+"offset": Vector2(6840, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_22": {
+"dialogue": "Larissa shifts where she’s crouching out of sight. Maybe she’s had the same thought I had. Maybe she’s looking for a way to sneak out. Or maybe it was just dumb, dumb bad luck. Crumbling ruins never meant to stand this long, waiting for heroes that never seemed to show up. I don’t have time to figure it out. A loose stone gives out under her feet, and she falls onto the hard, rocky ground below.",
+"offset": Vector2(7200, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_23": {
+"dialogue": "The Wyrm roars. Its wings spread out wide, blacking out the light from the Hearts. Death’s shadow falls over Larissa. I know there’s nothing I can do to save her. But I have to try.",
+"offset": Vector2(7560, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_24": {
+"dialogue": "I leap out from our hiding place. It’s easy for me. That’s one advantage of this form. But there’s nothing I can do to stop the Wyrm. I throw myself at it, trying to buy Larissa time. It bats me away like the pest I am. I can barely hear the crunch of my ribs breaking over my own yowls of pain and desperation. When my tiny body hits the rock wall of the cavern, I barely feel anything at all. It isn’t a good sign. I know my limbs won’t work again even before I try them.",
+"offset": Vector2(7920, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_25": {
+"dialogue": "I watch Larissa struggle to her feet. She’s trying to run. But she twisted her ankle in the fall. I can barely move my neck. I have to watch as that horrible, menacing shape falls on her. Claws gouge her back and she falls. The Wyrm steps on her, and I hear her squeak in fear. That thoughtful, careful intelligence has left her eyes. What’s happening is too much for her to process. In her last moments, all she has is confusion and terror.",
+"offset": Vector2(8260, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_26": {
+"dialogue": "The Wyrm’s claws pierce her back. It picks her up. And I can’t watch.",
+"offset": Vector2(8620, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_27": {
+"dialogue": "I have to leave.",
+"offset": Vector2(8980, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_28": {
+"dialogue": "I have to leave.",
+"offset": Vector2(9340, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_29": {
+"dialogue": "I have to.",
+"offset": Vector2(9700, -240),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_3": {
+"dialogue": "!",
+"offset": Vector2(480, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_4": {
+"dialogue": "(She shut off her light! Did she see something?)",
+"offset": Vector2(820, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_5": {
+"dialogue": "(Wait… in the distance… there’s light down here…)",
+"offset": Vector2(1140, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_6": {
+"dialogue": "⠀",
+"offset": Vector2(1760, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": -1
+},
+"1_7": {
+"dialogue": "(!)",
+"offset": Vector2(2100, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_8": {
+"dialogue": "(It’s here! But it hasn’t noticed us. We have to run, or hide, or…)",
+"offset": Vector2(2440, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_9": {
+"dialogue": "…",
+"offset": Vector2(2780, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"2_1": {
+"comment": "BACKGROUNDS
+BG 7
+BG 7 DISTANT
+BLACK",
+"offset": Vector2(-540, 0),
+"size": Vector2(260, 200)
+},
+"3_1": {
+"link": &"1_6",
+"offset": Vector2(1500, -160),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1"])
+characters = "res://res/assets/Characters.tres"

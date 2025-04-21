@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://c84c3ivlb71hk"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_yq33s"]
+
+[resource]
+script = ExtResource("1_yq33s")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-500, -283),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "Mission accomplished. The future should be back on track.",
+"offset": Vector2(-280, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "...Assuming those three can handle the rest on their own.",
+"offset": Vector2(80, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_3": {
+"dialogue": "...",
+"offset": Vector2(440, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_4": {
+"dialogue": "It's a pretty big assumption.",
+"offset": Vector2(800, -260),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_5": {
+"dialogue": "Maybe I should hop into the next junction. Just to see how they’re getting along.",
+"offset": Vector2(1140, -260),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/assets/Characters.tres"

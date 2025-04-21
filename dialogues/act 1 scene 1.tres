@@ -1,0 +1,654 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://wp3we8c10rh"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_7t1ul"]
+
+[resource]
+script = ExtResource("1_7t1ul")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-420, -340),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "I just don’t think Winged Wizard works as a strategy in the current format. Your draw and filtering aren’t half as good as Beanstalkers’ raw advantage and you can’t out-tempo Demon Drive.",
+"offset": Vector2(-120, -360),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_10": {
+"dialogue": "At this angle, the light has to travel through more of the atmosphere to reach your eye. The air scatters the light. So from our perspective, it looks red.",
+"offset": Vector2(3320, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_11": {
+"dialogue": "And when it shines through the trees… it catches their leaves. The light casts them differently. The edges have a soft glow, and it highlights the veins inside.",
+"offset": Vector2(3700, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_12": {
+"dialogue": "There's nothing quite like it in the whole world.",
+"offset": Vector2(4100, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_13": {
+"dialogue": "Huh. I guess there isn’t.",
+"offset": Vector2(4460, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_14": {
+"dialogue": "...",
+"offset": Vector2(4820, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_16",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_16": {
+"dialogue": "...",
+"offset": Vector2(5540, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_17": {
+"dialogue": "Wait. Sunset.",
+"offset": Vector2(5920, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"3_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_18": {
+"dialogue": "We should set up camp. It’s gonna get cold sooner than we expect. This should be a legal site, so long as we dig a proper fire pit. Larissa, do you wanna help–",
+"offset": Vector2(6337.11, -268.602),
+"options": {
+0: {
+"condition": {},
+"link": &"1_19",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_19": {
+"dialogue": "...",
+"offset": Vector2(6791.36, -251.625),
+"options": {
+0: {
+"condition": {},
+"link": &"1_20",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_2": {
+"dialogue": "Okay to be fair the Devil’s Combustion engine is a crime against God and nature. Literally I guess.",
+"offset": Vector2(260, -360),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_20": {
+"dialogue": "Okay, you're gonna draw. That's cool. Sean, come help me with the camp.",
+"offset": Vector2(7260, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_21": {
+"dialogue": "Right. Sure. You know it's funny they named camping after the worst part.",
+"offset": Vector2(7660, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_22",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_22": {
+"dialogue": "It's a bit of work, but it's not so bad. Tell you what, I'll do the tents if you take care of the fire.",
+"offset": Vector2(8040, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_23": {
+"dialogue": "All right, all right. Might as well use those regulations you made me memorize.",
+"offset": Vector2(8431.18, -211.973),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_24": {
+"dialogue": "Do you want Smokey to kick your ass? Because Smokey WILL kick your ass.",
+"offset": Vector2(8815.73, -187.427),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_25": {
+"dialogue": "I could take him.",
+"offset": Vector2(9177.55, -170.155),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_26": {
+"dialogue": "You can try but I am not betting on you, bud.",
+"offset": Vector2(9539.37, -160.155),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_27": {
+"dialogue": "Meow.",
+"offset": Vector2(9913.91, -136.518),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_28": {
+"dialogue": "...Was that you, Larissa?",
+"offset": Vector2(10297.5, -94.7),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_29": {
+"dialogue": "No.",
+"offset": Vector2(10697.7, -67.6085),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_3": {
+"dialogue": "I dunno. I hope rotation will help, and losing the Dreadlord Animator does shut down the most miserable matchup, but the real problem cards aren’t going anywhere. The best stuff is so cheap and efficient and hard to remove that it just crowds out like, uh…",
+"offset": Vector2(680, -340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_30": {
+"dialogue": "Meow meow.",
+"offset": Vector2(11063.8, -44.1829),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_31": {
+"dialogue": "I think it was the cat.",
+"offset": Vector2(11463.5, -19.2932),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_32": {
+"dialogue": "Mrow.",
+"offset": Vector2(11855.9, 2.66829),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_33": {
+"dialogue": "She's tagged.",
+"offset": Vector2(12252.6, 37.8067),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_34": {
+"dialogue": "What kind of negligent jerk would bring their pet all the way out here?",
+"offset": Vector2(12620, 40),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_35": {
+"dialogue": "Is there an address?",
+"offset": Vector2(13028.6, 90.5143),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_36": {
+"dialogue": "No. It says…",
+"offset": Vector2(13399, 141.758),
+"options": {
+0: {
+"condition": {},
+"link": &"1_37",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_37": {
+"dialogue": "‘Not lost. Just free.’",
+"offset": Vector2(13779.7, 244.245),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_38": {
+"dialogue": "How strange…",
+"offset": Vector2(14145.7, 276.455),
+"options": {
+0: {
+"condition": {},
+"link": &"1_39",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_39": {
+"dialogue": "What could that possibly mean?",
+"offset": Vector2(14520, 280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_40",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_4": {
+"dialogue": "Hm.",
+"offset": Vector2(1100, -360),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_40": {
+"dialogue": "It means somebody let the most ignorant kind of vegan adopt a cat. They must have decided letting it wander around the woods alone was ‘natural’ instead of the complete opposite.",
+"offset": Vector2(14882.1, 305.737),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_41": {
+"dialogue": "She is her own creature, though. Shouldn’t she be free to do what she wants?",
+"offset": Vector2(15249.6, 383.334),
+"options": {
+0: {
+"condition": {},
+"link": &"1_42",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 16
+},
+"1_42": {
+"dialogue": "What it wants is to prey on anything smaller than it until it gets sick or hurt and the local food chain is all kinds of messed up. A domesticated housecat isn’t native to the woods. Letting it loose like this is bad for the cat and the environment.",
+"offset": Vector2(15640.5, 418.473),
+"options": {
+0: {
+"condition": {},
+"link": &"1_43",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
+"1_43": {
+"dialogue": "Well, she seems comfortable enough around us. Let’s give her some food and try to convince her to stick around. If we can keep her with us we can bring her to a shelter once we’re back in town.",
+"offset": Vector2(16014.5, 455.954),
+"options": {
+0: {
+"condition": {},
+"link": &"1_44",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_44": {
+"dialogue": "Yeah. All right. I don’t think there’s a better way to deal with it. C’mon, cat. Let’s see what I’ve got for you in my pack.",
+"offset": Vector2(16389.4, 504.157),
+"options": {
+0: {
+"condition": {},
+"link": &"1_45",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_45": {
+"dialogue": "Mrrow.",
+"offset": Vector2(16760, 520),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 19
+},
+"1_46": {
+"dialogue": "(...Infiltration successful.)",
+"offset": Vector2(17423.7, 616.357),
+"options": {
+0: {
+"condition": {},
+"link": &"1_47",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_47": {
+"dialogue": "(It seems like things are going well enough so far. They’re working together just fine. So what could have happened to them…?)",
+"offset": Vector2(17793.3, 682.357),
+"options": {
+0: {
+"condition": {},
+"link": &"1_48",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_48": {
+"dialogue": "(Why did everything go wrong?)",
+"offset": Vector2(18166.2, 770.357),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_5": {
+"dialogue": "There's always gonna be a few best decks and it's always gonna suck if they're not what you play. But I do think this year’s–uh–",
+"offset": Vector2(1480, -340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 6
+},
+"1_6": {
+"dialogue": "Marl?",
+"offset": Vector2(1860, -340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 10
+},
+"1_7": {
+"dialogue": "Hey, Larissa. You see something?",
+"offset": Vector2(2220, -340),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_8": {
+"dialogue": "The sunset.",
+"offset": Vector2(2600, -340),
+"options": {
+0: {
+"condition": {},
+"link": &"3_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 12
+},
+"1_9": {
+"dialogue": "Oh.",
+"offset": Vector2(2960, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"2_1": {
+"comment": "BG LIST:
+BG 2 Sunset
+BG 1 Sunset
+BG 2 Sunset
+BLACK",
+"offset": Vector2(-460, -40),
+"size": Vector2(220, 220)
+},
+"3_1": {
+"link": &"1_46",
+"offset": Vector2(17144.3, 549.257),
+"signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_9",
+"offset": Vector2(2860, -500),
+"signalValue": "advanceBackground"
+},
+"3_3": {
+"link": &"1_18",
+"offset": Vector2(6200, -460),
+"signalValue": "advanceBackground"
+}
+}
+variables = {}
+strays = Array[String](["2_1"])
+characters = "res://res/assets/Characters.tres"

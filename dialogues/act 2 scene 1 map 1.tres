@@ -1,0 +1,71 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://c70ekje51bv7k"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_4iick"]
+
+[resource]
+script = ExtResource("1_4iick")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-479, -241),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "This is a roadbump… but hopefully not more than that.",
+"offset": Vector2(-220, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "Sean was going to figure out how to activate the Waystone. I could stay with him and see how he manages. Or I could follow Larissa and Marl and try to get them to join back up with him.",
+"offset": Vector2(140, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_3": {
+"dialogue": "Or maybe it’s better to go back and try to stop them from splitting up at all…",
+"offset": Vector2(480, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_4": {
+"dialogue": "I’m sure there’s an answer. I just have to find it.",
+"offset": Vector2(820, -240),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/assets/Characters.tres"

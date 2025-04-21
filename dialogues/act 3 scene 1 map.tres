@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://cw6rqvyyfc0u2"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_xegp4"]
+
+[resource]
+script = ExtResource("1_xegp4")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-494.383, -216),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "I don't like this. I don't like this at all.",
+"offset": Vector2(-240, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_2": {
+"dialogue": "Larissa’s going to get herself killed on her own. I can’t fight the Wyrm any more than she can alone. I don’t know if I have the stomach to watch.",
+"offset": Vector2(80, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_3": {
+"dialogue": "But… I might have to. Maybe I can find some clue how to keep her alive, or get her not to go down that path.",
+"offset": Vector2(400, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_4": {
+"dialogue": "Or maybe Marl and Sean will find something I can use to help her?",
+"offset": Vector2(720, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_5": {
+"dialogue": "…I don’t know if this doomed junction is worth exploring. But I have to be ready to try all the angles.",
+"offset": Vector2(1060, -220),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/assets/Characters.tres"
