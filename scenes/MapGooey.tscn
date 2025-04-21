@@ -1,8 +1,9 @@
-[gd_scene load_steps=16 format=3 uid="uid://og8xq42v61jb"]
+[gd_scene load_steps=17 format=3 uid="uid://og8xq42v61jb"]
 
 [ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_dr7rk"]
 [ext_resource type="Script" path="res://scenes/ScrollConstrain.cs" id="2_8ochj"]
 [ext_resource type="PackedScene" uid="uid://khh8y77co4pq" path="res://scenes/MapPrefabs/event_hover_tooltip.tscn" id="3_tkowa"]
+[ext_resource type="Script" path="res://scenes/ScalingBaqckground.cs" id="6_5ddsx"]
 [ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="6_r5gds"]
 [ext_resource type="Texture2D" uid="uid://c56u2ukunhbue" path="res://res/concept/conceptchars.png" id="7_bjbff"]
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="8_to41r"]
@@ -46,14 +47,15 @@ script = ExtResource("1_dr7rk")
 metadata/_edit_vertical_guides_ = [489.0]
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
-custom_minimum_size = Vector2(1920, 1080)
+custom_minimum_size = Vector2(5000, 5000)
+layout_mode = 0
 offset_left = -11.0
 offset_top = 8.0
-offset_right = 1909.0
-offset_bottom = 1088.0
+offset_right = 4989.0
+offset_bottom = 5008.0
 script = ExtResource("2_8ochj")
-sizeX = 1920
-sizeY = 1080
+sizeX = 1280
+sizeY = 720
 
 [node name="Container" type="PanelContainer" parent="ScrollContainer"]
 z_index = -2
@@ -120,8 +122,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("7_bjbff")
-expand_mode = 5
-stretch_mode = 2
+expand_mode = 1
+script = ExtResource("6_5ddsx")
 
 [node name="DialogueBox" type="Panel" parent="DialogScene/TextureRect"]
 visible = false

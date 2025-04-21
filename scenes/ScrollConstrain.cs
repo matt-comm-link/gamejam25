@@ -14,6 +14,7 @@ public partial class ScrollConstrain : ScrollContainer
 	public override void _Ready()
 	{
 		CustomMinimumSize = new Vector2(sizeX, sizeY);
+		Size = CustomMinimumSize;
 		
 	}
 

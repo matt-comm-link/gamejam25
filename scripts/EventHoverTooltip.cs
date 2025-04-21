@@ -68,10 +68,12 @@ public partial class EventHoverTooltip : PanelContainer
 		{
 			Node lFirst = linePrefab.Instantiate();
 			Line = (Line2D)lFirst;
-
-			Vector2 midpoint = new Vector2((GetScreenPosition().X + RootNode.GetScreenPosition().X)/2, GetScreenPosition().Y);
+			AddChild(Line);
+			Line.Position = Vector2.Zero;
+			Vector2 endpoint =  RootNode.GlobalPosition - GlobalPosition;
+			Vector2 midpoint = new Vector2(endpoint.X/2, 0);
 			
-			Line.Points = new Vector2[]{GetScreenPosition(), midpoint, RootNode.GetScreenPosition()};
+			Line.Points = new Vector2[]{Vector2.Zero, midpoint, endpoint};
 
 			if(Marl && Sean && Larissa)
 				Line.Texture = MSL;
@@ -88,7 +90,6 @@ public partial class EventHoverTooltip : PanelContainer
 			else if (Larissa)
 				Line.Texture = L;
 
-			AddChild(Line);
 
 		}
 
