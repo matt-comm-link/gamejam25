@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-460, -280),
+"link": &"3_5",
+"offset": Vector2(-680, -280),
 "start_id": "start"
 },
 "1_1": {
@@ -45,7 +45,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_12",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -227,7 +227,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_1",
+"link": &"3_6",
 "text": ""
 }
 },
@@ -571,6 +571,12 @@ For now I'll just assume we'll figure out how to get this working properly.",
 "offset": Vector2(12340, 140),
 "size": Vector2(520, 100)
 },
+"2_4": {
+"comment": "MUSIC
+title",
+"offset": Vector2(-800, -140),
+"size": Vector2(220, 120)
+},
 "3_1": {
 "link": &"1_25",
 "offset": Vector2(8287, -94),
@@ -585,8 +591,23 @@ For now I'll just assume we'll figure out how to get this working properly.",
 "link": &"1_34",
 "offset": Vector2(11640, -140),
 "signalValue": "advanceBackground"
+},
+"3_4": {
+"link": &"1_12",
+"offset": Vector2(3440.13, 28.82),
+"signalValue": "play"
+},
+"3_5": {
+"link": &"1_1",
+"offset": Vector2(-480, -260),
+"signalValue": "mute"
+},
+"3_6": {
+"link": &"3_1",
+"offset": Vector2(8211.63, 43.12),
+"signalValue": "mute"
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2", "2_3"])
+strays = Array[String](["2_1", "2_2", "2_3", "2_4"])
 characters = "res://res/assets/Characters.tres"

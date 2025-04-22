@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-420, -340),
+"link": &"3_4",
+"offset": Vector2(-580, -340),
 "start_id": "start"
 },
 "1_1": {
@@ -93,11 +93,11 @@ nodes = {
 },
 "1_16": {
 "dialogue": "...",
-"offset": Vector2(5540, -300),
+"offset": Vector2(5240, -320),
 "options": {
 0: {
 "condition": {},
-"link": &"1_17",
+"link": &"3_7",
 "text": ""
 }
 },
@@ -552,7 +552,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_4",
+"link": "END",
 "text": ""
 }
 },
@@ -604,7 +604,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_2",
+"link": &"3_6",
 "text": ""
 }
 },
@@ -633,6 +633,13 @@ BLACK",
 "offset": Vector2(-460, -40),
 "size": Vector2(220, 220)
 },
+"2_2": {
+"comment": "MUSIC
+title
+chill",
+"offset": Vector2(-720, -20),
+"size": Vector2(200, 100)
+},
 "3_1": {
 "link": &"1_46",
 "offset": Vector2(17144.3, 549.257),
@@ -649,11 +656,26 @@ BLACK",
 "signalValue": "advanceBackground"
 },
 "3_4": {
-"link": "END",
-"offset": Vector2(18536.5, 1007.63),
-"signalValue": "setOutcome|scene 2"
+"link": &"1_1",
+"offset": Vector2(-360, -300),
+"signalValue": "play"
+},
+"3_5": {
+"link": &"1_17",
+"offset": Vector2(5642.53, -193.657),
+"signalValue": "play"
+},
+"3_6": {
+"link": &"3_2",
+"offset": Vector2(2873.75, 63.7185),
+"signalValue": "mute"
+},
+"3_7": {
+"link": &"3_5",
+"offset": Vector2(5568.13, 28.2872),
+"signalValue": "advanceSong"
 }
 }
 variables = {}
-strays = Array[String](["2_1"])
+strays = Array[String](["2_1", "2_2"])
 characters = "res://res/assets/Characters.tres"

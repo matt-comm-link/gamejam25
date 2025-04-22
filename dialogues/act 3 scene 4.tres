@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-431.597, -256.765),
+"link": &"3_4",
+"offset": Vector2(-640, -280),
 "start_id": "start"
 },
 "1_1": {
@@ -19,12 +19,519 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"1_2",
 "text": ""
 }
 },
 "size": Vector2(300, 240),
 "speaker": 0
+},
+"1_10": {
+"dialogue": "Something's up ahead.",
+"offset": Vector2(3060, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
+},
+"1_11": {
+"dialogue": "(They just shut off their light…)",
+"offset": Vector2(3442.9, -292),
+"options": {
+0: {
+"condition": {},
+"link": &"1_12",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_12": {
+"dialogue": "(Good instincts. I’m sensing it too. This is your last chance to turn back, Marl. Do the right thing.)",
+"offset": Vector2(3817.9, -286),
+"options": {
+0: {
+"condition": {},
+"link": &"1_13",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_13": {
+"dialogue": "…",
+"offset": Vector2(4176.9, -282),
+"options": {
+0: {
+"condition": {},
+"link": &"1_14",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_14": {
+"dialogue": "(Of course they’re creeping ahead instead.)",
+"offset": Vector2(4540, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_15",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_15": {
+"dialogue": "(Strange… there’s a light glowing in the distance.)",
+"offset": Vector2(4900, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 20
+},
+"1_16": {
+"dialogue": "...................",
+"offset": Vector2(5532.9, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_17": {
+"dialogue": "(Oh no. Oh no, oh no, oh no, oh no.)",
+"offset": Vector2(5900, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_18",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_18": {
+"dialogue": "What…? What is…?",
+"offset": Vector2(6260, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"3_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_19": {
+"dialogue": "!",
+"offset": Vector2(6640, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"3_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_2": {
+"dialogue": "Meow.",
+"offset": Vector2(180, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_3",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_20": {
+"dialogue": "WRAAAAOOOR!",
+"offset": Vector2(6980, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_21",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_21": {
+"dialogue": "Ah!",
+"offset": Vector2(7355.9, -276),
+"options": {
+0: {
+"condition": {},
+"link": &"3_2",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_22": {
+"dialogue": "It happens so quickly. Almost as soon as I see the silhouette in the darkness and recognize what it is, Marl’s quiet, breathy shock wakes it up.",
+"offset": Vector2(7960, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_23",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_23": {
+"dialogue": "I can’t blame them, much as they want to. They didn’t know. None of them knew.",
+"offset": Vector2(8340, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_24": {
+"dialogue": "Only I did.",
+"offset": Vector2(8715.9, -269),
+"options": {
+0: {
+"condition": {},
+"link": &"1_25",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_25": {
+"dialogue": "The beat snarls, showing its fangs. It brings a claw down on Marl. They scramble out of the way just in the nick of the time. We both feel the hot, acrid sting of its breath billowing out over us. I almost retch on the spot.",
+"offset": Vector2(9100.9, -261),
+"options": {
+0: {
+"condition": {},
+"link": &"1_26",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_26": {
+"dialogue": "I have to give Marl credit. They don’t let the awful smell of a thousand thousand years of death daze them. That’s more than I can say. They reach into their jacket, and they bring out their pocket knife. A flimsy, folding three-inch blade, and it’s their only tool to pierce the invincible hide of humanity’s great antagonist.",
+"offset": Vector2(9469.9, -255),
+"options": {
+0: {
+"condition": {},
+"link": &"1_27",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_27": {
+"dialogue": "You’re not going to hurt my friends. I won’t let you. I don’t care if it kills me.",
+"offset": Vector2(9836.9, -248),
+"options": {
+0: {
+"condition": {},
+"link": &"1_28",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 3
+},
+"1_28": {
+"dialogue": "I wish I could scream at them. “I care, you damn fool! You can’t save the world if you’re dead!”",
+"offset": Vector2(10184.9, -241),
+"options": {
+0: {
+"condition": {},
+"link": &"1_29",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_29": {
+"dialogue": "But yowling with all my might isn’t going to change anything. All I can do is watch in horror as fate is severed before my eyes.",
+"offset": Vector2(10566.9, -240),
+"options": {
+0: {
+"condition": {},
+"link": &"1_30",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_3": {
+"dialogue": "(It is! It is! For the love of god, turn around!)",
+"offset": Vector2(520, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_4",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
+},
+"1_30": {
+"dialogue": "They try to run forward and get past the Wyrm’s arms. They must be hoping its scales are thinner underneath. For all I know, they might be. It’s not going to make a difference either way.",
+"offset": Vector2(10919, -234.2),
+"options": {
+0: {
+"condition": {},
+"link": &"1_31",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_31": {
+"dialogue": "The Wyrm barely has to move. It flicks its talon effortlessly, and it crushes Marl beneath its foot.",
+"offset": Vector2(11271, -228.2),
+"options": {
+0: {
+"condition": {},
+"link": &"1_32",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_32": {
+"dialogue": "I hear Marl's gasp of pain as the air is squeezed from their lungs. They’ve probably cracked a rib. Despite it all, they try to drive their knife into the Wyrm’s foreleg. It snaps clean off.",
+"offset": Vector2(11600, -220),
+"options": {
+0: {
+"condition": {},
+"link": &"1_33",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_33": {
+"dialogue": "Before they have a chance to struggle any further, the Wyrm picks them up and tosses them in the air. Like a cat playing with its food. The irony makes me as sick as the stench. Marl’s body hits the ground with a horrible crunching thud. They aren’t moving.",
+"offset": Vector2(11948.5, -222.787),
+"options": {
+0: {
+"condition": {},
+"link": &"1_34",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_34": {
+"dialogue": "The Wyrm grasps their limp body in its talon once more. That’s when I catch something moving out of the corner of my eye. At the far wall of the chamber, a door slides open. And Sean and Larissa come rushing in.",
+"offset": Vector2(12310.5, -220.787),
+"options": {
+0: {
+"condition": {},
+"link": &"1_35",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_35": {
+"dialogue": "Marl!",
+"offset": Vector2(12657.5, -217.787),
+"options": {
+0: {
+"condition": {},
+"link": &"1_36",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 9
+},
+"1_36": {
+"dialogue": "For a second, like the fool I am. I feel hopeful. They’re all together. That means they can win. Maybe it wasn’t all for nothing. Maybe there’s still a chance.",
+"offset": Vector2(13010.5, -216.787),
+"options": {
+0: {
+"condition": {},
+"link": &"1_37",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_37": {
+"dialogue": "Then I see Marl clutched in the Wyrm's talon.",
+"offset": Vector2(13375.3, -213.887),
+"options": {
+0: {
+"condition": {},
+"link": &"1_38",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_38": {
+"dialogue": "No...",
+"offset": Vector2(13734.3, -208.887),
+"options": {
+0: {
+"condition": {},
+"link": &"1_39",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 15
+},
+"1_39": {
+"dialogue": "I close my eyes. I don’t want to see what happens next. I have to leave this timeline before…",
+"offset": Vector2(14097.3, -206.887),
+"options": {
+0: {
+"condition": {},
+"link": &"3_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_4": {
+"dialogue": "Oh. There you are, kitty. I almost didn’t notice you.",
+"offset": Vector2(880, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+"1_40": {
+"dialogue": "[b]CRUNCH[/b]",
+"offset": Vector2(14704.3, -191.887),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
+},
+"1_5": {
+"dialogue": "I guess it’s a little less lonely with the two of us. Just don’t run off or do anything crazy, all right?",
+"offset": Vector2(1300, -320),
+"options": {
+0: {
+"condition": {},
+"link": &"1_6",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_6": {
+"dialogue": "Meow.",
+"offset": Vector2(1661, -307),
+"options": {
+0: {
+"condition": {},
+"link": &"1_7",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_7": {
+"dialogue": "(I thought I was being so clever when I chose this form. Maybe I’m the real fool in all of this.)",
+"offset": Vector2(2021.9, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_8",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"1_8": {
+"dialogue": "Glad we have an understanding.",
+"offset": Vector2(2380, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"3_5",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 0
+},
+"1_9": {
+"dialogue": "…Wait.",
+"offset": Vector2(2720, -300),
+"options": {
+0: {
+"condition": {},
+"link": &"1_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 4
 },
 "2_1": {
 "comment": "BACKGROUNDS
@@ -36,10 +543,56 @@ BG 7 ATTACK",
 "size": Vector2(200, 180)
 },
 "2_2": {
-"comment": "dear autumn note to self have the very last line of this scene advance from the black screen to the attack bg
-that'll be a cool moment",
-"offset": Vector2(-620, 140),
-"size": Vector2(760, 120)
+"comment": "MUSIC
+mysterious
+tension",
+"offset": Vector2(-720, -60),
+"size": Vector2(200, 140)
+},
+"3_1": {
+"link": &"1_16",
+"offset": Vector2(5280.9, -150),
+"signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_22",
+"offset": Vector2(7712.9, -143),
+"signalValue": "advanceBackground"
+},
+"3_3": {
+"link": &"1_40",
+"offset": Vector2(14463.3, -64.8868),
+"signalValue": "advanceBackground"
+},
+"3_4": {
+"link": &"1_1",
+"offset": Vector2(-400, -240),
+"signalValue": "mute"
+},
+"3_5": {
+"link": &"1_9",
+"offset": Vector2(2701.57, 16),
+"signalValue": "play"
+},
+"3_6": {
+"link": &"1_19",
+"offset": Vector2(6581.17, 44.859),
+"signalValue": "mute"
+},
+"3_7": {
+"link": &"3_8",
+"offset": Vector2(6987.12, 100.761),
+"signalValue": "advanceSong"
+},
+"3_8": {
+"link": &"1_20",
+"offset": Vector2(7226.7, 116.733),
+"signalValue": "play"
+},
+"3_9": {
+"link": &"3_3",
+"offset": Vector2(14436.3, 90.113),
+"signalValue": "mute"
 }
 }
 variables = {}

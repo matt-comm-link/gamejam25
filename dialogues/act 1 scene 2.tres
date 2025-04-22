@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-450, -257),
+"link": &"3_2",
+"offset": Vector2(-520, -260),
 "start_id": "start"
 },
 "1_1": {
@@ -149,7 +149,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_21",
+"link": &"3_3",
 "text": ""
 }
 },
@@ -461,7 +461,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_42",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -487,7 +487,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_2",
+"link": "END",
 "text": ""
 }
 },
@@ -566,6 +566,12 @@ BG 3 Stone",
 "offset": Vector2(-458.571, -4),
 "size": Vector2(200, 160)
 },
+"2_2": {
+"comment": "MUSIC
+mysterious",
+"offset": Vector2(-700, -20),
+"size": Vector2(200, 180)
+},
 "2_3": {
 "comment": "I'm trying to do something here.
 No idea if it makes sense. Unsure what our fast forward status is.
@@ -582,11 +588,21 @@ Hopefully you can just paste the nodes from the other scene if this is bad.
 "signalValue": "advanceBackground"
 },
 "3_2": {
-"link": "END",
-"offset": Vector2(15841.5, 759.559),
-"signalValue": "setOutcome|end"
+"link": &"1_1",
+"offset": Vector2(-440, -100),
+"signalValue": "mute"
+},
+"3_3": {
+"link": &"1_21",
+"offset": Vector2(8332.84, 652.042),
+"signalValue": "play"
+},
+"3_4": {
+"link": &"1_42",
+"offset": Vector2(15343.9, 890.141),
+"signalValue": "mute"
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_3"])
+strays = Array[String](["2_1", "2_3", "2_2"])
 characters = "res://res/assets/Characters.tres"

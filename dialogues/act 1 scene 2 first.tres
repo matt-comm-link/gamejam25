@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-450, -257),
+"link": &"3_1",
+"offset": Vector2(-640, -260),
 "start_id": "start"
 },
 "1_1": {
@@ -227,7 +227,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_25",
+"link": &"3_2",
 "text": ""
 }
 },
@@ -318,7 +318,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_31",
+"link": &"3_3",
 "text": ""
 }
 },
@@ -331,7 +331,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_32",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -461,7 +461,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_1",
+"link": "END",
 "text": ""
 }
 },
@@ -544,12 +544,39 @@ BG 3 Overgrown",
 "offset": Vector2(10420, -40),
 "size": Vector2(800, 100)
 },
+"2_3": {
+"comment": "MUSIC
+mysterious
+chill",
+"offset": Vector2(-680, 20),
+"size": Vector2(200, 120)
+},
 "3_1": {
-"link": "END",
-"offset": Vector2(15146.3, -38.3437),
-"signalValue": "setOutcome|failure"
+"link": &"1_1",
+"offset": Vector2(-440, -140),
+"signalValue": "mute"
+},
+"3_2": {
+"link": &"1_25",
+"offset": Vector2(8480, 260),
+"signalValue": "play"
+},
+"3_3": {
+"link": &"1_31",
+"offset": Vector2(10648, 174.331),
+"signalValue": "mute"
+},
+"3_4": {
+"link": &"3_5",
+"offset": Vector2(11596.6, 324.109),
+"signalValue": "advanceSong"
+},
+"3_5": {
+"link": &"1_32",
+"offset": Vector2(11841.4, 304.782),
+"signalValue": "play"
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2"])
+strays = Array[String](["2_1", "2_2", "2_3"])
 characters = "res://res/assets/Characters.tres"

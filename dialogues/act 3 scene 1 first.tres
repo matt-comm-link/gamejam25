@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-514, -206),
+"link": &"3_2",
+"offset": Vector2(-720, -220),
 "start_id": "start"
 },
 "1_1": {
@@ -93,7 +93,7 @@ nodes = {
 "text": "HAVE SEEN SCENE 3"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 0
 },
 "1_15": {
@@ -397,7 +397,7 @@ nodes = {
 "text": "Stay quiet."
 }
 },
-"size": Vector2(300, 260),
+"size": Vector2(300, 290),
 "speaker": 20
 },
 "1_36": {
@@ -649,7 +649,7 @@ nodes = {
 "text": "ELSE"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 13
 },
 "1_53": {
@@ -771,7 +771,7 @@ nodes = {
 "text": "Wait."
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_61": {
@@ -1101,7 +1101,7 @@ nodes = {
 "text": "LARISSA HASN'T DIED"
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_84": {
@@ -1199,12 +1199,23 @@ BG 6 Snake",
 "offset": Vector2(13640, -440),
 "size": Vector2(280, 100)
 },
+"2_4": {
+"comment": "MUSIC
+title",
+"offset": Vector2(-820, -80),
+"size": Vector2(200, 100)
+},
 "3_1": {
 "link": &"1_13",
-"offset": Vector2(3670, -96),
+"offset": Vector2(3660, -140),
 "signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_1",
+"offset": Vector2(-500, -180),
+"signalValue": "play"
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2", "2_3"])
+strays = Array[String](["2_1", "2_2", "2_3", "2_4"])
 characters = "res://res/assets/Characters.tres"
