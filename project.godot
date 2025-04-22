@@ -13,13 +13,12 @@ config_version=5
 config/name="CAT"
 run/main_scene="res://scenes/Game/LevelManager.tscn"
 config/features=PackedStringArray("4.3", "C#", "Mobile")
-config/icon="res://artstuffs/OtherAssets/Other Assets/Compass.PNG"
+config/icon="res://artstuffs/OtherAssets/Other Assets/MEOW!.PNG"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/size/initial_position_type=2
 window/stretch/mode="viewport"
 
 [dotnet]

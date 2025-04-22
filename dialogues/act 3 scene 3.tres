@@ -1532,7 +1532,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": -1
+"speaker": ""
 },
 "1_88": {
 "dialogue": "(This violates every rule of time travel… but desperate times call for desperate measures. I might have to take the risk and hope the binds of prophecy are enough to keep the timestream stable.)",
@@ -1764,7 +1764,7 @@ mysterious",
 "3_5": {
 "link": "END",
 "offset": Vector2(28740, 580),
-"signalValue": "setOutcome Failure"
+"signalValue": "setOutcome|failure"
 },
 "3_6": {
 "link": &"3_5",

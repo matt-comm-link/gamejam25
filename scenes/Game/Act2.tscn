@@ -100,7 +100,7 @@ offset_left = 301.0
 offset_top = 446.0
 offset_right = 501.0
 offset_bottom = 726.0
-eventName = "Trouble"
+eventName = "ACT 2: Trouble"
 blurbs = {
 "Sean Stays Marl & Larissa": "The group split up, perhaps they needed some time off?",
 "failure": "The group decide to go home"
@@ -232,6 +232,7 @@ layout_mode = 2
 script = ExtResource("23_gkfvb")
 globalVariables = null
 data = SubResource("Resource_f0srs")
+spacer_portrait = null
 scroll_speed = 8
 custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_bmw7s"), SubResource("RichTextEffect_jpk20"), SubResource("RichTextEffect_0kjk4")])
 options_vertical = true

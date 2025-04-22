@@ -1202,13 +1202,13 @@ title",
 },
 "3_3": {
 "link": "END",
-"offset": Vector2(16000, 120),
-"signalValue": "SetOutcome|Larissa Splits Marl & Sean A Desperate Battle"
+"offset": Vector2(16180, 40),
+"signalValue": "setOutcome|Larissa Splits Marl & Sean A Desperate Battle"
 },
 "3_4": {
 "link": "END",
 "offset": Vector2(14360, 800),
-"signalValue": "SetOutcome|Marl Splits Sean & Larissa"
+"signalValue": "setOutcome|Marl Splits Sean & Larissa"
 },
 "3_5": {
 "link": &"1_54",

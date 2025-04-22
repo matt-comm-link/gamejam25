@@ -93,7 +93,7 @@ offset_left = 646.0
 offset_top = 431.0
 offset_right = 846.0
 offset_bottom = 711.0
-eventName = "The Beginning"
+eventName = "ACT 1: The Beginning"
 blurbs = {
 "The Artefact": "Three friends out campign in the woods happen upon a strange cat..."
 }
@@ -185,6 +185,7 @@ layout_mode = 2
 script = ExtResource("7_3q5x4")
 globalVariables = null
 data = SubResource("Resource_f0srs")
+spacer_portrait = null
 scroll_speed = 8
 custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_bmw7s"), SubResource("RichTextEffect_jpk20"), SubResource("RichTextEffect_0kjk4")])
 options_vertical = true

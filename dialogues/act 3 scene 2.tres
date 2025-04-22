@@ -141,7 +141,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": -1
+"speaker": ""
 },
 "1_19": {
 "dialogue": "(But it’s not gonna mean anything if we can’t get her out of here. Or get Marl and Sean to join her. I don’t know how we’re going to do that. We’re safe for the moment, but the second we try to sneak back out we’re done for.)",
@@ -375,7 +375,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": -1
+"speaker": ""
 },
 "1_7": {
 "dialogue": "(!)",

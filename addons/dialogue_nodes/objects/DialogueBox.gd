@@ -59,6 +59,11 @@ signal dialogue_ended
 		sample_portrait = value
 		if portrait: portrait.texture = sample_portrait
 
+@export var spacer_portrait := preload('res://artstuffs/Portraits/gamejam sprites/blankChar.png') :
+	set(value):
+		spacer_portrait = value
+		if portrait: portrait.texture = spacer_portrait
+
 @export_group('Dialogue')
 ## Speed of scroll when using joystick/keyboard input
 @export var scroll_speed := 4
@@ -286,8 +291,11 @@ func _on_dialogue_started(id : String):
 func _on_dialogue_processed(speaker : Variant, dialogue : String, options : Array[String]):
 	# set speaker
 	speaker_label.text = ''
-	portrait.texture = null
+	portrait.texture = spacer_portrait;
 	portrait.visible = not hide_portrait
+	
+	
+	speaker_label.set("theme_override_font_sizes/font_size", 26);
 	if speaker is Character:
 		var speakerTrunc = speaker.name.split("&")[0]
 		speaker_label.text = speakerTrunc
@@ -298,10 +306,13 @@ func _on_dialogue_processed(speaker : Variant, dialogue : String, options : Arra
 		var speakerTrunc = speaker.split("&")[0]
 		speaker_label.text = speakerTrunc
 		speaker_label.modulate = Color.WHITE
-		portrait.hide()
-	
+		portrait.texture = spacer_portrait;
+		portrait.show()
+	else: 
+		portrait.texture = spacer_portrait;
+		portrait.show()
 	# set dialogue
-	dialogue_label.text = _dialogue_parser._update_wait_tags(dialogue_label, dialogue)
+	dialogue_label.text = "[font_size=26]" + _dialogue_parser._update_wait_tags(dialogue_label, dialogue)
 	dialogue_label.get_v_scroll_bar().set_value_no_signal(0)
 	for effect in custom_effects:
 		if effect is RichTextWait:

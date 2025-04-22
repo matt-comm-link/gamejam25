@@ -50,7 +50,8 @@ public partial class EventHoverTooltip : PanelContainer
 
 	[Export]
 	EventHoverTooltip SecondaryNode;
-
+	[Export]
+	EventHoverTooltip BlockThisNode;
 
 	PackedScene linePrefab = GD.Load<PackedScene>("res://artstuffs/LineTextures/line_2dReel.tscn");
 	Line2D Line;
@@ -82,6 +83,7 @@ public partial class EventHoverTooltip : PanelContainer
 			
 			if(SecondaryNode != null)
 			{
+
 				Node lSec = linePrefab.Instantiate();
 				SecondLine = (Line2D)lSec;
 				AddChild(SecondLine);
@@ -154,6 +156,10 @@ public partial class EventHoverTooltip : PanelContainer
 			Show();
 			if(StationNode != null)
 				StationNode.Position = this.Position;
+		}
+		if(BlockThisNode != null)
+		{
+			BlockThisNode.Hide();
 		}
 
 

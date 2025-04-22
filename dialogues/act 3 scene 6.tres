@@ -311,7 +311,7 @@ Carefully Altered Timelines",
 "options": {
 0: {
 "condition": {},
-"link": &"1_120",
+"link": &"1_166",
 "text": ""
 }
 },
@@ -335,11 +335,11 @@ Carefully Altered Timelines",
 "dialogue": "CREDITS
 I assume we want to do credits.
 I am gonna let the project manager get the credtis sorted out!",
-"offset": Vector2(51620, 940),
+"offset": Vector2(51580, 1300),
 "options": {
 0: {
 "condition": {},
-"link": &"3_24",
+"link": "END",
 "text": ""
 }
 },
@@ -982,6 +982,19 @@ I am gonna let the project manager get the credtis sorted out!",
 },
 "size": Vector2(300, 240),
 "speaker": 7
+},
+"1_166": {
+"dialogue": "A time travel game for ACH Game Jam 2025",
+"offset": Vector2(51600, 960),
+"options": {
+0: {
+"condition": {},
+"link": &"3_24",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
 },
 "1_17": {
 "dialogue": "GROOAH!",
@@ -1957,7 +1970,7 @@ I am gonna let the project manager get the credtis sorted out!",
 }
 },
 "size": Vector2(300, 240),
-"speaker": -1
+"speaker": ""
 },
 "1_85": {
 "dialogue": "I don’t have a choice. I have to slow it down.",
@@ -2374,5 +2387,5 @@ variables = {
 "value": ""
 }
 }
-strays = Array[String](["2_4", "2_5", "2_2", "2_1", "2_3"])
+strays = Array[String](["2_4", "2_5", "2_2", "2_1", "2_3", "1_120"])
 characters = "res://res/assets/Characters.tres"

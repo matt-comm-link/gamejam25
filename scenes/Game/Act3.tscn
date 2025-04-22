@@ -1,4 +1,4 @@
-[gd_scene load_steps=42 format=3 uid="uid://bgbhooalcxuxx"]
+[gd_scene load_steps=41 format=3 uid="uid://bgbhooalcxuxx"]
 
 [ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_ojao4"]
 [ext_resource type="Script" path="res://scenes/ScrollConstrain.cs" id="2_p0nnr"]
@@ -19,7 +19,6 @@
 [ext_resource type="Resource" uid="uid://dpjnn5avuopyu" path="res://dialogues/act 3 scene 3.tres" id="17_ix3uu"]
 [ext_resource type="AudioStream" uid="uid://bqrcuurajenik" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/tension v3.mp3" id="17_n2rmt"]
 [ext_resource type="Texture2D" uid="uid://dpfqmddd2b85d" path="res://artstuffs/BGs/BGs/BG 7 Attack.PNG" id="17_vtthf"]
-[ext_resource type="Resource" uid="uid://j7h6jqkoso61" path="res://dialogues/act 2 scene 4.tres" id="19_0txmi"]
 [ext_resource type="Resource" uid="uid://dx7wsiyuxleb4" path="res://dialogues/act 3 scene 5.tres" id="19_54gtn"]
 [ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="20_2rjp4"]
 [ext_resource type="Resource" uid="uid://bkuyy3mem2mx2" path="res://dialogues/act 3 scene 1 map.tres" id="21_1pri0"]
@@ -105,9 +104,9 @@ offset_left = 301.0
 offset_top = 446.0
 offset_right = 501.0
 offset_bottom = 726.0
-eventName = "Exploring"
+eventName = "ACT 3: Exploring"
 blurbs = {
-"Larissa Splits Marl % Sean A Desperate Battle": "Larissa abandon's the group to investigate something",
+"Larissa Splits Marl & Sean A Desperate Battle": "Larissa abandon's the group to investigate something",
 "Marl Splits Sean & Larissa": "Marl confidently runs off to explore"
 }
 backgrounds = [ExtResource("4_rb0rc"), ExtResource("5_5vgu6")]
@@ -119,10 +118,10 @@ MM = NodePath("../../../..")
 [node name="Scene 2" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_qj2no")]
 z_index = -1
 layout_mode = 2
-offset_left = 773.0
-offset_top = 180.0
-offset_right = 973.0
-offset_bottom = 460.0
+offset_left = 748.0
+offset_top = 146.0
+offset_right = 948.0
+offset_bottom = 426.0
 eventName = "Larissa Splits"
 RootNode = NodePath("../Scene 1")
 blurbs = {
@@ -156,7 +155,7 @@ DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
 Larissa = false
 
-[node name="Scene 4" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM", "SecondaryNode") instance=ExtResource("3_qj2no")]
+[node name="Scene 4" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_qj2no")]
 z_index = -1
 layout_mode = 2
 offset_left = 1094.0
@@ -170,20 +169,19 @@ blurbs = {
 }
 backgrounds = [ExtResource("9_imxjc"), ExtResource("10_hhqvu"), ExtResource("14_42x0u"), ExtResource("17_vtthf")]
 songs = [ExtResource("8_psej6"), ExtResource("17_n2rmt")]
-DialogTree = ExtResource("19_0txmi")
+DialogTree = ExtResource("24_sijpp")
 DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
 Sean = false
 Larissa = false
-SecondaryNode = NodePath("../Scene 2")
 
 [node name="Scene 5" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_qj2no")]
 z_index = -1
 layout_mode = 2
-offset_left = 1126.0
-offset_top = 563.0
-offset_right = 1326.0
-offset_bottom = 843.0
+offset_left = 1107.0
+offset_top = 574.0
+offset_right = 1307.0
+offset_bottom = 854.0
 eventName = "Sean & Larissa"
 RootNode = NodePath("../Scene 1")
 blurbs = {
@@ -196,13 +194,13 @@ DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
 Marl = false
 
-[node name="Scene 6" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM", "SecondaryNode") instance=ExtResource("3_qj2no")]
+[node name="Scene 6" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM", "SecondaryNode", "BlockThisNode") instance=ExtResource("3_qj2no")]
 z_index = -1
 layout_mode = 2
-offset_left = 1481.0
-offset_top = 401.0
-offset_right = 1681.0
-offset_bottom = 681.0
+offset_left = 1470.0
+offset_top = 153.0
+offset_right = 1670.0
+offset_bottom = 433.0
 eventName = "A Desperate Battle"
 RootNode = NodePath("../Scene 3")
 blurbs = {
@@ -215,6 +213,7 @@ DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
 Larissa = false
 SecondaryNode = NodePath("../Scene 1")
+BlockThisNode = NodePath("../Scene 2")
 
 [node name="DialogScene" type="Control" parent="." node_paths=PackedStringArray("bgTexture", "DialogueBox", "ASP", "MM", "SB", "SC", "db", "mc")]
 z_index = 2
@@ -274,6 +273,7 @@ z_index = 5
 layout_mode = 2
 script = ExtResource("27_e3oc8")
 data = SubResource("Resource_f0srs")
+spacer_portrait = null
 scroll_speed = 8
 custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_bmw7s"), SubResource("RichTextEffect_jpk20"), SubResource("RichTextEffect_0kjk4")])
 options_vertical = true
