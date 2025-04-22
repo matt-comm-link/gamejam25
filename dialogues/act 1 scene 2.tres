@@ -487,7 +487,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_2",
 "text": ""
 }
 },
@@ -580,6 +580,11 @@ Hopefully you can just paste the nodes from the other scene if this is bad.
 "link": &"1_25",
 "offset": Vector2(9437.95, 385.566),
 "signalValue": "advanceBackground"
+},
+"3_2": {
+"link": "END",
+"offset": Vector2(15841.5, 759.559),
+"signalValue": "setOutcome|end"
 }
 }
 variables = {}

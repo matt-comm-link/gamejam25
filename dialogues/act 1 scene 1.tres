@@ -552,7 +552,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -647,6 +647,11 @@ BLACK",
 "link": &"1_18",
 "offset": Vector2(6200, -460),
 "signalValue": "advanceBackground"
+},
+"3_4": {
+"link": "END",
+"offset": Vector2(18536.5, 1007.63),
+"signalValue": "setOutcome|scene 2"
 }
 }
 variables = {}

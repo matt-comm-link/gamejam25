@@ -461,7 +461,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_1",
 "text": ""
 }
 },
@@ -543,6 +543,11 @@ BG 3 Overgrown",
 "comment": "If it's possible to do a quick fade to white and fade back in here to represent a camera flash that'd be a nice touch.",
 "offset": Vector2(10420, -40),
 "size": Vector2(800, 100)
+},
+"3_1": {
+"link": "END",
+"offset": Vector2(15146.3, -38.3437),
+"signalValue": "setOutcome|failure"
 }
 }
 variables = {}
