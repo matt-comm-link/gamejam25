@@ -81,7 +81,7 @@ nodes = {
 "speaker": ""
 },
 "1_103": {
-"dialogue": "The surreal, frozen moment shatters. And Larissa is on the dragon’s back, gently tapping a single finger against the Dragon’s final core.
+"dialogue": "The surreal, frozen moment shatters. And Larissa is on the Wyrm’s back, gently tapping a single finger against the Wyrm’s final core.
 ",
 "offset": Vector2(43060.6, 833.597),
 "options": {
@@ -91,7 +91,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(320, 380),
 "speaker": ""
 },
 "1_104": {
@@ -369,7 +369,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.004, 240),
 "speaker": 10
 },
 "1_123": {
@@ -499,7 +499,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.008, 240),
 "speaker": 10
 },
 "1_132": {
@@ -525,7 +525,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.008, 240),
 "speaker": 15
 },
 "1_134": {
@@ -734,7 +734,7 @@ I am gonna let the project manager get the credtis sorted out!",
 }
 },
 "size": Vector2(300, 240),
-"speaker": 11
+"speaker": 12
 },
 "1_149": {
 "dialogue": "You’re telling me. I’m going to lose my mind, Larissa. I’m seriously going to lose it.",
@@ -932,7 +932,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "speaker": 1
 },
 "1_162": {
-"dialogue": "Yeah. A grand old adventure straight out of an RPG adventure module. Just the three of us on an epic quest to save the world or something.",
+"dialogue": "Yeah. A grand old adventure straight out of an RPG module. Just the three of us on an epic quest to save the world or something.",
 "offset": Vector2(68976.2, 1792.96),
 "options": {
 0: {
@@ -941,7 +941,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 420),
 "speaker": 6
 },
 "1_163": {
@@ -967,7 +967,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.008, 240),
 "speaker": 6
 },
 "1_165": {
@@ -993,7 +993,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.004, 240),
 "speaker": ""
 },
 "1_17": {
@@ -1514,7 +1514,7 @@ I am gonna let the project manager get the credtis sorted out!",
 }
 },
 "size": Vector2(300, 240),
-"speaker": -1
+"speaker": ""
 },
 "1_53": {
 "dialogue": "Uh oh.",
@@ -1527,7 +1527,7 @@ I am gonna let the project manager get the credtis sorted out!",
 }
 },
 "size": Vector2(300, 240),
-"speaker": 15
+"speaker": 9
 },
 "1_54": {
 "dialogue": "Responding to an instinct he didn’t know he had, Sean turns. He throws out his hands, and produces a burst of concussive force right in front of his own body.",
@@ -1566,7 +1566,7 @@ I am gonna let the project manager get the credtis sorted out!",
 }
 },
 "size": Vector2(300, 240),
-"speaker": 15
+"speaker": 9
 },
 "1_57": {
 "dialogue": "Sean! Hold on!",
@@ -1660,7 +1660,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "speaker": 1
 },
 "1_63": {
-"dialogue": "Without any hesitation, Marl sprints for the back wall. Sean’s experimenting rapidly with his magic as the Wyrm bears down on him, learning how to shield himself with barriers and slow the Wyrm with energy bursts and pillars of stone on the fly. Bringing it down will take all three together. But they’re buying Marl enough time for their moment.",
+"dialogue": "Without any hesitation, Marl sprints for the back wall. Sean’s experimenting rapidly with his magic as the Wyrm bears down on him, learning how to shield himself with barriers and slow the Wyrm with energy bursts and pillars of stone on the fly. Bringing it down will take all three together. But he's buying Marl enough time for their moment.",
 "offset": Vector2(25261.6, 490.327),
 "options": {
 0: {
@@ -1669,7 +1669,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(340, 440),
 "speaker": ""
 },
 "1_64": {
@@ -1708,7 +1708,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(320, 480),
 "speaker": 0
 },
 "1_67": {
@@ -2231,17 +2231,17 @@ I'm not sure how you want to handle this but I figured I'd put a spot for it.",
 },
 "3_1": {
 "link": &"1_5",
-"offset": Vector2(1055.98, -146.465),
+"offset": Vector2(1000, 1000),
 "signalValue": "advanceBackground"
 },
 "3_10": {
 "link": &"1_49",
-"offset": Vector2(19429.4, 479.513),
-"signalValue": "backgroundAdvance"
+"offset": Vector2(19360, 1420),
+"signalValue": "advanceBackground"
 },
 "3_11": {
 "link": &"1_64",
-"offset": Vector2(25620, 580),
+"offset": Vector2(25680, 1580),
 "signalValue": "advanceBackground"
 },
 "3_12": {
@@ -2331,37 +2331,37 @@ I'm not sure how you want to handle this but I figured I'd put a spot for it.",
 },
 "3_3": {
 "link": &"1_7",
-"offset": Vector2(2060, -140),
+"offset": Vector2(2080, 1040),
 "signalValue": "advanceBackground"
 },
 "3_4": {
 "link": &"1_11",
-"offset": Vector2(3828.39, -418.692),
+"offset": Vector2(3540, 1520),
 "signalValue": "advanceBackground"
 },
 "3_5": {
 "link": &"1_27",
-"offset": Vector2(9755.92, 327.059),
+"offset": Vector2(9740, 1720),
 "signalValue": "advanceBackground"
 },
 "3_6": {
 "link": &"1_32",
-"offset": Vector2(11914.9, 365.03),
+"offset": Vector2(11880, 1280),
 "signalValue": "advanceBackground"
 },
 "3_7": {
 "link": &"1_37",
-"offset": Vector2(14100, 460),
+"offset": Vector2(14080, 1480),
 "signalValue": "advanceBackground"
 },
 "3_8": {
 "link": &"1_42",
-"offset": Vector2(16200, 489.126),
+"offset": Vector2(16220, 1440),
 "signalValue": "advanceBackground"
 },
 "3_9": {
 "link": &"1_47",
-"offset": Vector2(18320, 500),
+"offset": Vector2(18460, 1360),
 "signalValue": "advanceBackground"
 },
 "5_1": {

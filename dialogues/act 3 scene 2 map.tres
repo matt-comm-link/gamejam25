@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://djlcwt6517lw4"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://d2oyfb2g825re"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_i61ip"]
 
@@ -84,7 +84,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_15",
+"link": "END",
 "text": ""
 }
 },
@@ -97,7 +97,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_16",
+"link": "END",
 "text": ""
 }
 },
@@ -110,7 +110,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_17",
+"link": "END",
 "text": ""
 }
 },
@@ -123,7 +123,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_18",
+"link": "END",
 "text": ""
 }
 },
@@ -136,7 +136,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_19",
+"link": "END",
 "text": ""
 }
 },
@@ -149,7 +149,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_20",
+"link": "END",
 "text": ""
 }
 },
@@ -175,7 +175,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_21",
+"link": "END",
 "text": ""
 }
 },
@@ -201,7 +201,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_23",
+"link": "END",
 "text": ""
 }
 },
@@ -214,7 +214,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_24",
+"link": "END",
 "text": ""
 }
 },
@@ -227,7 +227,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_25",
+"link": "END",
 "text": ""
 }
 },
@@ -240,7 +240,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_26",
+"link": "END",
 "text": ""
 }
 },
@@ -253,7 +253,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_27",
+"link": "END",
 "text": ""
 }
 },
@@ -266,7 +266,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_28",
+"link": "END",
 "text": ""
 }
 },
@@ -279,7 +279,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_29",
+"link": "END",
 "text": ""
 }
 },
@@ -292,7 +292,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_30",
+"link": "END",
 "text": ""
 }
 },
@@ -318,7 +318,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_31",
+"link": "END",
 "text": ""
 }
 },

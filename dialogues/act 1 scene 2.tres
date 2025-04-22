@@ -118,7 +118,7 @@ nodes = {
 "speaker": 6
 },
 "1_17": {
-"dialogue": "*Sigh.*",
+"dialogue": "[i]Sigh.[/i]",
 "offset": Vector2(7640, 280),
 "options": {
 0: {
@@ -547,7 +547,7 @@ nodes = {
 "speaker": 19
 },
 "1_9": {
-"dialogue": "Sean: AGH! NO!",
+"dialogue": "AGH! NO!",
 "offset": Vector2(4978.41, 239.985),
 "options": {
 0: {

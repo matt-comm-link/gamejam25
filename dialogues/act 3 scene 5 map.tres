@@ -19,7 +19,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_2",
+"link": "END",
 "text": ""
 }
 },
@@ -162,7 +162,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_3",
+"link": "END",
 "text": ""
 }
 },
@@ -284,7 +284,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 17
+"speaker": 20
 },
 "1_3": {
 "dialogue": "…God damn it.",
@@ -292,7 +292,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_4",
+"link": "END",
 "text": ""
 }
 },
@@ -305,7 +305,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_5",
+"link": "END",
 "text": ""
 }
 },
@@ -318,7 +318,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_6",
+"link": "END",
 "text": ""
 }
 },
@@ -331,7 +331,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_7",
+"link": "END",
 "text": ""
 }
 },
@@ -344,7 +344,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_8",
+"link": "END",
 "text": ""
 }
 },

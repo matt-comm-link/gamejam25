@@ -183,7 +183,6 @@ visible = false
 z_index = 5
 layout_mode = 2
 script = ExtResource("7_3q5x4")
-globalVariables = null
 data = SubResource("Resource_f0srs")
 spacer_portrait = null
 scroll_speed = 8

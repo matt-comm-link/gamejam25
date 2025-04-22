@@ -102,7 +102,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 16
+"speaker": 10
 },
 "1_16": {
 "dialogue": "Oh. No. I don’t think so. Not yet, at least.",
@@ -141,7 +141,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 14
+"speaker": 8
 },
 "1_19": {
 "dialogue": "I mean if I actually think about and try to explain where this… cave entrance or whatever just suddenly appeared from I’m probably gonna lose my mind.",
@@ -404,7 +404,7 @@ nodes = {
 "speaker": 16
 },
 "1_5": {
-"dialogue": "Oh, yeah. There was a bright flash when I saw it. Did you see it?",
+"dialogue": "Oh, yeah. There was a bright flash when I solved it. Did you see it?",
 "offset": Vector2(560, -240),
 "options": {
 0: {

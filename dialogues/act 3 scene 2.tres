@@ -89,7 +89,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 16
+"speaker": 20
 },
 "1_15": {
 "dialogue": "(What has she figured out so far?)",
@@ -141,7 +141,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": ""
+"speaker": 15
 },
 "1_19": {
 "dialogue": "(But it’s not gonna mean anything if we can’t get her out of here. Or get Marl and Sean to join her. I don’t know how we’re going to do that. We’re safe for the moment, but the second we try to sneak back out we’re done for.)",
@@ -292,7 +292,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_8",
+"link": &"3_12",
 "text": ""
 }
 },
@@ -446,6 +446,11 @@ tension",
 "offset": Vector2(218.962, 352.098),
 "signalValue": "setOutcome|failure"
 },
+"3_12": {
+"link": &"3_8",
+"offset": Vector2(10080, -40),
+"signalValue": "prepTutorial|2"
+},
 "3_2": {
 "link": &"5_1",
 "offset": Vector2(-920, -100),
@@ -478,12 +483,12 @@ tension",
 },
 "3_8": {
 "link": &"3_9",
-"offset": Vector2(10079.9, -5.14472),
+"offset": Vector2(10320, -40),
 "signalValue": "setGlobal|LARI DIED=Yes"
 },
 "3_9": {
 "link": "END",
-"offset": Vector2(10415.4, 46.5553),
+"offset": Vector2(10780, -160),
 "signalValue": "setOutcome|failure"
 },
 "5_1": {

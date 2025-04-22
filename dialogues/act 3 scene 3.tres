@@ -752,7 +752,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 4
+"speaker": 10
 },
 "1_33": {
 "dialogue": "…Statue?",
@@ -1405,7 +1405,7 @@ nodes = {
 "speaker": 9
 },
 "1_79": {
-"dialogue": "Oh, fuck. Larissa! Larissa!",
+"dialogue": "Damn It! Larissa! Larissa!",
 "offset": Vector2(25300, 140),
 "options": {
 0: {

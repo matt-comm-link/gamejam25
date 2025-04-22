@@ -339,7 +339,7 @@ nodes = {
 "speaker": 2
 },
 "1_32": {
-"dialogue": "I will be careful. I promise.",
+"dialogue": "I'll be careful. I promise.",
 "offset": Vector2(9980, -240),
 "options": {
 0: {

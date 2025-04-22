@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://bgbhooalcxuxx"]
+[gd_scene load_steps=42 format=3 uid="uid://bgbhooalcxuxx"]
 
 [ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_ojao4"]
 [ext_resource type="Script" path="res://scenes/ScrollConstrain.cs" id="2_p0nnr"]
@@ -18,13 +18,14 @@
 [ext_resource type="Texture2D" uid="uid://bbuo2r1h3a2wl" path="res://artstuffs/BGs/BGs/BG 6 V3.PNG" id="15_iu0gc"]
 [ext_resource type="Resource" uid="uid://dpjnn5avuopyu" path="res://dialogues/act 3 scene 3.tres" id="17_ix3uu"]
 [ext_resource type="AudioStream" uid="uid://bqrcuurajenik" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/tension v3.mp3" id="17_n2rmt"]
+[ext_resource type="Resource" uid="uid://3p2oxv03c22m" path="res://dialogues/act 3 scene 4.tres" id="17_nwcbs"]
 [ext_resource type="Texture2D" uid="uid://dpfqmddd2b85d" path="res://artstuffs/BGs/BGs/BG 7 Attack.PNG" id="17_vtthf"]
 [ext_resource type="Resource" uid="uid://dx7wsiyuxleb4" path="res://dialogues/act 3 scene 5.tres" id="19_54gtn"]
 [ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="20_2rjp4"]
 [ext_resource type="Resource" uid="uid://bkuyy3mem2mx2" path="res://dialogues/act 3 scene 1 map.tres" id="21_1pri0"]
 [ext_resource type="Texture2D" uid="uid://c2r2x66ssrft0" path="res://artstuffs/BGs/BGs/BG 7 Dead.PNG" id="21_tvdmu"]
 [ext_resource type="Resource" uid="uid://dayi3fr3govi2" path="res://dialogues/act 3 scene 1 map 2.tres" id="22_5cnea"]
-[ext_resource type="Resource" path="res://dialogues/act 3 scene 2 map.tres" id="23_j4sdl"]
+[ext_resource type="Resource" uid="uid://d2oyfb2g825re" path="res://dialogues/act 3 scene 2 map.tres" id="23_j4sdl"]
 [ext_resource type="Resource" uid="uid://ddhb5wxr0lyoq" path="res://dialogues/act 3 scene 6.tres" id="24_i28i5"]
 [ext_resource type="Resource" uid="uid://c5rkbxrsd41nw" path="res://dialogues/act 3 scene 4 map.tres" id="24_sijpp"]
 [ext_resource type="Resource" uid="uid://trhxwxr2bhqb" path="res://dialogues/act 3 scene 5 map.tres" id="25_atxw4"]
@@ -167,9 +168,9 @@ RootNode = NodePath("../Scene 1")
 blurbs = {
 "failure": "Marl meets a grisly end"
 }
-backgrounds = [ExtResource("9_imxjc"), ExtResource("10_hhqvu"), ExtResource("14_42x0u"), ExtResource("17_vtthf")]
+backgrounds = [ExtResource("9_imxjc"), ExtResource("14_42x0u"), ExtResource("10_hhqvu"), ExtResource("14_42x0u"), ExtResource("17_vtthf")]
 songs = [ExtResource("8_psej6"), ExtResource("17_n2rmt")]
-DialogTree = ExtResource("24_sijpp")
+DialogTree = ExtResource("17_nwcbs")
 DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
 Sean = false
@@ -206,7 +207,7 @@ RootNode = NodePath("../Scene 3")
 blurbs = {
 "end": "The group face off against the Wyrm"
 }
-backgrounds = [ExtResource("9_imxjc"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("12_kvn24"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("10_hhqvu"), ExtResource("12_kvn24"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("12_kvn24"), ExtResource("10_hhqvu"), ExtResource("21_tvdmu"), ExtResource("14_42x0u"), ExtResource("13_2rshu")]
+backgrounds = [ExtResource("9_imxjc"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("10_hhqvu"), ExtResource("12_kvn24"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("10_hhqvu"), ExtResource("12_kvn24"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("10_hhqvu"), ExtResource("17_vtthf"), ExtResource("12_kvn24"), ExtResource("10_hhqvu"), ExtResource("21_tvdmu"), ExtResource("14_42x0u"), ExtResource("13_2rshu")]
 songs = [ExtResource("17_n2rmt"), ExtResource("7_ch825"), ExtResource("9_3re0t")]
 DialogTree = ExtResource("24_i28i5")
 DSM = NodePath("../../../../DialogScene")

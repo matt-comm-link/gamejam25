@@ -352,7 +352,7 @@ nodes = {
 "speaker": 0
 },
 "1_33": {
-"dialogue": " I hope the camera didn’t spook him. But at least I’ve got the photo, at least… we should move on before we disturb him anymore. Otherwise he might leave the area completely.",
+"dialogue": " I hope the camera didn’t spook him. But I’ve got the photo, at least… we should move on before we disturb him anymore. Otherwise he might leave the area completely.",
 "offset": Vector2(12040, -160),
 "options": {
 0: {
