@@ -582,7 +582,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 320),
 "speaker": 8
 },
 "1_5": {
@@ -890,7 +890,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_8",
 "text": ""
 }
 },
@@ -970,8 +970,18 @@ mysterious",
 },
 "3_7": {
 "link": &"1_49",
-"offset": Vector2(16344.8, 121),
+"offset": Vector2(16280, 220),
 "signalValue": "mute"
+},
+"3_8": {
+"link": &"3_9",
+"offset": Vector2(23772.4, -22.4524),
+"signalValue": "setOutcome|Sean Stays Marl & Larissa"
+},
+"3_9": {
+"link": "END",
+"offset": Vector2(24105.8, 6.80531),
+"signalValue": "prepTutorial|0"
 }
 }
 variables = {}

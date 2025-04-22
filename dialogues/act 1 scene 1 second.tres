@@ -28,8 +28,8 @@ nodes = {
 },
 "3_1": {
 "link": "END",
-"offset": Vector2(-11.777, -174.676),
-"signalValue": "setOutcome|scene 2"
+"offset": Vector2(0, -180),
+"signalValue": "setOutcome|The Artefact"
 }
 }
 variables = {}

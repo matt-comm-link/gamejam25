@@ -396,13 +396,8 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_37",
-"text": "HAVEN'T SEEN SCENE 3"
-},
-1: {
-"condition": {},
-"link": &"1_39",
-"text": "HAVE SEEN SCENE 3"
+"link": &"5_1",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -410,7 +405,7 @@ nodes = {
 },
 "1_37": {
 "dialogue": "(I’m starting to think they aren’t coming back. I’m gonna need to go to the other timeline and check on them.)",
-"offset": Vector2(12940, -240),
+"offset": Vector2(13380, -280),
 "options": {
 0: {
 "condition": {},
@@ -423,11 +418,11 @@ nodes = {
 },
 "1_38": {
 "dialogue": "(At least I know Sean’s okay finding the doorway on his own. There really isn’t anything I can do here… but something tells me it’ll be useful knowing I don’t have to worry about this branch.)",
-"offset": Vector2(13300, -240),
+"offset": Vector2(13900, -260),
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_8",
 "text": ""
 }
 },
@@ -436,7 +431,7 @@ nodes = {
 },
 "1_39": {
 "dialogue": "(Well, good to know they definitely got themselves killed. That’s gonna weigh on my conscience.)",
-"offset": Vector2(12920, 100),
+"offset": Vector2(13260, 80),
 "options": {
 0: {
 "condition": {},
@@ -462,7 +457,7 @@ nodes = {
 },
 "1_40": {
 "dialogue": "(If I sit around waiting here, the timeline’s gonna lock itself in and then this whole plan is screwed. It’s time to go back and see what I can do elsewhere.)",
-"offset": Vector2(13300, 80),
+"offset": Vector2(13660, 100),
 "options": {
 0: {
 "condition": {},
@@ -475,11 +470,11 @@ nodes = {
 },
 "1_41": {
 "dialogue": "(No matter what, I have to make sure Marl and Larissa don’t run off to that canyon on their own. I just have to figure out how to stop them. Maybe there’s something I can do now that I know Sean solved the puzzle on his own…)",
-"offset": Vector2(13660, 80),
+"offset": Vector2(14040, 80),
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_8",
 "text": ""
 }
 },
@@ -606,8 +601,35 @@ title",
 "link": &"3_1",
 "offset": Vector2(8211.63, 43.12),
 "signalValue": "mute"
+},
+"3_8": {
+"link": &"3_9",
+"offset": Vector2(14580, 100),
+"signalValue": "setOutcome|Reunion"
+},
+"3_9": {
+"link": "END",
+"offset": Vector2(14920, 160),
+"signalValue": "setGlobal|SCENE 2=Yes"
+},
+"5_1": {
+"false": &"1_37",
+"offset": Vector2(12860, -140),
+"operator": 0,
+"true": &"1_39",
+"value1": "SCENE 3",
+"value2": "Yes"
 }
 }
-variables = {}
+variables = {
+"SCENE 2": {
+"type": 4,
+"value": "No"
+},
+"SCENE 3": {
+"type": 4,
+"value": "No"
+}
+}
 strays = Array[String](["2_1", "2_2", "2_3", "2_4"])
 characters = "res://res/assets/Characters.tres"

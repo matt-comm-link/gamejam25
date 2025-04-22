@@ -15,7 +15,7 @@ nodes = {
 },
 "1_1": {
 "dialogue": "I hope she's okay.",
-"offset": Vector2(-240, -220),
+"offset": Vector2(-380, -220),
 "options": {
 0: {
 "condition": {},
@@ -284,7 +284,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 15
+"speaker": 21
 },
 "1_118": {
 "dialogue": "MEOW!",
@@ -474,7 +474,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_7",
 "text": ""
 }
 },
@@ -539,13 +539,8 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_19",
-"text": "HAVEN'T SEEN SCENE 5"
-},
-1: {
-"condition": {},
-"link": &"1_88",
-"text": "HAVE SEEN SCENE 5"
+"link": &"5_2",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -553,7 +548,7 @@ nodes = {
 },
 "1_19": {
 "dialogue": "Could be you just have to remake the shape it’s already in.",
-"offset": Vector2(5820, -180),
+"offset": Vector2(5700, -220),
 "options": {
 0: {
 "condition": {},
@@ -566,7 +561,7 @@ nodes = {
 },
 "1_2": {
 "dialogue": "I’m sure she will be. She’s pretty resourceful in her own way. And she’s definitely the least reckless of us. If anything looks dangerous, I’m sure she’ll turn back.",
-"offset": Vector2(120, -220),
+"offset": Vector2(-20, -220),
 "options": {
 0: {
 "condition": {},
@@ -579,17 +574,12 @@ nodes = {
 },
 "1_20": {
 "dialogue": "I dunno… but, I mean, I guess so. It’s worth trying. And if it doesn’t work, we can double back to meet up with Larissa again.",
-"offset": Vector2(6180, -180),
+"offset": Vector2(6040, -180),
 "options": {
 0: {
 "condition": {},
-"link": &"1_21",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_24",
-"text": "ELSE"
+"link": &"5_3",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -714,17 +704,12 @@ nodes = {
 },
 "1_3": {
 "dialogue": "Yeah. You’re right. I just have to trust her.",
-"offset": Vector2(480, -220),
+"offset": Vector2(300, -220),
 "options": {
 0: {
 "condition": {},
-"link": &"1_4",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_5",
-"text": "ELSE"
+"link": &"5_1",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -862,7 +847,7 @@ nodes = {
 },
 "1_4": {
 "dialogue": "(...Damn it.)",
-"offset": Vector2(800, -560),
+"offset": Vector2(880, -540),
 "options": {
 0: {
 "condition": {},
@@ -1005,7 +990,7 @@ nodes = {
 },
 "1_5": {
 "dialogue": "…Hey, what’s this?",
-"offset": Vector2(860, -200),
+"offset": Vector2(1060, 100),
 "options": {
 0: {
 "condition": {},
@@ -1148,7 +1133,7 @@ nodes = {
 },
 "1_6": {
 "dialogue": "Weird. That almost looks like some kind of door. But I don’t see a way to open it.",
-"offset": Vector2(1260, -180),
+"offset": Vector2(1380, 100),
 "options": {
 0: {
 "condition": {},
@@ -1165,13 +1150,8 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_61",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_62",
-"text": "ELSE"
+"link": &"5_4",
+"text": ""
 }
 },
 "size": Vector2(300, 289),
@@ -1179,7 +1159,7 @@ nodes = {
 },
 "1_61": {
 "dialogue": "(Oh god...)",
-"offset": Vector2(19280, -200),
+"offset": Vector2(19600, -180),
 "options": {
 0: {
 "condition": {},
@@ -1192,7 +1172,7 @@ nodes = {
 },
 "1_62": {
 "dialogue": "(Uh-oh. There’s only one thing that could be.)",
-"offset": Vector2(19280, 140),
+"offset": Vector2(19440, 160),
 "options": {
 0: {
 "condition": {},
@@ -1205,7 +1185,7 @@ nodes = {
 },
 "1_63": {
 "dialogue": "What the hell was that?",
-"offset": Vector2(19740, -20),
+"offset": Vector2(19840, 140),
 "options": {
 0: {
 "condition": {},
@@ -1335,17 +1315,12 @@ nodes = {
 },
 "1_72": {
 "dialogue": "(We’re sprinting back to the passage…)",
-"offset": Vector2(22840, 0),
+"offset": Vector2(22780, 400),
 "options": {
 0: {
 "condition": {},
-"link": &"1_73",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_74",
-"text": "ELSE"
+"link": &"5_5",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -1353,7 +1328,7 @@ nodes = {
 },
 "1_73": {
 "dialogue": "(But I know it’s already too late.)",
-"offset": Vector2(23220, -80),
+"offset": Vector2(23360, -40),
 "options": {
 0: {
 "condition": {},
@@ -1366,7 +1341,7 @@ nodes = {
 },
 "1_74": {
 "dialogue": "(I just hope it isn’t too late.)",
-"offset": Vector2(23220, 260),
+"offset": Vector2(23340, 360),
 "options": {
 0: {
 "condition": {},
@@ -1496,17 +1471,12 @@ nodes = {
 },
 "1_83": {
 "dialogue": "(They’re trying to open the passage back up with their bare hands… for all the good it’s going to do.)",
-"offset": Vector2(26760, 140),
+"offset": Vector2(26720, 160),
 "options": {
 0: {
 "condition": {},
-"link": &"1_84",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_85",
-"text": "ELSE"
+"link": &"5_6",
+"text": ""
 }
 },
 "size": Vector2(320, 300),
@@ -1557,7 +1527,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_6",
 "text": ""
 }
 },
@@ -1584,7 +1554,7 @@ nodes = {
 },
 "1_89": {
 "dialogue": "(...It's a risk. It's a real risk. Maybe the only kind of risk I can't walk back from. I shouldn't be so quick to break causality.)",
-"offset": Vector2(5780, 580),
+"offset": Vector2(6200, 580),
 "options": {
 0: {
 "condition": {},
@@ -1752,7 +1722,7 @@ BG 6 SNAKE",
 },
 "2_3": {
 "comment": "Another flag to be set.",
-"offset": Vector2(22920, 340),
+"offset": Vector2(22520, 360),
 "size": Vector2(220, 100)
 },
 "2_4": {
@@ -1783,15 +1753,91 @@ mysterious",
 },
 "3_3": {
 "link": &"1_1",
-"offset": Vector2(-520, -140),
+"offset": Vector2(-600, -140),
 "signalValue": "mute"
 },
 "3_4": {
 "link": &"1_83",
 "offset": Vector2(26485.9, 571.502),
 "signalValue": "mute"
+},
+"3_5": {
+"link": "END",
+"offset": Vector2(28740, 580),
+"signalValue": "setOutcome Failure"
+},
+"3_6": {
+"link": &"3_5",
+"offset": Vector2(28457.5, 683.44),
+"signalValue": "setGlobal|SCENE 3=Yes"
+},
+"3_7": {
+"link": "END",
+"offset": Vector2(20960, 740),
+"signalValue": "setOutcome|A Desperate Battle"
+},
+"5_1": {
+"false": &"1_5",
+"offset": Vector2(640, -80),
+"operator": 0,
+"true": &"1_4",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_2": {
+"false": &"1_19",
+"offset": Vector2(5491.2, 268.43),
+"operator": 0,
+"true": &"1_88",
+"value1": "SCENE 5",
+"value2": "Yes"
+},
+"5_3": {
+"false": &"1_24",
+"offset": Vector2(6200, -420),
+"operator": 0,
+"true": &"1_21",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_4": {
+"false": &"1_62",
+"offset": Vector2(19240, -80),
+"operator": 0,
+"true": &"1_61",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_5": {
+"false": &"1_74",
+"offset": Vector2(22860, 100),
+"operator": 0,
+"true": &"1_73",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_6": {
+"false": &"1_85",
+"offset": Vector2(26800, -60),
+"operator": 0,
+"true": &"1_84",
+"value1": "LARI DIED",
+"value2": "Yes"
 }
 }
-variables = {}
-strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5", "2_6"])
+variables = {
+"LARI DIED": {
+"type": 4,
+"value": "NO"
+},
+"SCENE 3": {
+"type": 4,
+"value": "NO"
+},
+"SCENE 5": {
+"type": 4,
+"value": "NO"
+}
+}
+strays = Array[String](["2_1", "2_2", "2_4", "2_5", "2_6", "2_3"])
 characters = "res://res/assets/Characters.tres"

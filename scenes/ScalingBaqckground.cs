@@ -27,6 +27,7 @@ public partial class ScalingBaqckground : TextureRect
 
 		CustomMinimumSize = new Vector2(targetWidth, targetHeight);
 		Size = CustomMinimumSize;
+		GD.Print("new background size " + targetWidth + ", " + targetHeight);
 }
 
 }

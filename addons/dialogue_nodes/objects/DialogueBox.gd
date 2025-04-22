@@ -22,6 +22,11 @@ signal variable_changed(variable_name : String, value)
 ## The [DialogueBox] may hide based on the [member hide_on_dialogue_end] property.
 signal dialogue_ended
 
+@export var globalVariables : Dictionary:
+		get:
+			return globalVariables;
+		set(value):
+			globalVariables = value;
 
 @export_group('Data')
 ## Contains the [param DialogueData] resource created using the Dialogue Nodes editor.
@@ -249,6 +254,7 @@ func _input(event):
 ## Starts processing the dialogue [member data], starting with the Start Node with its ID set to [param start_id].
 func start(id := start_id):
 	if not _dialogue_parser: return
+	_dialogue_parser.set_variables(globalVariables);
 	_dialogue_parser.start(id)
 
 

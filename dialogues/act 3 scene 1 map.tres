@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://cw6rqvyyfc0u2"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://bkuyy3mem2mx2"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_xegp4"]
 
@@ -36,7 +36,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 280),
 "speaker": 21
 },
 "1_3": {

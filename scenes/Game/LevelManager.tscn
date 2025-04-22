@@ -1,0 +1,19 @@
+[gd_scene load_steps=7 format=3 uid="uid://4arcoe1vgrkj"]
+
+[ext_resource type="Script" path="res://scripts/LevelManager.cs" id="1_grcwb"]
+[ext_resource type="PackedScene" uid="uid://630xdo1uluha" path="res://scenes/Game/TitleScreen.tscn" id="2_cwriy"]
+[ext_resource type="PackedScene" uid="uid://buy2b7l6iwy8n" path="res://scenes/Game/Act1.tscn" id="3_gyrfa"]
+[ext_resource type="PackedScene" uid="uid://cqghwprc8s61" path="res://scenes/Game/Act2.tscn" id="4_w8wb8"]
+[ext_resource type="PackedScene" uid="uid://bgbhooalcxuxx" path="res://scenes/Game/Act3.tscn" id="5_ht418"]
+[ext_resource type="PackedScene" uid="uid://dwkqti5xghvnc" path="res://scenes/Game/CreditsScreen.tscn" id="6_ct5ux"]
+
+[node name="LevelManager" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_grcwb")
+levels = [ExtResource("2_cwriy"), ExtResource("3_gyrfa"), ExtResource("4_w8wb8"), ExtResource("5_ht418"), ExtResource("6_ct5ux")]
+levelIndex = 3

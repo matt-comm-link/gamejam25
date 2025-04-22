@@ -1,0 +1,61 @@
+[gd_scene load_steps=5 format=3 uid="uid://dwkqti5xghvnc"]
+
+[ext_resource type="Script" path="res://scenes/Game/TitleScreen.cs" id="1_jmmw1"]
+[ext_resource type="Texture2D" uid="uid://cvce4wtma50pa" path="res://artstuffs/BGs/BGs/BG 6 V2.PNG" id="2_0i076"]
+[ext_resource type="Script" path="res://scenes/ScalingBaqckground.cs" id="3_r4upc"]
+[ext_resource type="AudioStream" uid="uid://cnm6aj063d5mc" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/chill.mp3" id="4_0xupe"]
+
+[node name="TitleScreen" type="Control"]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jmmw1")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1420.0
+offset_bottom = 799.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture = ExtResource("2_0i076")
+expand_mode = 1
+script = ExtResource("3_r4upc")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TextureRect"]
+custom_minimum_size = Vector2(800, 0)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -189.0
+offset_right = 400.0
+offset_bottom = 189.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+text = "[font_size=30]Staff:
+Matthew \"Mattihase\" Crane: Programmer
+Autumn Jones \"WyrdAutumn\": Lead Writer
+Deathamaranth: Character Artist
+Ari Ganahl \"Arithetonberry\": Background Artst
+TheGerkuman: Composer
+With additional help from ftrtrjn, nebi, grsbke
+
+Thanks for Playing"
+fit_content = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_0xupe")
+autoplay = true

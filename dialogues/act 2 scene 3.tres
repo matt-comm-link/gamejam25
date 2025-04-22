@@ -357,13 +357,8 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_34",
-"text": "HAVEN'T SEEN SCENE 2"
-},
-1: {
-"condition": {},
-"link": &"1_35",
-"text": "HAVE SEEN SCENE 2"
+"link": &"5_1",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -371,7 +366,7 @@ nodes = {
 },
 "1_34": {
 "dialogue": "(Shifting on purpose? What could cause that?)",
-"offset": Vector2(10580, -220),
+"offset": Vector2(10960, -400),
 "options": {
 0: {
 "condition": {},
@@ -384,7 +379,7 @@ nodes = {
 },
 "1_35": {
 "dialogue": "(That must be Sean fiddling with the Wayfinder!)",
-"offset": Vector2(10580, 80),
+"offset": Vector2(10700, 80),
 "options": {
 0: {
 "condition": {},
@@ -436,7 +431,7 @@ nodes = {
 },
 "1_39": {
 "dialogue": "…",
-"offset": Vector2(12060, 40),
+"offset": Vector2(12020, 40),
 "options": {
 0: {
 "condition": {},
@@ -462,7 +457,7 @@ nodes = {
 },
 "1_40": {
 "dialogue": "Sorry. I'll wait until you're done.",
-"offset": Vector2(12420, 40),
+"offset": Vector2(12320, 40),
 "options": {
 0: {
 "condition": {},
@@ -475,11 +470,11 @@ nodes = {
 },
 "1_41": {
 "dialogue": "...Look.",
-"offset": Vector2(12760, 40),
+"offset": Vector2(12620, 40),
 "options": {
 0: {
 "condition": {},
-"link": &"1_42",
+"link": &"1_90",
 "text": ""
 }
 },
@@ -514,7 +509,7 @@ nodes = {
 },
 "1_44": {
 "dialogue": "I was seeing a pattern in the static… I had to watch closely and find the shape of it. But this is what’s been bothering me.",
-"offset": Vector2(13780, 40),
+"offset": Vector2(13760, -180),
 "options": {
 0: {
 "condition": {},
@@ -527,7 +522,7 @@ nodes = {
 },
 "1_45": {
 "dialogue": "(She saw that in the static on her phone? The girl really does have a good eye.)",
-"offset": Vector2(14120, 40),
+"offset": Vector2(14080, -280),
 "options": {
 0: {
 "condition": {},
@@ -540,17 +535,12 @@ nodes = {
 },
 "1_46": {
 "dialogue": "Huh… you know, I think I’ve seen that before.",
-"offset": Vector2(14460, 60),
+"offset": Vector2(14400, -260),
 "options": {
 0: {
 "condition": {},
-"link": &"1_47",
-"text": "HAVEN'T SEEN SCENE 3"
-},
-1: {
-"condition": {},
-"link": &"3_3",
-"text": "HAVE SEEN SCENE 3"
+"link": &"5_2",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -558,7 +548,7 @@ nodes = {
 },
 "1_47": {
 "dialogue": "There’s a carving like that on this stone outcropping not far from here. It’s kind of a local legend. I wasn’t gonna head that way because I always figured it was just some weirdly eroded rock people were finding a shape in. But if you’re seeing that in our phones it’s gotta mean something.",
-"offset": Vector2(14820, 60),
+"offset": Vector2(14920, 60),
 "options": {
 0: {
 "condition": {},
@@ -566,12 +556,12 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 300),
 "speaker": 0
 },
 "1_48": {
 "dialogue": "(Wait… the [b]Wyrm[/b]’s symbol is exposed? That’s not good.)",
-"offset": Vector2(15160, 60),
+"offset": Vector2(15220, 60),
 "options": {
 0: {
 "condition": {},
@@ -584,7 +574,7 @@ nodes = {
 },
 "1_49": {
 "dialogue": "Do you want to look into it?",
-"offset": Vector2(15500, 60),
+"offset": Vector2(15540, 60),
 "options": {
 0: {
 "condition": {},
@@ -636,7 +626,7 @@ nodes = {
 },
 "1_52": {
 "dialogue": "It should only be a ten minute walk from here. Path’s decently traveled, too, so we can hustle. And if we check it out we can probably find something concrete enough to win Sean over.",
-"offset": Vector2(16520, 80),
+"offset": Vector2(16580, 340),
 "options": {
 0: {
 "condition": {},
@@ -644,12 +634,12 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 340),
 "speaker": 0
 },
 "1_53": {
 "dialogue": "Win him over to what?",
-"offset": Vector2(16840, 80),
+"offset": Vector2(16920, 0),
 "options": {
 0: {
 "condition": {},
@@ -662,7 +652,7 @@ nodes = {
 },
 "1_54": {
 "dialogue": "To, well… whatever the heck is going on here.",
-"offset": Vector2(17220, 80),
+"offset": Vector2(17300, 0),
 "options": {
 0: {
 "condition": {},
@@ -675,7 +665,7 @@ nodes = {
 },
 "1_55": {
 "dialogue": "(And they’re going alone!?)",
-"offset": Vector2(17540, 80),
+"offset": Vector2(17620, 0),
 "options": {
 0: {
 "condition": {},
@@ -688,7 +678,7 @@ nodes = {
 },
 "1_56": {
 "dialogue": "I see.",
-"offset": Vector2(17880, 80),
+"offset": Vector2(17920, 80),
 "options": {
 0: {
 "condition": {},
@@ -701,7 +691,7 @@ nodes = {
 },
 "1_57": {
 "dialogue": "I'm on board.",
-"offset": Vector2(18200, 80),
+"offset": Vector2(18240, 80),
 "options": {
 0: {
 "condition": {},
@@ -714,7 +704,7 @@ nodes = {
 },
 "1_58": {
 "dialogue": "(This is bad. This is real bad. If the lair is close to the surface and the Wayfinder is this close… it’s definitely up and waiting to strike. It’ll bust through the wall and kill them on the spot. I can’t let them do this!)",
-"offset": Vector2(18540, 80),
+"offset": Vector2(18580, 40),
 "options": {
 0: {
 "condition": {},
@@ -722,12 +712,12 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 360),
 "speaker": 18
 },
 "1_59": {
 "dialogue": "Meow!",
-"offset": Vector2(18880, 100),
+"offset": Vector2(18920, 100),
 "options": {
 0: {
 "condition": {},
@@ -753,7 +743,7 @@ nodes = {
 },
 "1_60": {
 "dialogue": "Mroww!",
-"offset": Vector2(19200, 100),
+"offset": Vector2(19240, 100),
 "options": {
 0: {
 "condition": {},
@@ -783,13 +773,8 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_63",
-"text": "HAVEN'T SEEN SCENE 2"
-},
-1: {
-"condition": {},
-"link": &"1_65",
-"text": "HAVE SEEN SCENE 2"
+"link": &"5_3",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -797,7 +782,7 @@ nodes = {
 },
 "1_63": {
 "dialogue": "(Damn it… meowing at them isn’t getting them to turn back. I have to try something else!)",
-"offset": Vector2(20240, 120),
+"offset": Vector2(20860, 80),
 "options": {
 0: {
 "condition": {},
@@ -810,11 +795,11 @@ nodes = {
 },
 "1_64": {
 "dialogue": "(I have to get them to go back to Sean... maybe if I find out what he's up to, I can figure out how.)",
-"offset": Vector2(20560, 120),
+"offset": Vector2(21180, 80),
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -823,7 +808,7 @@ nodes = {
 },
 "1_65": {
 "dialogue": "(You DID get yourself killed! That's why you never returned to Sean!)",
-"offset": Vector2(20240, 440),
+"offset": Vector2(20800, 420),
 "options": {
 0: {
 "condition": {},
@@ -836,11 +821,11 @@ nodes = {
 },
 "1_66": {
 "dialogue": "(I have to go back! I missed my chance, but I can always try again! There's got to be a way to make them turn around!)",
-"offset": Vector2(20560, 440),
+"offset": Vector2(21120, 420),
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -849,7 +834,7 @@ nodes = {
 },
 "1_67": {
 "dialogue": "(Now’s the moment. I’ve got to stop them from skipping the script and dying for it!)",
-"offset": Vector2(14820, 420),
+"offset": Vector2(14560, 520),
 "options": {
 0: {
 "condition": {},
@@ -862,11 +847,11 @@ nodes = {
 },
 "1_68": {
 "dialogue": "There’s a carving like that in this stone outcropping not too far from here.",
-"offset": Vector2(15140, 420),
+"offset": Vector2(14980, 480),
 "options": {
 0: {
 "condition": {},
-"link": &"1_69",
+"link": &"5_4",
 "text": ""
 }
 },
@@ -875,7 +860,7 @@ nodes = {
 },
 "1_69": {
 "dialogue": "(There was a flash of light when Sean solved the puzzle… it should be happening in just a few moments. I have to make sure they see it!)",
-"offset": Vector2(15460, 420),
+"offset": Vector2(15400, 800),
 "options": {
 0: {
 "condition": {},
@@ -906,7 +891,7 @@ nodes = {
 },
 "1_70": {
 "dialogue": "(Is it going to happen now? Or maybe in a few more...?)",
-"offset": Vector2(15440, 780),
+"offset": Vector2(15380, 1160),
 "options": {
 0: {
 "condition": {},
@@ -919,7 +904,7 @@ nodes = {
 },
 "1_71": {
 "dialogue": "(NO! That was it! I missed it!)",
-"offset": Vector2(15780, 780),
+"offset": Vector2(15720, 1160),
 "options": {
 0: {
 "condition": {},
@@ -932,7 +917,7 @@ nodes = {
 },
 "1_72": {
 "dialogue": "(Damn it... damn it... ugh. Is there anything I can do from here? What are they talking about now?)",
-"offset": Vector2(16100, 800),
+"offset": Vector2(16140, 1120),
 "options": {
 0: {
 "condition": {},
@@ -945,11 +930,11 @@ nodes = {
 },
 "1_73": {
 "dialogue": "[b]MEOW![/b]",
-"offset": Vector2(15820, 420),
+"offset": Vector2(15820, 620),
 "options": {
 0: {
 "condition": {},
-"link": &"1_74",
+"link": &"3_8",
 "text": ""
 }
 },
@@ -958,7 +943,7 @@ nodes = {
 },
 "1_74": {
 "dialogue": "It’s kind of a local–huh?",
-"offset": Vector2(16140, 420),
+"offset": Vector2(16260, 780),
 "options": {
 0: {
 "condition": {},
@@ -971,7 +956,7 @@ nodes = {
 },
 "1_75": {
 "dialogue": "MEOW! MEOW!",
-"offset": Vector2(16500, 480),
+"offset": Vector2(16680, 1040),
 "options": {
 0: {
 "condition": {},
@@ -984,7 +969,7 @@ nodes = {
 },
 "1_76": {
 "dialogue": "She seems agitated about something.",
-"offset": Vector2(16820, 420),
+"offset": Vector2(17040, 980),
 "options": {
 0: {
 "condition": {},
@@ -997,7 +982,7 @@ nodes = {
 },
 "1_77": {
 "dialogue": "Mrow! Meow!",
-"offset": Vector2(17140, 420),
+"offset": Vector2(17360, 940),
 "options": {
 0: {
 "condition": {},
@@ -1010,7 +995,7 @@ nodes = {
 },
 "1_78": {
 "dialogue": "That’s gotta be connected to all this weirdness too, right? I’m starting to think that carving–",
-"offset": Vector2(17480, 420),
+"offset": Vector2(17700, 940),
 "options": {
 0: {
 "condition": {},
@@ -1023,7 +1008,7 @@ nodes = {
 },
 "1_79": {
 "dialogue": "What was that?",
-"offset": Vector2(17820, 440),
+"offset": Vector2(17860, 440),
 "options": {
 0: {
 "condition": {},
@@ -1049,7 +1034,7 @@ nodes = {
 },
 "1_80": {
 "dialogue": " Huh?",
-"offset": Vector2(18140, 440),
+"offset": Vector2(18180, 440),
 "options": {
 0: {
 "condition": {},
@@ -1062,7 +1047,7 @@ nodes = {
 },
 "1_81": {
 "dialogue": "There was a flash of light.",
-"offset": Vector2(18460, 440),
+"offset": Vector2(18500, 440),
 "options": {
 0: {
 "condition": {},
@@ -1075,7 +1060,7 @@ nodes = {
 },
 "1_82": {
 "dialogue": "…It was back where we left Sean.",
-"offset": Vector2(18800, 440),
+"offset": Vector2(18840, 440),
 "options": {
 0: {
 "condition": {},
@@ -1088,7 +1073,7 @@ nodes = {
 },
 "1_83": {
 "dialogue": "You're sure?",
-"offset": Vector2(19140, 440),
+"offset": Vector2(19180, 440),
 "options": {
 0: {
 "condition": {},
@@ -1170,7 +1155,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_5",
 "text": ""
 }
 },
@@ -1189,6 +1174,19 @@ nodes = {
 },
 "size": Vector2(300, 240),
 "speaker": 12
+},
+"1_90": {
+"dialogue": "...",
+"offset": Vector2(12700, -280),
+"options": {
+0: {
+"condition": {},
+"link": &"1_42",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 23
 },
 "2_1": {
 "comment": "BACKGROUNDS
@@ -1236,10 +1234,76 @@ chill",
 },
 "3_3": {
 "link": &"1_67",
-"offset": Vector2(14540, 600),
+"offset": Vector2(14680, 220),
 "signalValue": "mute"
+},
+"3_4": {
+"link": &"3_6",
+"offset": Vector2(21667.7, 438.464),
+"signalValue": "setGlobal|SCENE 3=Yes"
+},
+"3_5": {
+"link": &"3_7",
+"offset": Vector2(21584.7, 968.882),
+"signalValue": "prepTutorial|2"
+},
+"3_6": {
+"link": "END",
+"offset": Vector2(21991, 504.25),
+"signalValue": "setOutcome|failure"
+},
+"3_7": {
+"link": "END",
+"offset": Vector2(21937.1, 982.696),
+"signalValue": "setOutcome|Reunion"
+},
+"3_8": {
+"link": &"1_74",
+"offset": Vector2(16160, 660),
+"signalValue": "advanceSong"
+},
+"5_1": {
+"false": &"1_34",
+"offset": Vector2(10600, -380),
+"operator": 0,
+"true": &"1_35",
+"value1": "SCENE 2",
+"value2": "Yes"
+},
+"5_2": {
+"false": &"1_47",
+"offset": Vector2(14740, -280),
+"operator": 0,
+"true": &"3_3",
+"value1": "SCENE 3",
+"value2": "Yes"
+},
+"5_3": {
+"false": &"1_63",
+"offset": Vector2(20220, 80),
+"operator": 0,
+"true": &"1_65",
+"value1": "SCENE 2",
+"value2": "Yes"
+},
+"5_4": {
+"false": &"1_72",
+"offset": Vector2(15300, 460),
+"operator": 0,
+"true": &"1_69",
+"value1": "SCENE 2",
+"value2": "Yes"
 }
 }
-variables = {}
+variables = {
+"SCENE 2": {
+"type": 4,
+"value": "NO"
+},
+"SCENE 3": {
+"type": 4,
+"value": "NO"
+}
+}
 strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_6", "2_5"])
 characters = "res://res/assets/Characters.tres"

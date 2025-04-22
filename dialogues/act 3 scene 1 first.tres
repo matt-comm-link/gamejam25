@@ -67,7 +67,7 @@ nodes = {
 },
 "1_13": {
 "dialogue": "That’s odd. There’s another path, but it doesn’t look as constructed as this one.",
-"offset": Vector2(3900, -240),
+"offset": Vector2(3680, 140),
 "options": {
 0: {
 "condition": {},
@@ -80,17 +80,12 @@ nodes = {
 },
 "1_14": {
 "dialogue": "O... oh.",
-"offset": Vector2(4220, -240),
+"offset": Vector2(3820, -260),
 "options": {
 0: {
 "condition": {},
-"link": &"1_15",
-"text": "HAVEN'T SEEN SCENE 3"
-},
-1: {
-"condition": {},
-"link": &"1_59",
-"text": "HAVE SEEN SCENE 3"
+"link": &"5_4",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -523,7 +518,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_3",
 "text": ""
 }
 },
@@ -636,25 +631,20 @@ nodes = {
 },
 "1_52": {
 "dialogue": "Good luck down the other path, Sean. You too, Marl. I’ll see you again soon.",
-"offset": Vector2(13660, -240),
+"offset": Vector2(13720, -400),
 "options": {
 0: {
 "condition": {},
-"link": &"1_53",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_54",
-"text": "ELSE"
+"link": &"5_1",
+"text": ""
 }
 },
-"size": Vector2(300, 290),
+"size": Vector2(300, 300),
 "speaker": 13
 },
 "1_53": {
 "dialogue": "(Shit...)",
-"offset": Vector2(14000, -560),
+"offset": Vector2(14620, -620),
 "options": {
 0: {
 "condition": {},
@@ -667,7 +657,7 @@ nodes = {
 },
 "1_54": {
 "dialogue": "Okay.",
-"offset": Vector2(14020, -240),
+"offset": Vector2(14640, -300),
 "options": {
 0: {
 "condition": {},
@@ -680,7 +670,7 @@ nodes = {
 },
 "1_55": {
 "dialogue": "…Come on, Sean.",
-"offset": Vector2(14360, -240),
+"offset": Vector2(14980, -300),
 "options": {
 0: {
 "condition": {},
@@ -693,7 +683,7 @@ nodes = {
 },
 "1_56": {
 "dialogue": "Uh...",
-"offset": Vector2(14700, -220),
+"offset": Vector2(15320, -280),
 "options": {
 0: {
 "condition": {},
@@ -706,7 +696,7 @@ nodes = {
 },
 "1_57": {
 "dialogue": "Yeah. Okay.",
-"offset": Vector2(15040, -220),
+"offset": Vector2(15660, -280),
 "options": {
 0: {
 "condition": {},
@@ -719,11 +709,11 @@ nodes = {
 },
 "1_58": {
 "dialogue": "(Damn it... that didn't work.)",
-"offset": Vector2(15380, -220),
+"offset": Vector2(16000, -280),
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_3",
 "text": ""
 }
 },
@@ -1062,7 +1052,7 @@ nodes = {
 },
 "1_81": {
 "dialogue": "Just don’t do anything you’d be mad at us for doing.",
-"offset": Vector2(11360, 480),
+"offset": Vector2(11060, 920),
 "options": {
 0: {
 "condition": {},
@@ -1075,7 +1065,7 @@ nodes = {
 },
 "1_82": {
 "dialogue": "(I'm so tired.)",
-"offset": Vector2(11700, 480),
+"offset": Vector2(11380, 740),
 "options": {
 0: {
 "condition": {},
@@ -1088,17 +1078,12 @@ nodes = {
 },
 "1_83": {
 "dialogue": "(Now Marl’s gonna go get themselves killed instead. And if I try to yowl at them, they’re just gonna pick me up and carry me off with them.)",
-"offset": Vector2(12040, 480),
+"offset": Vector2(11700, 740),
 "options": {
 0: {
 "condition": {},
-"link": &"1_84",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_87",
-"text": "LARISSA HASN'T DIED"
+"link": &"5_2",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -1136,7 +1121,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"5_3",
 "text": ""
 }
 },
@@ -1162,7 +1147,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"5_3",
 "text": ""
 }
 },
@@ -1191,12 +1176,12 @@ BG 6 Snake",
 },
 "2_2": {
 "comment": "Yet another branch to configure.",
-"offset": Vector2(3920, 60),
+"offset": Vector2(3700, 440),
 "size": Vector2(280, 100)
 },
 "2_3": {
 "comment": "Another flag situation to resolve.",
-"offset": Vector2(13640, -440),
+"offset": Vector2(14260, -500),
 "size": Vector2(280, 100)
 },
 "2_4": {
@@ -1207,15 +1192,85 @@ title",
 },
 "3_1": {
 "link": &"1_13",
-"offset": Vector2(3660, -140),
+"offset": Vector2(3440, 240),
 "signalValue": "advanceBackground"
 },
 "3_2": {
 "link": &"1_1",
 "offset": Vector2(-500, -180),
 "signalValue": "play"
+},
+"3_3": {
+"link": "END",
+"offset": Vector2(16000, 120),
+"signalValue": "SetOutcome|Larissa Splits Marl & Sean A Desperate Battle"
+},
+"3_4": {
+"link": "END",
+"offset": Vector2(14360, 800),
+"signalValue": "SetOutcome|Marl Splits Sean & Larissa"
+},
+"3_5": {
+"link": &"1_54",
+"offset": Vector2(14340, 60),
+"signalValue": "prepTutorial|0"
+},
+"3_6": {
+"link": &"3_7",
+"offset": Vector2(13780, 700),
+"signalValue": "prepTutorial|1"
+},
+"3_7": {
+"link": &"3_4",
+"offset": Vector2(14091.8, 688.39),
+"signalValue": "setGlobal|NEW TIMELINE=No"
+},
+"5_1": {
+"false": &"3_5",
+"offset": Vector2(14100, -300),
+"operator": 0,
+"true": &"1_53",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_2": {
+"false": &"1_87",
+"offset": Vector2(12040, 820),
+"operator": 0,
+"true": &"1_84",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_3": {
+"false": &"3_4",
+"offset": Vector2(13420, 640),
+"operator": 0,
+"true": &"3_6",
+"value1": "NEW TIMELINE",
+"value2": "Yes"
+},
+"5_4": {
+"false": &"1_15",
+"offset": Vector2(4160, 80),
+"operator": 0,
+"true": &"1_59",
+"value1": "SCENE 3",
+"value2": "Yes"
 }
 }
-variables = {}
-strays = Array[String](["2_1", "2_2", "2_3", "2_4"])
+variables = {
+"LARI DIED": {
+"type": 4,
+"value": "NO"
+},
+"NEW TIMELINE": {
+"type": 4,
+"value": "Yes"
+},
+"SCENE 3": {
+"type": 4,
+"value": "NO"
+}
+}
+strays = Array[String](["2_1", "2_2", "2_4", "2_3"])
 characters = "res://res/assets/Characters.tres"

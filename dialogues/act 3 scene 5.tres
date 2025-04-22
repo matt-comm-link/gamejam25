@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dcual50twkvqb"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dx7wsiyuxleb4"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_6onbc"]
 
@@ -10,12 +10,12 @@ starts = {
 nodes = {
 "0_1": {
 "link": &"3_3",
-"offset": Vector2(-660, -280),
+"offset": Vector2(-1760, -320),
 "start_id": "start"
 },
 "1_1": {
 "dialogue": " Do you think Marl’s okay?",
-"offset": Vector2(-166, -314),
+"offset": Vector2(-800, -360),
 "options": {
 0: {
 "condition": {},
@@ -158,17 +158,12 @@ nodes = {
 },
 "1_2": {
 "dialogue": "I have every faith in them.",
-"offset": Vector2(202, -312),
+"offset": Vector2(-460, -320),
 "options": {
 0: {
 "condition": {},
-"link": &"1_3",
-"text": "MARL HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_4",
-"text": "ELSE"
+"link": &"5_1",
+"text": ""
 }
 },
 "size": Vector2(300, 290),
@@ -362,13 +357,8 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_34",
-"text": "MARL HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_35",
-"text": "ELSE"
+"link": &"5_2",
+"text": ""
 }
 },
 "size": Vector2(300, 289),
@@ -376,7 +366,7 @@ nodes = {
 },
 "1_34": {
 "dialogue": "(No!)",
-"offset": Vector2(12360, -120),
+"offset": Vector2(12540, -80),
 "options": {
 0: {
 "condition": {},
@@ -389,7 +379,7 @@ nodes = {
 },
 "1_35": {
 "dialogue": "What was that?",
-"offset": Vector2(12404.9, 225.256),
+"offset": Vector2(12660, 300),
 "options": {
 0: {
 "condition": {},
@@ -402,7 +392,7 @@ nodes = {
 },
 "1_36": {
 "dialogue": "Bad.",
-"offset": Vector2(12801.7, 232.577),
+"offset": Vector2(12980, 260),
 "options": {
 0: {
 "condition": {},
@@ -415,7 +405,7 @@ nodes = {
 },
 "1_37": {
 "dialogue": "We have to move.",
-"offset": Vector2(13180, 240),
+"offset": Vector2(13280, 260),
 "options": {
 0: {
 "condition": {},
@@ -493,7 +483,7 @@ nodes = {
 },
 "1_42": {
 "dialogue": "Ngh…!",
-"offset": Vector2(15380, 280),
+"offset": Vector2(15320, 320),
 "options": {
 0: {
 "condition": {},
@@ -506,17 +496,12 @@ nodes = {
 },
 "1_43": {
 "dialogue": "Grrowlr…",
-"offset": Vector2(15769.4, 335.064),
+"offset": Vector2(15640, 340),
 "options": {
 0: {
 "condition": {},
-"link": &"1_44",
-"text": "MARL HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_45",
-"text": "ELSE"
+"link": &"5_3",
+"text": ""
 }
 },
 "size": Vector2(300, 289),
@@ -576,17 +561,12 @@ nodes = {
 },
 "1_48": {
 "dialogue": "CRUNCH",
-"offset": Vector2(17721, 567.856),
+"offset": Vector2(17660, 500),
 "options": {
 0: {
 "condition": {},
-"link": &"1_49",
-"text": "MARL HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_50",
-"text": "ELSE"
+"link": &"5_4",
+"text": ""
 }
 },
 "size": Vector2(300, 289),
@@ -689,7 +669,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_6",
 "text": ""
 }
 },
@@ -745,7 +725,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 320),
 "speaker": 18
 },
 "1_6": {
@@ -767,12 +747,25 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_6",
 "text": ""
 }
 },
 "size": Vector2(300, 240),
 "speaker": 23
+},
+"1_61": {
+"dialogue": "I'm not watching that again. I refuse.",
+"offset": Vector2(-611.414, 237.186),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
 },
 "1_7": {
 "dialogue": "An empty pedestal there… and a statue on the other side…",
@@ -815,7 +808,7 @@ nodes = {
 },
 "2_1": {
 "comment": "A flag to check here.",
-"offset": Vector2(-20, 0),
+"offset": Vector2(-680, -20),
 "size": Vector2(200, 100)
 },
 "2_2": {
@@ -823,7 +816,7 @@ nodes = {
 BG 6 V3
 BG 7 DISTANT
 BLACK",
-"offset": Vector2(-462, -68),
+"offset": Vector2(-1220, -200),
 "size": Vector2(200, 160)
 },
 "2_3": {
@@ -838,13 +831,13 @@ BLACK",
 },
 "2_5": {
 "comment": "And a flag here.",
-"offset": Vector2(15800, 740),
+"offset": Vector2(15320, 700),
 "size": Vector2(200, 100)
 },
 "2_6": {
 "comment": "MUSIC
 tension",
-"offset": Vector2(-700, -60),
+"offset": Vector2(-1440, 0),
 "size": Vector2(200, 100)
 },
 "3_1": {
@@ -858,8 +851,8 @@ tension",
 "signalValue": "advanceBackground"
 },
 "3_3": {
-"link": &"1_1",
-"offset": Vector2(-440, -220),
+"link": &"5_5",
+"offset": Vector2(-1260, -340),
 "signalValue": "mute"
 },
 "3_4": {
@@ -871,8 +864,72 @@ tension",
 "link": &"3_2",
 "offset": Vector2(17360, 820),
 "signalValue": "mute"
+},
+"3_6": {
+"link": &"3_8",
+"offset": Vector2(20623.9, 817.361),
+"signalValue": "setGlobal|SCENE 5=Yes"
+},
+"3_7": {
+"link": "END",
+"offset": Vector2(21300, 820),
+"signalValue": "setOutcome|failure"
+},
+"3_8": {
+"link": &"3_7",
+"offset": Vector2(21012.4, 871.776),
+"signalValue": "prepTutorial|4"
+},
+"5_1": {
+"false": &"1_4",
+"offset": Vector2(-40, -320),
+"operator": 0,
+"true": &"1_3",
+"value1": "MARL DIED",
+"value2": ""
+},
+"5_2": {
+"false": &"1_35",
+"offset": Vector2(12340, 300),
+"operator": 0,
+"true": &"1_34",
+"value1": "MARL DIED",
+"value2": "Yes"
+},
+"5_3": {
+"false": &"1_45",
+"offset": Vector2(15800, 700),
+"operator": 0,
+"true": &"1_44",
+"value1": "MARL DIED",
+"value2": "Yes"
+},
+"5_4": {
+"false": &"1_50",
+"offset": Vector2(17760, 920),
+"operator": 0,
+"true": &"1_49",
+"value1": "MARL DIED",
+"value2": "Yes"
+},
+"5_5": {
+"false": &"1_1",
+"offset": Vector2(-1140, 20),
+"operator": 0,
+"true": &"1_61",
+"value1": "SCENE 5",
+"value2": "Yes"
 }
 }
-variables = {}
+variables = {
+"MARL DIED": {
+"type": 4,
+"value": "No"
+},
+"SCENE 5": {
+"type": 4,
+"value": "No"
+}
+}
 strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5", "2_6"])
 characters = "res://res/assets/Characters.tres"

@@ -10,7 +10,7 @@ starts = {
 nodes = {
 "0_1": {
 "link": &"3_4",
-"offset": Vector2(-640, -280),
+"offset": Vector2(-1140, -240),
 "start_id": "start"
 },
 "1_1": {
@@ -461,12 +461,25 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_13",
 "text": ""
 }
 },
 "size": Vector2(300, 240),
 "speaker": ""
+},
+"1_41": {
+"dialogue": "I'm not watching that again. I refuse.",
+"offset": Vector2(-180, -20),
+"options": {
+0: {
+"condition": {},
+"link": &"3_10",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
 },
 "1_5": {
 "dialogue": "I guess it’s a little less lonely with the two of us. Just don’t run off or do anything crazy, all right?",
@@ -539,20 +552,40 @@ BG 7
 BG 7 DISTANT
 BLACK
 BG 7 ATTACK",
-"offset": Vector2(-480, -80),
+"offset": Vector2(160, 280),
 "size": Vector2(200, 180)
 },
 "2_2": {
 "comment": "MUSIC
 mysterious
 tension",
-"offset": Vector2(-720, -60),
+"offset": Vector2(-160, 260),
 "size": Vector2(200, 140)
 },
 "3_1": {
 "link": &"1_16",
 "offset": Vector2(5280.9, -150),
 "signalValue": "advanceBackground"
+},
+"3_10": {
+"link": "END",
+"offset": Vector2(350.16, 168.853),
+"signalValue": "setOutcome|failure"
+},
+"3_11": {
+"link": &"3_12",
+"offset": Vector2(15640, -60),
+"signalValue": "setGlobal|MARL DIED=Yes"
+},
+"3_12": {
+"link": "END",
+"offset": Vector2(15960, -60),
+"signalValue": "SetOutcome|failure"
+},
+"3_13": {
+"link": &"3_11",
+"offset": Vector2(15231.6, -9.91162),
+"signalValue": "prepTutorial|3"
 },
 "3_2": {
 "link": &"1_22",
@@ -565,8 +598,8 @@ tension",
 "signalValue": "advanceBackground"
 },
 "3_4": {
-"link": &"1_1",
-"offset": Vector2(-400, -240),
+"link": &"5_1",
+"offset": Vector2(-920, -200),
 "signalValue": "mute"
 },
 "3_5": {
@@ -593,8 +626,21 @@ tension",
 "link": &"3_3",
 "offset": Vector2(14436.3, 90.113),
 "signalValue": "mute"
+},
+"5_1": {
+"false": &"1_1",
+"offset": Vector2(-620, -240),
+"operator": 0,
+"true": &"1_41",
+"value1": "MARL DIED",
+"value2": "Yes"
 }
 }
-variables = {}
+variables = {
+"MARL DIED": {
+"type": 4,
+"value": "No"
+}
+}
 strays = Array[String](["2_1", "2_2"])
 characters = "res://res/assets/Characters.tres"

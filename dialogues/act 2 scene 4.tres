@@ -383,7 +383,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_2",
 "text": ""
 }
 },
@@ -473,6 +473,16 @@ nodes = {
 BG 4 ENTRY",
 "offset": Vector2(-1040, -40),
 "size": Vector2(200, 120)
+},
+"3_1": {
+"link": "END",
+"offset": Vector2(10860, -80),
+"signalValue": "setOutcome|end"
+},
+"3_2": {
+"link": &"3_1",
+"offset": Vector2(10580, -60),
+"signalValue": "prepTutorial|3"
 }
 }
 variables = {}

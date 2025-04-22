@@ -10,7 +10,7 @@ starts = {
 nodes = {
 "0_1": {
 "link": &"3_2",
-"offset": Vector2(-640, -160),
+"offset": Vector2(-1200, -280),
 "start_id": "start"
 },
 "1_1": {
@@ -93,7 +93,7 @@ nodes = {
 },
 "1_15": {
 "dialogue": "(What has she figured out so far?)",
-"offset": Vector2(4780, -240),
+"offset": Vector2(4560, 120),
 "options": {
 0: {
 "condition": {},
@@ -106,11 +106,11 @@ nodes = {
 },
 "1_16": {
 "dialogue": "…",
-"offset": Vector2(5120, -240),
+"offset": Vector2(4920, 100),
 "options": {
 0: {
 "condition": {},
-"link": &"1_17",
+"link": &"1_30",
 "text": ""
 }
 },
@@ -119,7 +119,7 @@ nodes = {
 },
 "1_17": {
 "dialogue": "(Huh. Even from here, she’s putting it together. She’s identified its cores… and she can tell the Hearts are the key to destroying them.)",
-"offset": Vector2(5480, -240),
+"offset": Vector2(5640, 100),
 "options": {
 0: {
 "condition": {},
@@ -127,7 +127,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 280),
 "speaker": 20
 },
 "1_18": {
@@ -141,7 +141,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": ""
+"speaker": -1
 },
 "1_19": {
 "dialogue": "(But it’s not gonna mean anything if we can’t get her out of here. Or get Marl and Sean to join her. I don’t know how we’re going to do that. We’re safe for the moment, but the second we try to sneak back out we’re done for.)",
@@ -292,7 +292,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_8",
 "text": ""
 }
 },
@@ -305,12 +305,38 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_4",
+"link": &"3_10",
 "text": ""
 }
 },
 "size": Vector2(300, 240),
 "speaker": 15
+},
+"1_30": {
+"dialogue": "...",
+"offset": Vector2(5280, 140),
+"options": {
+0: {
+"condition": {},
+"link": &"1_17",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 23
+},
+"1_31": {
+"dialogue": "I'm not watching that again. I refuse.",
+"offset": Vector2(-222.5, 193.945),
+"options": {
+0: {
+"condition": {},
+"link": &"3_11",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 21
 },
 "1_4": {
 "dialogue": "(She shut off her light! Did she see something?)",
@@ -395,14 +421,14 @@ nodes = {
 BG 7
 BG 7 DISTANT
 BLACK",
-"offset": Vector2(-540, 0),
+"offset": Vector2(-1020, 0),
 "size": Vector2(260, 200)
 },
 "2_2": {
 "comment": "MUSIC
 mysterious
 tension",
-"offset": Vector2(-800, 40),
+"offset": Vector2(-1360, -80),
 "size": Vector2(200, 140)
 },
 "3_1": {
@@ -410,9 +436,19 @@ tension",
 "offset": Vector2(1500, -160),
 "signalValue": "advanceBackground"
 },
+"3_10": {
+"link": &"1_4",
+"offset": Vector2(714.812, 192.845),
+"signalValue": "advanceBackground"
+},
+"3_11": {
+"link": "END",
+"offset": Vector2(218.962, 352.098),
+"signalValue": "setOutcome|failure"
+},
 "3_2": {
-"link": &"1_1",
-"offset": Vector2(-440, -100),
+"link": &"5_1",
+"offset": Vector2(-920, -100),
 "signalValue": "mute"
 },
 "3_3": {
@@ -439,6 +475,24 @@ tension",
 "link": &"1_27",
 "offset": Vector2(8860, 100),
 "signalValue": "mute"
+},
+"3_8": {
+"link": &"3_9",
+"offset": Vector2(10079.9, -5.14472),
+"signalValue": "setGlobal|LARI DIED=Yes"
+},
+"3_9": {
+"link": "END",
+"offset": Vector2(10415.4, 46.5553),
+"signalValue": "setOutcome|failure"
+},
+"5_1": {
+"false": &"1_1",
+"offset": Vector2(-700, -100),
+"operator": 0,
+"true": &"1_31",
+"value1": "LARI DIED",
+"value2": ""
 }
 }
 variables = {}

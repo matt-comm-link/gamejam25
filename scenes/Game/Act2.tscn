@@ -1,0 +1,244 @@
+[gd_scene load_steps=37 format=3 uid="uid://cqghwprc8s61"]
+
+[ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_ldhu0"]
+[ext_resource type="Script" path="res://scenes/ScrollConstrain.cs" id="2_a4vsm"]
+[ext_resource type="PackedScene" uid="uid://khh8y77co4pq" path="res://scenes/MapPrefabs/event_hover_tooltip.tscn" id="3_87ru5"]
+[ext_resource type="Texture2D" uid="uid://ddsqilgmk8b7i" path="res://artstuffs/BGs/BGs/BG 4 Magic.PNG" id="6_7cp87"]
+[ext_resource type="Texture2D" uid="uid://bjwxrbjvqiut1" path="res://artstuffs/BGs/BGs/BG 2 Tents.PNG" id="6_yceuw"]
+[ext_resource type="Texture2D" uid="uid://bkwyuhtxp8l5y" path="res://artstuffs/LineTextures/black.png" id="7_60cep"]
+[ext_resource type="AudioStream" uid="uid://cbol5m5jqar2f" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/title.mp3" id="8_d8okv"]
+[ext_resource type="AudioStream" uid="uid://cnm6aj063d5mc" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/chill.mp3" id="9_s4bm5"]
+[ext_resource type="Resource" uid="uid://co00fx1hi467h" path="res://dialogues/act 2 scene 1 first.tres" id="10_my06p"]
+[ext_resource type="Resource" uid="uid://coieihpvm2wkn" path="res://dialogues/act 2 scene 1.tres" id="11_od3de"]
+[ext_resource type="Texture2D" uid="uid://ctfjm8scybaf4" path="res://artstuffs/LineTextures/white.png" id="12_7v5av"]
+[ext_resource type="Texture2D" uid="uid://8sgf1lxrrmyu" path="res://artstuffs/BGs/BGs/BG 3 Overgrown.PNG" id="12_svben"]
+[ext_resource type="Texture2D" uid="uid://bflbs83c3np35" path="res://artstuffs/BGs/BGs/BG 4 Entry.PNG" id="13_2ndi2"]
+[ext_resource type="Resource" uid="uid://d34hrd3555dx2" path="res://dialogues/act 2 scene 2.tres" id="13_7fk7c"]
+[ext_resource type="AudioStream" uid="uid://c7mibyov7yjk8" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/mysterious.mp3" id="14_q6xyy"]
+[ext_resource type="Texture2D" uid="uid://hint8hddmw2m" path="res://artstuffs/BGs/BGs/BG 5.PNG" id="16_x4qoa"]
+[ext_resource type="Resource" uid="uid://b3usyfrc3nbfa" path="res://dialogues/act 2 scene 3.tres" id="17_e6427"]
+[ext_resource type="AudioStream" uid="uid://bqrcuurajenik" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/tension v3.mp3" id="17_ra8my"]
+[ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="17_sm2kt"]
+[ext_resource type="Resource" uid="uid://brdvfxavhyg10" path="res://dialogues/act 2 scene 1 map 1.tres" id="17_vonwg"]
+[ext_resource type="Resource" uid="uid://bcpklyecm7ngp" path="res://dialogues/act 2 scene 1 map 2.tres" id="18_qjkf8"]
+[ext_resource type="Resource" uid="uid://j7h6jqkoso61" path="res://dialogues/act 2 scene 4.tres" id="19_awthm"]
+[ext_resource type="Resource" uid="uid://ba42ris8m1lcj" path="res://dialogues/act 2 scene 3 map.tres" id="19_mj74p"]
+[ext_resource type="Resource" uid="uid://ci8sxxh4y1xrb" path="res://dialogues/act 2 scene 4 map.tres" id="20_katw5"]
+[ext_resource type="Texture2D" uid="uid://c56u2ukunhbue" path="res://res/concept/conceptchars.png" id="21_7w7ms"]
+[ext_resource type="Script" path="res://scenes/ScalingBaqckground.cs" id="22_haxut"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="23_gkfvb"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="24_n47vh"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeWait.gd" id="25_lgakt"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeGhost.gd" id="26_vf2mu"]
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeMatrix.gd" id="27_bb34h"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rjskk"]
+bg_color = Color(0.168804, 0.124502, 0.463153, 1)
+
+[sub_resource type="Resource" id="Resource_f0srs"]
+script = ExtResource("24_n47vh")
+starts = {}
+nodes = {}
+variables = {}
+strays = Array[String]([])
+characters = ""
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_bmw7s"]
+script = ExtResource("25_lgakt")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_jpk20"]
+script = ExtResource("26_vf2mu")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0kjk4"]
+script = ExtResource("27_bb34h")
+
+[node name="MapGooey" type="Control" node_paths=PackedStringArray("tooltips")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ldhu0")
+tooltips = [NodePath("ScrollContainer/Container/Tooltips/Scene 1"), NodePath("ScrollContainer/Container/Tooltips/Scene 2"), NodePath("ScrollContainer/Container/Tooltips/Scene 3"), NodePath("ScrollContainer/Container/Tooltips/Scene 4")]
+globals = {
+"No": "No",
+"Yes": "Yes"
+}
+metadata/_edit_vertical_guides_ = [489.0]
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+z_index = -1
+custom_minimum_size = Vector2(1920, 1080)
+layout_mode = 0
+offset_top = 1.0
+offset_right = 8.0
+offset_bottom = 9.0
+script = ExtResource("2_a4vsm")
+sizeX = 1280
+sizeY = 720
+
+[node name="Container" type="PanelContainer" parent="ScrollContainer"]
+z_index = -5
+z_as_relative = false
+clip_contents = true
+custom_minimum_size = Vector2(1920, 1080)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_rjskk")
+
+[node name="Tooltips" type="Control" parent="ScrollContainer/Container"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Scene 1" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_87ru5")]
+z_index = -1
+layout_mode = 2
+offset_left = 301.0
+offset_top = 446.0
+offset_right = 501.0
+offset_bottom = 726.0
+eventName = "Trouble"
+blurbs = {
+"Sean Stays Marl & Larissa": "The group split up, perhaps they needed some time off?",
+"failure": "The group decide to go home"
+}
+backgrounds = [ExtResource("6_yceuw"), ExtResource("12_svben"), ExtResource("6_7cp87")]
+songs = [ExtResource("8_d8okv"), ExtResource("14_q6xyy"), ExtResource("9_s4bm5")]
+FirstRunDialogTree = ExtResource("10_my06p")
+DialogTree = ExtResource("11_od3de")
+DSM = NodePath("../../../../DialogScene")
+MM = NodePath("../../../..")
+RunFirstTimeTree = true
+
+[node name="Scene 2" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_87ru5")]
+z_index = -1
+layout_mode = 2
+offset_left = 772.0
+offset_top = 180.0
+offset_right = 972.0
+offset_bottom = 460.0
+eventName = "Sean Stays"
+RootNode = NodePath("../Scene 1")
+blurbs = {
+"Reunion": "Sean finds the doorway"
+}
+backgrounds = [ExtResource("6_7cp87"), ExtResource("12_7v5av"), ExtResource("13_2ndi2"), ExtResource("7_60cep")]
+songs = [ExtResource("8_d8okv")]
+DialogTree = ExtResource("13_7fk7c")
+DSM = NodePath("../../../../DialogScene")
+MM = NodePath("../../../..")
+Marl = false
+Larissa = false
+
+[node name="Scene 3" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_87ru5")]
+z_index = -1
+layout_mode = 2
+offset_left = 779.0
+offset_top = 559.0
+offset_right = 979.0
+offset_bottom = 839.0
+eventName = "Marl & Larissa"
+RootNode = NodePath("../Scene 1")
+blurbs = {
+"Reunion": "Marl and Larissa go back to see what Sean is doing",
+"failure": "Marl and Larissa are lured into the unknown"
+}
+backgrounds = [ExtResource("16_x4qoa")]
+songs = [ExtResource("9_s4bm5"), ExtResource("17_ra8my")]
+DialogTree = ExtResource("17_e6427")
+DSM = NodePath("../../../../DialogScene")
+MM = NodePath("../../../..")
+Sean = false
+
+[node name="Scene 4" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM", "SecondaryNode") instance=ExtResource("3_87ru5")]
+z_index = -1
+layout_mode = 2
+offset_left = 1341.0
+offset_top = 409.0
+offset_right = 1541.0
+offset_bottom = 689.0
+eventName = "Reunion"
+RootNode = NodePath("../Scene 3")
+blurbs = {
+"end": "The group enters the doorway"
+}
+backgrounds = [ExtResource("13_2ndi2")]
+songs = [ExtResource("14_q6xyy")]
+DialogTree = ExtResource("19_awthm")
+DSM = NodePath("../../../../DialogScene")
+MM = NodePath("../../../..")
+Sean = false
+SecondaryNode = NodePath("../Scene 2")
+
+[node name="DialogScene" type="Control" parent="." node_paths=PackedStringArray("bgTexture", "DialogueBox", "ASP", "MM", "SB", "SC", "db", "mc")]
+z_index = 2
+z_as_relative = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -1280.0
+offset_bottom = -720.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("17_sm2kt")
+bgTexture = NodePath("TextureRect")
+DialogueBox = NodePath("TextureRect/MarginContainer/DialogueBox")
+ASP = NodePath("AudioStreamPlayer2D")
+MM = NodePath("..")
+SB = NodePath("TextureRect")
+SC = NodePath("../ScrollContainer")
+db = NodePath("TextureRect/MarginContainer/DialogueBox")
+mc = NodePath("TextureRect/MarginContainer")
+tutorialDialogues = [ExtResource("17_vonwg"), ExtResource("18_qjkf8"), ExtResource("19_mj74p"), ExtResource("20_katw5")]
+
+[node name="TextureRect" type="TextureRect" parent="DialogScene"]
+visible = false
+z_as_relative = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("21_7w7ms")
+expand_mode = 1
+script = ExtResource("22_haxut")
+
+[node name="MarginContainer" type="MarginContainer" parent="DialogScene/TextureRect"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -120.0
+offset_top = -100.0
+offset_right = 80.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 50
+
+[node name="DialogueBox" type="Panel" parent="DialogScene/TextureRect/MarginContainer"]
+visible = false
+z_index = 5
+layout_mode = 2
+script = ExtResource("23_gkfvb")
+globalVariables = null
+data = SubResource("Resource_f0srs")
+scroll_speed = 8
+custom_effects = Array[RichTextEffect]([SubResource("RichTextEffect_bmw7s"), SubResource("RichTextEffect_jpk20"), SubResource("RichTextEffect_0kjk4")])
+options_vertical = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="DialogScene"]
+
+[connection signal="StartDialogue" from="DialogScene" to="DialogScene/TextureRect/MarginContainer/DialogueBox" method="_on_pass_data"]
+[connection signal="TogglePortraits" from="DialogScene" to="DialogScene/TextureRect/MarginContainer/DialogueBox" method="_on_dialog_scene_toggle_portraits"]
+[connection signal="dialogue_ended" from="DialogScene/TextureRect/MarginContainer/DialogueBox" to="DialogScene" method="ExitDialogue"]
+[connection signal="dialogue_signal" from="DialogScene/TextureRect/MarginContainer/DialogueBox" to="DialogScene" method="_on_dialogue_box_dialogue_signal"]

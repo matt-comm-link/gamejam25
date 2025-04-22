@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
+/*
 [Tool]
 public partial class TTCBuildTool : EditorPlugin
 {
@@ -62,3 +63,4 @@ public partial class TTCBuildTool : EditorPlugin
 
 	}
 }
+*/

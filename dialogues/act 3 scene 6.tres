@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://dlul71knyvfm8"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://ddhb5wxr0lyoq"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_fcnj8"]
 
@@ -28,7 +28,7 @@ nodes = {
 },
 "1_10": {
 "dialogue": "Larissa?",
-"offset": Vector2(3469.18, -226.465),
+"offset": Vector2(3340, -220),
 "options": {
 0: {
 "condition": {},
@@ -175,20 +175,15 @@ nodes = {
 },
 "1_11": {
 "dialogue": "(She was hiding over in that ruin…)",
-"offset": Vector2(3860, -200),
+"offset": Vector2(3700, -180),
 "options": {
 0: {
 "condition": {},
-"link": &"1_12",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_13",
-"text": "ELSE"
+"link": &"5_1",
+"text": ""
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_110": {
@@ -325,7 +320,7 @@ Carefully Altered Timelines",
 },
 "1_12": {
 "dialogue": "(She knows how to defeat it! They can do this!)",
-"offset": Vector2(4240, -280),
+"offset": Vector2(4440, -280),
 "options": {
 0: {
 "condition": {},
@@ -470,7 +465,7 @@ I am gonna let the project manager get the credtis sorted out!",
 },
 "1_13": {
 "dialogue": "(Has she figured out how to defeat it?)",
-"offset": Vector2(4244.18, 118.535),
+"offset": Vector2(4340, 180),
 "options": {
 0: {
 "condition": {},
@@ -777,7 +772,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.008, 240),
 "speaker": 0
 },
 "1_151": {
@@ -803,7 +798,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.008, 240),
 "speaker": 12
 },
 "1_153": {
@@ -816,7 +811,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.008, 240),
 "speaker": 12
 },
 "1_154": {
@@ -829,7 +824,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300.008, 240),
 "speaker": 12
 },
 "1_155": {
@@ -981,7 +976,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_27",
 "text": ""
 }
 },
@@ -1042,20 +1037,15 @@ I am gonna let the project manager get the credtis sorted out!",
 },
 "1_20": {
 "dialogue": "(Thank god. She jumped out of there just in time.)",
-"offset": Vector2(7140, 140),
+"offset": Vector2(7020, 120),
 "options": {
 0: {
 "condition": {},
-"link": &"1_21",
-"text": "LARISSA HAS DIED"
-},
-1: {
-"condition": {},
-"link": &"1_22",
-"text": "ELSE"
+"link": &"5_2",
+"text": ""
 }
 },
-"size": Vector2(300, 257),
+"size": Vector2(300, 290),
 "speaker": 18
 },
 "1_21": {
@@ -1893,7 +1883,7 @@ I am gonna let the project manager get the credtis sorted out!",
 },
 "1_8": {
 "dialogue": "Sean, run! It’s coming this way!",
-"offset": Vector2(2720, -240),
+"offset": Vector2(2660, -220),
 "options": {
 0: {
 "condition": {},
@@ -1979,7 +1969,7 @@ I am gonna let the project manager get the credtis sorted out!",
 "text": "MEOW!"
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 256),
 "speaker": ""
 },
 "1_86": {
@@ -2036,7 +2026,7 @@ I am gonna let the project manager get the credtis sorted out!",
 },
 "1_9": {
 "dialogue": "We can’t run! We have to fight!",
-"offset": Vector2(3091.18, -237.465),
+"offset": Vector2(3000, -240),
 "options": {
 0: {
 "condition": {},
@@ -2199,7 +2189,7 @@ BG 7 DISTANT
 BG 7 DEAD
 BLACK
 BG 4 ENTRY",
-"offset": Vector2(-748.017, -145.465),
+"offset": Vector2(-960, -160),
 "size": Vector2(220, 560)
 },
 "2_2": {
@@ -2207,12 +2197,12 @@ BG 4 ENTRY",
 tension
 title
 chill",
-"offset": Vector2(-960, -140),
+"offset": Vector2(-1220, -140),
 "size": Vector2(200, 140)
 },
 "2_3": {
 "comment": "The first of only two variations in this dialog tree.",
-"offset": Vector2(3420, 80),
+"offset": Vector2(3180, 100),
 "size": Vector2(380, 180)
 },
 "2_4": {
@@ -2321,6 +2311,11 @@ I'm not sure how you want to handle this but I figured I'd put a spot for it.",
 "offset": Vector2(52540.2, 986.847),
 "signalValue": "advanceBackground"
 },
+"3_27": {
+"link": "END",
+"offset": Vector2(70627.3, 2135.56),
+"signalValue": "setOutcome|end"
+},
 "3_3": {
 "link": &"1_7",
 "offset": Vector2(2060, -140),
@@ -2355,8 +2350,29 @@ I'm not sure how you want to handle this but I figured I'd put a spot for it.",
 "link": &"1_47",
 "offset": Vector2(18320, 500),
 "signalValue": "advanceBackground"
+},
+"5_1": {
+"false": &"1_13",
+"offset": Vector2(4020, -100),
+"operator": 0,
+"true": &"1_12",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_2": {
+"false": &"1_22",
+"offset": Vector2(7340, 460),
+"operator": 0,
+"true": &"1_21",
+"value1": "LARI DIED",
+"value2": "Yes"
 }
 }
-variables = {}
-strays = Array[String](["2_1", "2_2", "2_3", "2_4", "2_5"])
+variables = {
+"LARI DIED": {
+"type": 4,
+"value": ""
+}
+}
+strays = Array[String](["2_4", "2_5", "2_2", "2_1", "2_3"])
 characters = "res://res/assets/Characters.tres"

@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://630xdo1uluha"]
+[gd_scene load_steps=5 format=3 uid="uid://630xdo1uluha"]
 
-[ext_resource type="Texture2D" uid="uid://dokf3pt4m7utt" path="res://artstuffs/BGs/BGs/BG 1 Sunset.PNG" id="1_ae21q"]
+[ext_resource type="Script" path="res://scenes/Game/TitleScreen.cs" id="1_3852k"]
+[ext_resource type="Texture2D" uid="uid://ee1yakxvplbj" path="res://artstuffs/titlescreen.jpg" id="1_lmsak"]
 [ext_resource type="Script" path="res://scenes/ScalingBaqckground.cs" id="2_omlgo"]
+[ext_resource type="AudioStream" uid="uid://cbol5m5jqar2f" path="res://artstuffs/music/ACH Game Jam 2025 Tracks/title.mp3" id="3_6dd1i"]
 
 [node name="TitleScreen" type="Control"]
 clip_contents = true
@@ -11,6 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_3852k")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -23,6 +26,10 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 0
 size_flags_vertical = 0
-texture = ExtResource("1_ae21q")
+texture = ExtResource("1_lmsak")
 expand_mode = 1
 script = ExtResource("2_omlgo")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_6dd1i")
+autoplay = true

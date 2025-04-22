@@ -32,7 +32,7 @@ signal dialogue_ended
 		variables.clear()
 		if not data is DialogueData: return
 		for var_name in data.variables:
-			variables[var_name] = data.variables[var_name].value
+			variables[var_name] = data.variables[var_name]
 		
 		characters.clear()
 		if not data.characters.ends_with('.tres'): return
@@ -49,7 +49,11 @@ var characters : Array[Character]
 var _running := false
 var _option_links := []
 
+func set_variables(dict : Dictionary):
+	for var_name in dict:
+		variables[var_name] = dict[var_name]
 
+	
 ## Loads the [param DialogueData] resource from the given [param path]. The loaded resource can be accessed using [member data].
 func load_data(path : String):
 	if not path.ends_with('.tres'): return
@@ -98,10 +102,10 @@ func is_running(): return _running
 
 # Proceeds the parser to the next node and runs its corresponding _process_* function.
 func _proceed(node_name : String):
+	print("processing node" + node_name);
 	if node_name == 'END' or not _running:
 		stop()
 		return
-	
 	var process_functions := [
 		_process_start,
 		_process_dialogue,
@@ -201,6 +205,7 @@ func _process_set(dict : Dictionary):
 
 # Processes the condition node data (dict).
 func _process_condition(dict : Dictionary):
+	print("checking condition");
 	var result = _check_condition(dict)
 	_proceed(dict[str(result).to_lower()])
 
@@ -210,12 +215,15 @@ func _check_condition(dict : Dictionary):
 	var value1 = dict.value1
 	var value2 = dict.value2
 	
+	print("comparing " + value1 + " to " + value2)
+	
 	# get variables if needed
 	if value1.count('{{') > 0:
 		value1 = _parse_variables(value1)
 	if value2.count('{{') > 0:
 		value2 = _parse_variables(value2)
-	
+	print("which parsed is " + value1 + " to " + value2)
+
 	# evaluate values if neither values contain any alphabets (otherwise treat them as strings)
 	var regex := RegEx.new()
 	regex.compile("[a-zA-Z]+")
@@ -231,15 +239,23 @@ func _check_condition(dict : Dictionary):
 			printerr(expression.get_error_text(), ' ', value2)
 			return false
 		value2 = expression.execute()
-	
+	if not variables.has(value1):
+		return false
+	var compare
+	if variables[value1] is String:
+		print("which parsed is " + variables[value1] + " to " + value2)
+		compare = variables[value1];
+	else:
+		print("which parsed is " + variables[value1].value + " to " + value2)
+		compare = variables[value1].value;
 	# perform operation
 	match dict.operator:
-		0: return value1 == value2
-		1: return value1 != value2
-		2: return value1 > value2
-		3: return value1 < value2
-		4: return value1 >= value2
-		5: return value1 <= value2
+		0: return compare == value2
+		1: return compare != value2
+		2: return compare > value2
+		3: return compare < value2
+		4: return compare >= value2
+		5: return compare <= value2
 		_: return false
 
 

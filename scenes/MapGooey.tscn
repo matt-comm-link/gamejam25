@@ -47,12 +47,12 @@ script = ExtResource("1_dr7rk")
 metadata/_edit_vertical_guides_ = [489.0]
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
-custom_minimum_size = Vector2(5000, 5000)
+custom_minimum_size = Vector2(1920, 1080)
 layout_mode = 0
 offset_left = -11.0
 offset_top = 8.0
-offset_right = 4989.0
-offset_bottom = 5008.0
+offset_right = 1909.0
+offset_bottom = 1088.0
 script = ExtResource("2_8ochj")
 sizeX = 1280
 sizeY = 720
@@ -61,7 +61,7 @@ sizeY = 720
 z_index = -5
 z_as_relative = false
 clip_contents = true
-custom_minimum_size = Vector2(5000, 5000)
+custom_minimum_size = Vector2(1920, 1080)
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -74,10 +74,10 @@ size_flags_vertical = 3
 
 [node name="EventHoverTooltip" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_tkowa")]
 layout_mode = 2
-offset_left = 373.0
-offset_top = 138.0
-offset_right = 573.0
-offset_bottom = 418.0
+offset_left = 264.0
+offset_top = 270.0
+offset_right = 464.0
+offset_bottom = 550.0
 eventName = "Start"
 currentOutcome = "Part2"
 DSM = NodePath("../../../../DialogScene")
@@ -85,10 +85,10 @@ MM = NodePath("../../../..")
 
 [node name="EventHoverTooltip2" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_tkowa")]
 layout_mode = 2
-offset_left = 970.0
-offset_top = 100.0
-offset_right = 1170.0
-offset_bottom = 380.0
+offset_left = 917.0
+offset_top = 257.0
+offset_right = 1117.0
+offset_bottom = 537.0
 eventName = "Part2"
 RootNode = NodePath("../EventHoverTooltip")
 currentOutcome = "Part2"

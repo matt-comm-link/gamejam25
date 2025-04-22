@@ -1,15 +1,17 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://25vf6jrrqdbb"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://c5rkbxrsd41nw"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_yeoll"]
 
 [resource]
 script = ExtResource("1_yeoll")
-starts = {}
+starts = {
+"start": &"0_1"
+}
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-496, -158),
-"start_id": ""
+"link": &"5_1",
+"offset": Vector2(-1420, 200),
+"start_id": "start"
 },
 "1_1": {
 "dialogue": "NO!",
@@ -26,7 +28,7 @@ nodes = {
 },
 "1_10": {
 "dialogue": "I have to try. I have to. For Marl’s sake.",
-"offset": Vector2(2929, -168),
+"offset": Vector2(4480, -40),
 "options": {
 0: {
 "condition": {},
@@ -239,7 +241,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"5_3",
 "text": ""
 }
 },
@@ -248,7 +250,7 @@ nodes = {
 },
 "1_26": {
 "dialogue": "I'm not watching that again. I refuse.",
-"offset": Vector2(-240, 860),
+"offset": Vector2(-880, 620),
 "options": {
 0: {
 "condition": {},
@@ -304,7 +306,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_7",
+"link": &"5_3",
 "text": ""
 }
 },
@@ -313,7 +315,7 @@ nodes = {
 },
 "1_7": {
 "dialogue": "…Okay. Calm down. I can’t freak out now. I know exactly why I’m here. And this is the only way.",
-"offset": Vector2(1860, -180),
+"offset": Vector2(3400, -60),
 "options": {
 0: {
 "condition": {},
@@ -326,7 +328,7 @@ nodes = {
 },
 "1_8": {
 "dialogue": "That timeline doesn’t have to happen. I can go to any of these other junctions. There’s got to be some way to fix this.",
-"offset": Vector2(2210, -181),
+"offset": Vector2(3760, -60),
 "options": {
 0: {
 "condition": {},
@@ -339,7 +341,7 @@ nodes = {
 },
 "1_9": {
 "dialogue": "Sean and Larissa managed to open the door to the chamber… maybe I can do something to help them. Maybe…",
-"offset": Vector2(2575, -175),
+"offset": Vector2(4120, -60),
 "options": {
 0: {
 "condition": {},
@@ -352,30 +354,67 @@ nodes = {
 },
 "2_1": {
 "comment": "Another one of these branches based on how many of the character deaths you've seen.",
-"offset": Vector2(-1120, 60),
+"offset": Vector2(-1940, 80),
 "size": Vector2(640, 160)
 },
 "2_2": {
 "comment": "First death.",
-"offset": Vector2(-460, -40),
+"offset": Vector2(-1320, -40),
 "size": Vector2(200, 100)
 },
 "2_3": {
 "comment": "Second death.",
-"offset": Vector2(-460, 160),
+"offset": Vector2(-1760, 300),
 "size": Vector2(200, 100)
 },
 "2_4": {
 "comment": "Third death.",
-"offset": Vector2(-460, 480),
+"offset": Vector2(-1240, 840),
 "size": Vector2(200, 100)
 },
 "2_5": {
 "comment": "Trying to access the node a second time.",
-"offset": Vector2(-600, 860),
+"offset": Vector2(-260, 1200),
 "size": Vector2(320, 100)
+},
+"5_1": {
+"false": &"5_2",
+"offset": Vector2(-1100, 360),
+"operator": 0,
+"true": &"1_19",
+"value1": "LARI DIED",
+"value2": "Yes"
+},
+"5_2": {
+"false": &"1_1",
+"offset": Vector2(-1040, 20),
+"operator": 0,
+"true": &"1_11",
+"value1": "SCENE 5",
+"value2": "Yes"
+},
+"5_3": {
+"false": "END",
+"offset": Vector2(2980, 20),
+"operator": 0,
+"true": &"1_7",
+"value1": "SCENE 5",
+"value2": "Yes"
 }
 }
-variables = {}
-strays = Array[String](["0_1", "1_1", "1_2", "1_3", "1_4", "1_5", "1_6", "1_7", "1_8", "1_9", "1_10", "2_1", "2_2", "2_3", "1_11", "1_12", "1_13", "1_14", "1_15", "1_16", "1_17", "1_18", "2_4", "1_19", "1_20", "1_21", "1_22", "1_23", "1_24", "1_25", "2_5", "1_26"])
+variables = {
+"LARI DIED": {
+"type": 4,
+"value": "No"
+},
+"SCENE 4": {
+"type": 4,
+"value": "No"
+},
+"SCENE 5": {
+"type": 4,
+"value": "No"
+}
+}
+strays = Array[String](["2_2", "2_1", "2_3", "2_4", "2_5", "1_26"])
 characters = "res://res/assets/Characters.tres"

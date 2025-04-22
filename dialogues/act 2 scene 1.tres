@@ -97,7 +97,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_11",
 "text": ""
 }
 },
@@ -955,7 +955,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_12",
 "text": ""
 }
 },
@@ -977,7 +977,7 @@ nodes = {
 },
 "1_72": {
 "dialogue": "(Maybe I should give them something else to talk about.)",
-"offset": Vector2(13029.4, 210),
+"offset": Vector2(13060, 220),
 "options": {
 0: {
 "condition": {},
@@ -1397,6 +1397,21 @@ chill",
 "link": &"1_23",
 "offset": Vector2(7198.32, -120.582),
 "signalValue": "advanceBackground"
+},
+"3_10": {
+"link": "END",
+"offset": Vector2(23660, 860),
+"signalValue": "prepTutorial|1"
+},
+"3_11": {
+"link": &"3_10",
+"offset": Vector2(23420, 840),
+"signalValue": "setOutcome|failure"
+},
+"3_12": {
+"link": "END",
+"offset": Vector2(23760, -40),
+"signalValue": "setOutcome|Sean Stays Marl & Larissa"
 },
 "3_2": {
 "link": &"1_30",

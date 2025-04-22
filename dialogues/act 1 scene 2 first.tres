@@ -461,12 +461,25 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_6",
 "text": ""
 }
 },
 "size": Vector2(300, 240),
 "speaker": 21
+},
+"1_41": {
+"dialogue": "click!",
+"offset": Vector2(10823.2, -106.802),
+"options": {
+0: {
+"condition": {},
+"link": &"3_9",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": ""
 },
 "1_5": {
 "dialogue": "Or let the cat kill them. Keep an eye on it so–",
@@ -562,8 +575,8 @@ chill",
 "signalValue": "play"
 },
 "3_3": {
-"link": &"1_31",
-"offset": Vector2(10648, 174.331),
+"link": &"3_8",
+"offset": Vector2(10440, 120),
 "signalValue": "mute"
 },
 "3_4": {
@@ -575,6 +588,26 @@ chill",
 "link": &"1_32",
 "offset": Vector2(11841.4, 304.782),
 "signalValue": "play"
+},
+"3_6": {
+"link": &"3_7",
+"offset": Vector2(15204.4, 5.1555),
+"signalValue": "setOutcome|failure"
+},
+"3_7": {
+"link": "END",
+"offset": Vector2(15460, 40),
+"signalValue": "prepTutorial|1"
+},
+"3_8": {
+"link": &"1_41",
+"offset": Vector2(10560, -120),
+"signalValue": "advanceBackground"
+},
+"3_9": {
+"link": &"1_31",
+"offset": Vector2(11098.2, 256.198),
+"signalValue": "advanceBackground"
 }
 }
 variables = {}

@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://d1ecummk0l3d4"]
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://trhxwxr2bhqb"]
 
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_tuheo"]
 
@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-435, -196),
+"link": &"1_18",
+"offset": Vector2(-300, 840),
 "start_id": "start"
 },
 "1_1": {
@@ -32,7 +32,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_11",
+"link": "END",
 "text": ""
 }
 },
@@ -45,7 +45,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_12",
+"link": "END",
 "text": ""
 }
 },
@@ -58,7 +58,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_13",
+"link": "END",
 "text": ""
 }
 },
@@ -71,7 +71,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_14",
+"link": "END",
 "text": ""
 }
 },
@@ -84,7 +84,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_15",
+"link": "END",
 "text": ""
 }
 },
@@ -97,7 +97,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_16",
+"link": "END",
 "text": ""
 }
 },
@@ -110,7 +110,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_17",
+"link": "END",
 "text": ""
 }
 },
@@ -132,7 +132,7 @@ nodes = {
 },
 "1_18": {
 "dialogue": "Why…?",
-"offset": Vector2(40, 340),
+"offset": Vector2(-60, 860),
 "options": {
 0: {
 "condition": {},
@@ -145,7 +145,7 @@ nodes = {
 },
 "1_19": {
 "dialogue": "Why do I have to keep watching that thing kill them?",
-"offset": Vector2(443.117, 365.03),
+"offset": Vector2(340, 880),
 "options": {
 0: {
 "condition": {},
@@ -171,7 +171,7 @@ nodes = {
 },
 "1_20": {
 "dialogue": "I can’t keep going like this. I can’t let them…",
-"offset": Vector2(832.737, 400.12),
+"offset": Vector2(740, 920),
 "options": {
 0: {
 "condition": {},
@@ -184,7 +184,7 @@ nodes = {
 },
 "1_21": {
 "dialogue": "I can’t let them die.",
-"offset": Vector2(1221.15, 420.69),
+"offset": Vector2(1120, 940),
 "options": {
 0: {
 "condition": {},
@@ -197,7 +197,7 @@ nodes = {
 },
 "1_22": {
 "dialogue": "It’s my responsibility to fix this. The path back is sealed off. But this page is the key to moving forward. It has to be.",
-"offset": Vector2(1641.02, 432.79),
+"offset": Vector2(1540, 960),
 "options": {
 0: {
 "condition": {},
@@ -210,11 +210,11 @@ nodes = {
 },
 "1_23": {
 "dialogue": "Either that, or I’ll create a paradox that rips me from the timestream and crushes my essence until I’m not even a memory.",
-"offset": Vector2(2060, 440),
+"offset": Vector2(1960, 960),
 "options": {
 0: {
 "condition": {},
-"link": &"1_24",
+"link": &"1_26",
 "text": ""
 }
 },
@@ -227,7 +227,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_25",
+"link": "END",
 "text": ""
 }
 },
@@ -249,7 +249,7 @@ nodes = {
 },
 "1_26": {
 "dialogue": "If I brought the sketchbook page with me, Sean could probably solve the puzzle right away… but Larissa would immediately know it was her work. Work she hadn’t done yet. She’d start asking questions, and then…",
-"offset": Vector2(57.4492, 729.24),
+"offset": Vector2(2760, 1000),
 "options": {
 0: {
 "condition": {},
@@ -262,7 +262,7 @@ nodes = {
 },
 "1_27": {
 "dialogue": "I don’t think that can end in anything but complete timeline collapse.",
-"offset": Vector2(473.689, 748.6),
+"offset": Vector2(3160, 1000),
 "options": {
 0: {
 "condition": {},
@@ -275,7 +275,7 @@ nodes = {
 },
 "1_28": {
 "dialogue": "But if I can’t bring the sketchbook right to her, maybe there’s somewhere else I can bring it…",
-"offset": Vector2(872.989, 751.02),
+"offset": Vector2(3560, 1000),
 "options": {
 0: {
 "condition": {},
@@ -370,7 +370,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_10",
+"link": "END",
 "text": ""
 }
 },
@@ -384,7 +384,7 @@ nodes = {
 },
 "2_2": {
 "comment": "First death.",
-"offset": Vector2(-200, -320),
+"offset": Vector2(-540, 100),
 "size": Vector2(200, 100)
 },
 "2_3": {
@@ -404,5 +404,5 @@ nodes = {
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2", "2_3", "1_9", "1_10", "1_11", "1_12", "1_13", "1_14", "1_15", "1_16", "1_17", "2_4", "1_18", "1_19", "1_20", "1_21", "1_22", "1_23", "1_24", "1_25", "2_5", "1_26", "1_27", "1_28"])
+strays = Array[String](["1_1", "1_2", "1_3", "1_4", "1_5", "1_6", "1_7", "1_8", "2_1", "2_3", "1_9", "1_10", "1_11", "1_12", "1_13", "1_14", "1_15", "1_16", "1_17", "2_4", "1_24", "1_25", "2_5", "2_2"])
 characters = "res://res/assets/Characters.tres"

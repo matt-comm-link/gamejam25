@@ -227,7 +227,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_26",
+"link": &"3_9",
 "text": ""
 }
 },
@@ -236,7 +236,7 @@ nodes = {
 },
 "1_26": {
 "dialogue": "You can try but I am not betting on you, bud.",
-"offset": Vector2(9539.37, -160.155),
+"offset": Vector2(9760, -160),
 "options": {
 0: {
 "condition": {},
@@ -249,7 +249,7 @@ nodes = {
 },
 "1_27": {
 "dialogue": "Meow.",
-"offset": Vector2(9913.91, -136.518),
+"offset": Vector2(10100, -140),
 "options": {
 0: {
 "condition": {},
@@ -262,7 +262,7 @@ nodes = {
 },
 "1_28": {
 "dialogue": "...Was that you, Larissa?",
-"offset": Vector2(10297.5, -94.7),
+"offset": Vector2(10440, -120),
 "options": {
 0: {
 "condition": {},
@@ -275,7 +275,7 @@ nodes = {
 },
 "1_29": {
 "dialogue": "No.",
-"offset": Vector2(10697.7, -67.6085),
+"offset": Vector2(10820, -180),
 "options": {
 0: {
 "condition": {},
@@ -548,11 +548,11 @@ nodes = {
 },
 "1_48": {
 "dialogue": "(Why did everything go wrong?)",
-"offset": Vector2(18166.2, 770.357),
+"offset": Vector2(18240, 800),
 "options": {
 0: {
 "condition": {},
-"link": "END",
+"link": &"3_8",
 "text": ""
 }
 },
@@ -638,12 +638,17 @@ BLACK",
 title
 chill",
 "offset": Vector2(-720, -20),
-"size": Vector2(200, 100)
+"size": Vector2(200, 140)
 },
 "3_1": {
 "link": &"1_46",
 "offset": Vector2(17144.3, 549.257),
 "signalValue": "advanceBackground"
+},
+"3_10": {
+"link": "END",
+"offset": Vector2(18940, 960),
+"signalValue": "prepTutorial|0"
 },
 "3_2": {
 "link": &"1_9",
@@ -674,6 +679,16 @@ chill",
 "link": &"3_5",
 "offset": Vector2(5568.13, 28.2872),
 "signalValue": "advanceSong"
+},
+"3_8": {
+"link": &"3_10",
+"offset": Vector2(18620, 920),
+"signalValue": "setOutcome|The Artefact"
+},
+"3_9": {
+"link": &"1_26",
+"offset": Vector2(9520, 140),
+"signalValue": "advanceBackground"
 }
 }
 variables = {}
