@@ -1,14 +1,21 @@
-[gd_scene load_steps=17 format=3 uid="uid://buy2b7l6iwy8n"]
+[gd_scene load_steps=24 format=3 uid="uid://buy2b7l6iwy8n"]
 
 [ext_resource type="Script" path="res://scripts/MapManager.cs" id="1_yn5bd"]
 [ext_resource type="Script" path="res://scenes/ScrollConstrain.cs" id="2_k2e7c"]
 [ext_resource type="PackedScene" uid="uid://khh8y77co4pq" path="res://scenes/MapPrefabs/event_hover_tooltip.tscn" id="3_sw4x5"]
 [ext_resource type="Script" path="res://scripts/DialogSceneManager.cs" id="4_mnu1l"]
+[ext_resource type="Resource" uid="uid://t8pqup75578i" path="res://dialogues/act 1 scene 1.tres" id="4_nu1ha"]
 [ext_resource type="Texture2D" uid="uid://c56u2ukunhbue" path="res://res/concept/conceptchars.png" id="5_iqmco"]
+[ext_resource type="Resource" uid="uid://blmxk7s2l6ta6" path="res://dialogues/act 1 scene 2 first.tres" id="5_nef1l"]
+[ext_resource type="Resource" uid="uid://isnxb8lq3w6a" path="res://dialogues/act 1 scene 1 second.tres" id="5_v80i4"]
+[ext_resource type="Resource" uid="uid://c0stlntpy31tp" path="res://dialogues/act 1 scene 2.tres" id="6_cnpvt"]
 [ext_resource type="Script" path="res://scenes/ScalingBaqckground.cs" id="6_lu47a"]
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueBox.gd" id="7_3q5x4"]
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="8_0ux1h"]
+[ext_resource type="Resource" uid="uid://ktiw6308sigj" path="res://dialogues/act 1 scene 1 map.tres" id="8_rryh0"]
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeWait.gd" id="9_eaq80"]
+[ext_resource type="Resource" uid="uid://bcvnpjovvuaux" path="res://dialogues/act 1 scene 2 map 1.tres" id="9_f7ape"]
+[ext_resource type="Resource" uid="uid://dh0vxru5g3cnk" path="res://dialogues/act 1 scene 2 map 2.tres" id="10_b5n5w"]
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeGhost.gd" id="10_m5ae8"]
 [ext_resource type="Script" path="res://addons/dialogue_nodes/objects/bbcodeMatrix.gd" id="11_fkflh"]
 
@@ -74,24 +81,34 @@ size_flags_vertical = 3
 
 [node name="EventHoverTooltip" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("DSM", "MM") instance=ExtResource("3_sw4x5")]
 layout_mode = 2
-offset_left = 373.0
-offset_top = 138.0
-offset_right = 573.0
-offset_bottom = 418.0
+offset_left = 412.0
+offset_top = 444.0
+offset_right = 612.0
+offset_bottom = 724.0
 eventName = "Start"
-currentOutcome = "Part2"
+blurbs = {
+"scene 2": "three friends go out camping, and come across a strange cat"
+}
+FirstRunDialogTree = ExtResource("4_nu1ha")
+DialogTree = ExtResource("5_v80i4")
 DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
+RunFirstTimeTree = true
 
 [node name="EventHoverTooltip2" parent="ScrollContainer/Container/Tooltips" node_paths=PackedStringArray("RootNode", "DSM", "MM") instance=ExtResource("3_sw4x5")]
 layout_mode = 2
-offset_left = 970.0
-offset_top = 100.0
-offset_right = 1170.0
-offset_bottom = 380.0
+offset_left = 917.0
+offset_top = 444.0
+offset_right = 1117.0
+offset_bottom = 724.0
 eventName = "Part2"
 RootNode = NodePath("../EventHoverTooltip")
-currentOutcome = "Part2"
+blurbs = {
+"end": "Larissa discovers a strange artifact.",
+"failure": "Inches from destiny a bird distracts Marl and Sean"
+}
+FirstRunDialogTree = ExtResource("5_nef1l")
+DialogTree = ExtResource("6_cnpvt")
 DSM = NodePath("../../../../DialogScene")
 MM = NodePath("../../../..")
 
@@ -110,6 +127,7 @@ script = ExtResource("4_mnu1l")
 bgTexture = NodePath("TextureRect")
 DialogueBox = NodePath("TextureRect/DialogueBox")
 ASP = NodePath("AudioStreamPlayer2D")
+tutorialDialogues = [ExtResource("8_rryh0"), ExtResource("9_f7ape"), ExtResource("10_b5n5w")]
 
 [node name="TextureRect" type="TextureRect" parent="DialogScene"]
 visible = false

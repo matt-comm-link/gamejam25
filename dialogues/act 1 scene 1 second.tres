@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://isnxb8lq3w6a"]
+
+[ext_resource type="Script" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_2pbih"]
+
+[resource]
+script = ExtResource("1_2pbih")
+starts = {
+"start": &"0_1"
+}
+nodes = {
+"0_1": {
+"link": &"1_1",
+"offset": Vector2(-653, -257),
+"start_id": "start"
+},
+"1_1": {
+"dialogue": "I don’t have to go THAT far back. My plan worked the first time, no sense risking I muck it up on a second go.",
+"offset": Vector2(-380, -360),
+"options": {
+0: {
+"condition": {},
+"link": &"3_1",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 18
+},
+"3_1": {
+"link": "END",
+"offset": Vector2(-11.777, -174.676),
+"signalValue": "setOutcome|scene 2"
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://res/assets/Characters.tres"

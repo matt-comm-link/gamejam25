@@ -19,7 +19,7 @@ public partial class DialogSceneManager : Control
     public bool InDialogue;
 
     EventHoverTooltip StationNode;
-
+    [Export]
     Godot.Collections.Array<Resource> tutorialDialogues = new Godot.Collections.Array<Resource>();
 
     //Station eventStation;
