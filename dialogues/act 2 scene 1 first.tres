@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-562, -259),
+"link": &"3_3",
+"offset": Vector2(-740, -240),
 "start_id": "start"
 },
 "1_1": {
@@ -201,7 +201,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_1",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -292,7 +292,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_2",
+"link": &"3_5",
 "text": ""
 }
 },
@@ -565,7 +565,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_49",
+"link": &"3_7",
 "text": ""
 }
 },
@@ -928,8 +928,15 @@ nodes = {
 BG 2 Tents
 BG 3 Overgrown
 BG 4 Magic",
-"offset": Vector2(-660, -100),
+"offset": Vector2(-700, -80),
 "size": Vector2(220, 220)
+},
+"2_2": {
+"comment": "MUSIC
+title
+mysterious",
+"offset": Vector2(-940, -60),
+"size": Vector2(200, 160)
 },
 "3_1": {
 "link": &"1_23",
@@ -940,8 +947,33 @@ BG 4 Magic",
 "link": &"1_30",
 "offset": Vector2(9862.74, -105.036),
 "signalValue": "advanceBackground"
+},
+"3_3": {
+"link": &"1_1",
+"offset": Vector2(-560, -160),
+"signalValue": "play"
+},
+"3_4": {
+"link": &"3_1",
+"offset": Vector2(7151.75, 55),
+"signalValue": "mute"
+},
+"3_5": {
+"link": &"3_6",
+"offset": Vector2(9790.57, 110),
+"signalValue": "advanceSong"
+},
+"3_6": {
+"link": &"3_2",
+"offset": Vector2(9883.57, 32),
+"signalValue": "play"
+},
+"3_7": {
+"link": &"1_49",
+"offset": Vector2(16344.8, 121),
+"signalValue": "mute"
 }
 }
 variables = {}
-strays = Array[String](["2_1"])
+strays = Array[String](["2_1", "2_2"])
 characters = "res://res/assets/Characters.tres"

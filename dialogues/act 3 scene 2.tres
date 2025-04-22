@@ -9,8 +9,8 @@ starts = {
 }
 nodes = {
 "0_1": {
-"link": &"1_1",
-"offset": Vector2(-455, -164),
+"link": &"3_2",
+"offset": Vector2(-640, -160),
 "start_id": "start"
 },
 "1_1": {
@@ -175,7 +175,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_21",
+"link": &"3_4",
 "text": ""
 }
 },
@@ -201,7 +201,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_23",
+"link": &"3_5",
 "text": ""
 }
 },
@@ -253,7 +253,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_27",
+"link": &"3_7",
 "text": ""
 }
 },
@@ -331,7 +331,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"3_1",
+"link": &"3_3",
 "text": ""
 }
 },
@@ -398,12 +398,49 @@ BLACK",
 "offset": Vector2(-540, 0),
 "size": Vector2(260, 200)
 },
+"2_2": {
+"comment": "MUSIC
+mysterious
+tension",
+"offset": Vector2(-800, 40),
+"size": Vector2(200, 140)
+},
 "3_1": {
 "link": &"1_6",
 "offset": Vector2(1500, -160),
 "signalValue": "advanceBackground"
+},
+"3_2": {
+"link": &"1_1",
+"offset": Vector2(-440, -100),
+"signalValue": "mute"
+},
+"3_3": {
+"link": &"3_1",
+"offset": Vector2(1472.99, 63),
+"signalValue": "play"
+},
+"3_4": {
+"link": &"1_21",
+"offset": Vector2(6800.74, 103),
+"signalValue": "mute"
+},
+"3_5": {
+"link": &"3_6",
+"offset": Vector2(7506.44, 117.578),
+"signalValue": "advanceSong"
+},
+"3_6": {
+"link": &"1_23",
+"offset": Vector2(7740.74, 135.178),
+"signalValue": "play"
+},
+"3_7": {
+"link": &"1_27",
+"offset": Vector2(8860, 100),
+"signalValue": "mute"
 }
 }
 variables = {}
-strays = Array[String](["2_1"])
+strays = Array[String](["2_1", "2_2"])
 characters = "res://res/assets/Characters.tres"
