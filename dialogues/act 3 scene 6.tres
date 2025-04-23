@@ -53,7 +53,7 @@ nodes = {
 "speaker": ""
 },
 "1_101": {
-"dialogue": "In real time, the movement takes less than a second. But to me that second hangs in the air, spread out into a tableau. I’m not sure why. Maybe it’s a property of the Time Conductor, interacting with the lost power of the Larissa’s Heart.
+"dialogue": "In real time, the movement takes less than a second. But to me that second hangs in the air, spread out into a tableau. I’m not sure why. Maybe it’s a property of the Time Conductor, interacting with the lost power of Larissa’s Heart.
 ",
 "offset": Vector2(42195.4, 735.502),
 "options": {
@@ -63,7 +63,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(320, 380),
 "speaker": ""
 },
 "1_102": {

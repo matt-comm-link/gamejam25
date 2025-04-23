@@ -482,7 +482,7 @@ nodes = {
 "speaker": 8
 },
 "1_43": {
-"dialogue": "Well, she seems comfortable enough around us. Let’s give her some food and try to convince her to stick around. If we can keep her with us we can bring her to a shelter once we’re back in town.",
+"dialogue": "Well, they seem comfortable enough around us. Let’s give them some food and try to convince them to stick around. If we can keep them with us we can bring them to a shelter once we’re back in town.",
 "offset": Vector2(16014.5, 455.954),
 "options": {
 0: {
@@ -491,7 +491,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(320, 360),
 "speaker": 0
 },
 "1_44": {

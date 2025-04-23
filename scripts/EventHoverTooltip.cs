@@ -56,6 +56,7 @@ public partial class EventHoverTooltip : PanelContainer
 	PackedScene linePrefab = GD.Load<PackedScene>("res://artstuffs/LineTextures/line_2dReel.tscn");
 	Line2D Line;
 	Line2D SecondLine;
+	Line2D JoinedLine;
 
 	Texture2D MSL = GD.Load<Texture2D>("res://artstuffs/LineTextures/MarlSeanLari.png");
 	Texture2D MS = GD.Load<Texture2D>("res://artstuffs/LineTextures/MarlSean.png");
@@ -83,14 +84,15 @@ public partial class EventHoverTooltip : PanelContainer
 			
 			if(SecondaryNode != null)
 			{
+				Line.Points = new Vector2[]{midpoint, endpoint};
 
 				Node lSec = linePrefab.Instantiate();
 				SecondLine = (Line2D)lSec;
 				AddChild(SecondLine);
 				SecondLine.Position = Vector2.Zero;
 				Vector2 endpointTwo =  SecondaryNode.GlobalPosition - GlobalPosition;
-				Vector2 midpointTwo = new Vector2(endpointTwo.X/2, 0);
-				SecondLine.Points = new Vector2[]{Vector2.Zero, midpointTwo, endpointTwo};
+				//Vector2 midpointTwo = new Vector2(endpointTwo.X/2, 0);
+				SecondLine.Points = new Vector2[]{midpoint, endpointTwo};
 
 				if(Marl && Sean)
 					SecondLine.Texture = L;
@@ -105,6 +107,16 @@ public partial class EventHoverTooltip : PanelContainer
 				else if (Larissa)
 					SecondLine.Texture = MS;
 
+				Node lJm = linePrefab.Instantiate();
+				JoinedLine = (Line2D)lJm;
+				AddChild(JoinedLine);
+				JoinedLine.Position = Vector2.Zero;
+				JoinedLine.Points = new Vector2[]{Vector2.Zero, midpoint};
+				JoinedLine.Texture = MSL;
+
+			}else
+			{
+				Line.Points = new Vector2[]{Vector2.Zero, midpoint, endpoint};
 
 			}
 

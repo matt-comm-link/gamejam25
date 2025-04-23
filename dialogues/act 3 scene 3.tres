@@ -739,7 +739,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 4
+"speaker": 10
 },
 "1_32": {
 "dialogue": "Yeah, all right. It’ll be good to see her. Even if it means going back to that creepy statue.",
@@ -752,7 +752,7 @@ nodes = {
 }
 },
 "size": Vector2(300, 240),
-"speaker": 10
+"speaker": 4
 },
 "1_33": {
 "dialogue": "…Statue?",

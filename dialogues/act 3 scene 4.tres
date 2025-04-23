@@ -209,7 +209,7 @@ nodes = {
 "speaker": ""
 },
 "1_23": {
-"dialogue": "I can’t blame them, much as they want to. They didn’t know. None of them knew.",
+"dialogue": "I can’t blame them, much as I might want to. They didn’t know. None of them knew.",
 "offset": Vector2(8340, -280),
 "options": {
 0: {
@@ -235,7 +235,7 @@ nodes = {
 "speaker": ""
 },
 "1_25": {
-"dialogue": "The beat snarls, showing its fangs. It brings a claw down on Marl. They scramble out of the way just in the nick of time. We both feel the hot, acrid sting of its breath billowing out over us. I almost retch on the spot.",
+"dialogue": "The beast snarls, showing its fangs. It brings a claw down on Marl. They scramble out of the way just in the nick of time. We both feel the hot, acrid sting of its breath billowing out over us. I almost retch on the spot.",
 "offset": Vector2(9100.9, -261),
 "options": {
 0: {
@@ -244,7 +244,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 360),
 "speaker": ""
 },
 "1_26": {
