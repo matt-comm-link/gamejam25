@@ -91,6 +91,19 @@ nodes = {
 "size": Vector2(300, 240),
 "speaker": ""
 },
+"1_15": {
+"dialogue": "It means somebody forgot their cat is a predator instead of a cute picture machine",
+"offset": Vector2(14880, 20),
+"options": {
+0: {
+"condition": {},
+"link": &"1_41",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 8
+},
 "1_16": {
 "dialogue": "...",
 "offset": Vector2(5240, -320),
@@ -422,7 +435,7 @@ nodes = {
 "options": {
 0: {
 "condition": {},
-"link": &"1_40",
+"link": &"1_15",
 "text": ""
 }
 },
@@ -444,15 +457,15 @@ nodes = {
 },
 "1_40": {
 "dialogue": "It means somebody let the most ignorant kind of vegan adopt a cat. They must have decided letting it wander around the woods alone was ‘natural’ instead of the complete opposite.",
-"offset": Vector2(14882.1, 305.737),
+"offset": Vector2(14880, 460),
 "options": {
 0: {
 "condition": {},
-"link": &"1_41",
+"link": "END",
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(300, 400),
 "speaker": 8
 },
 "1_41": {
@@ -478,7 +491,7 @@ nodes = {
 "text": ""
 }
 },
-"size": Vector2(300, 240),
+"size": Vector2(320, 380),
 "speaker": 8
 },
 "1_43": {
@@ -692,5 +705,5 @@ chill",
 }
 }
 variables = {}
-strays = Array[String](["2_1", "2_2"])
+strays = Array[String](["2_1", "2_2", "1_40"])
 characters = "res://res/assets/Characters.tres"
